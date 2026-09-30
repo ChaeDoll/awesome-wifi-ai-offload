@@ -26,7 +26,7 @@ A paper can be useful to an AIO design without proposing an IEEE 802.11bu mechan
 
 Use the focused inference journals in the bibliography after this path to choose a closer baseline for the actual problem: single-request partitioning, multi-request scheduling, server selection or end-edge collaboration.
 
-## For the user's FLOPS/FLOPs discovery idea
+## FLOPS/FLOPs-based discovery designs
 
 The questions should be separated:
 
