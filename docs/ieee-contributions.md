@@ -1,5 +1,7 @@
 # IEEE 802.11 AI Offload 공식 문헌
 
+[한국어](ieee-contributions.md) | [English](ieee-contributions.en.md)
+
 **확인 기준일: 2026-09-30**
 
 AIO SG가 승인한 PAR/CSD 범위와 기고문 제안을 정리한 목록이다. IEEE-SA 최종 승인, 규범적 필드/프레임 채택 또는 제품 준수를 의미하지 않는다. 2026-09-30 기준 AIO는 SG 단계이며 11월 LMSC 의견 대응 및 최종 승인 추진이 예정되어 있다.
@@ -259,3 +261,4 @@ date는 IEEE Mentor catalog의 업로드일(ET). cover_date는 별도 확인된 
 ## 자료 검증 범위
 
 PAR/CSD, 7·9월 회의록, 9월 closing report, 10개 9월 기술 기고문, 1042r1·857r0·1391r0 원문을 확인했습니다. 1379r0·1340r1·1282r0은 공식 catalog와 회의록을 교차 확인했으며 각 슬라이드 전체를 독립 검토했다는 의미는 아닙니다. 1944r0은 기준일에 아직 다음 회의의 승인을 받지 않은 초기 회의록입니다. 이후 새 revision이나 motion 결과가 나오면 갱신이 필요합니다.
+
