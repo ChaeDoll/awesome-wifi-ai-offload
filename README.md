@@ -1,5 +1,7 @@
 # Awesome Wi-Fi AI Offload
 
+**한국어** | [English](README.en.md)
+
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
 **검증일:** 2026-09-30 · **논문:** 핵심 26편 + 인접 주제 1편 · **표준 문서:** 별도 목록
@@ -55,6 +57,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 | 2016 | [MCDNN](https://doi.org/10.1145/2906388.2906396) | ACM MobiSys · Conference | [기초 시스템 학회](#conference-foundations) |
 
 ## Contents
+
 - [Surveys and edge intelligence foundations](#surveys-and-edge-intelligence-foundations)
 - [DNN inference offloading and partitioning](#dnn-inference-offloading-and-partitioning)
 - [Resource aware admission placement and scheduling](#resource-aware-admission-placement-and-scheduling)
@@ -189,7 +192,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 - **[2017 · IEEE ICDCS · Conference] [Distributed Deep Neural Networks Over the Cloud, the Edge and End Devices](https://doi.org/10.1109/ICDCS.2017.226)** `Transferable`
   - device-edge-cloud 계층에 DNN을 분산하는 구조와 통신 절감을 다룬다. 여러 compute provider를 쓰는 실험을 생각할 때 참고하되 모델 분할 자체를 bu 범위로 가정하지 않는다.
   - [DOI](https://doi.org/10.1109/ICDCS.2017.226) · [서지 근거](https://dash.harvard.edu/bitstreams/d5edc79d-48a2-4884-88a7-a9636e55f444/download) · [공개 원문](https://arxiv.org/abs/1709.01921) · 328–339
-  - 범위: MEC 및 edge AI 배경 연구로 응용할 수 있으나 IEEE 802.11bu 규범 사양이나 채택된 절차는 아니다.
+  - 범위: 분산 추론 시스템의 선행 연구다. 모델 분할과 다중 장치 orchestration이 현재 bu 규범 범위에 포함된다는 근거는 아니다.
 - **[2017 · ACM ASPLOS · Conference] [Neurosurgeon: Collaborative Intelligence Between the Cloud and Mobile Edge](https://doi.org/10.1145/3037697.3037698)** `Transferable`
   - DNN의 device-cloud 분할과 layer별 비용 profile을 이용하는 초기 대표 시스템. 단순 FLOPs/FLOPS 비율 대신 실제 layer·통신 비용을 비교하는 출발점이다.
   - [DOI](https://doi.org/10.1145/3037697.3037698) · [서지 근거](https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R244_2023_2024/papers/kang_asplos_2017.pdf) · [공개 원문](https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R244_2023_2024/papers/kang_asplos_2017.pdf)
@@ -197,7 +200,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 - **[2016 · ACM MobiSys · Conference] [MCDNN: An Approximation-Based Execution Framework for Deep Stream Processing Under Resource Constraints](https://doi.org/10.1145/2906388.2906396)** `Transferable`
   - 여러 DNN stream의 정확도·메모리·에너지·remote 실행 비용을 함께 다룬다. compute descriptor가 peak 성능 한 숫자보다 풍부해야 하는 이유를 보여 주는 시스템 배경이다.
   - [DOI](https://doi.org/10.1145/2906388.2906396) · [서지 근거](https://homes.cs.washington.edu/~arvind/papers/mcdnn.pdf) · [공개 원문](https://homes.cs.washington.edu/~arvind/papers/mcdnn.pdf)
-  - 범위: MEC 및 edge AI 배경 연구로 응용할 수 있으나 IEEE 802.11bu 규범 사양이나 채택된 절차는 아니다.
+  - 범위: 모바일 DNN 자원 관리 시스템 연구다. IEEE 802.11bu 절차 또는 프레임을 정의하지 않는다.
 
 ## Adjacent task oriented inference communication
 
@@ -221,3 +224,4 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 [Edge AI Papers](https://github.com/withhaotian/awesome-edge-AI-papers) · [Edge Machine Learning](https://github.com/Bisonai/awesome-edge-machine-learning) · [Real-time AI](https://github.com/bob-zhihe/awesome-real-time-AI)
 
 위 저장소는 분류와 탐색 구조를 참고했으며 설명문과 메타데이터를 복사하지 않았다.
+
