@@ -1,0 +1,903 @@
+{
+  "title": "Awesome Wi-Fi AI Offload",
+  "verified_on": "2026-09-30",
+  "scope_note": "26 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year.",
+  "papers": [
+    {
+      "id": "survey-mao2017",
+      "title": "A Survey on Mobile Edge Computing: The Communication Perspective",
+      "authors": [
+        "Yuyi Mao",
+        "Changsheng You",
+        "Jun Zhang",
+        "Kaibin Huang",
+        "Khaled B. Letaief"
+      ],
+      "year": 2017,
+      "early_access_year": null,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "publication_type": "journal",
+      "doi": "10.1109/COMST.2017.2745201",
+      "doi_url": "https://doi.org/10.1109/COMST.2017.2745201",
+      "category": "surveys",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "무선 전송과 계산 오프로딩을 함께 모델링하는 출발점. 통신 시간과 compute 시간, 에너지 및 자원 배분을 분리하는 데 유용하다.",
+      "metadata_sources": [
+        "https://hub.hku.hk/handle/10722/259246"
+      ],
+      "open_access_url": "https://arxiv.org/abs/1701.01090",
+      "citation_details": "19(4):2322–2358",
+      "limitations": "Not an IEEE 802.11bu specification or adopted mechanism.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "MEC 및 edge AI 배경 연구로 응용할 수 있으나 IEEE 802.11bu 규범 사양이나 채택된 절차는 아니다."
+    },
+    {
+      "id": "survey-mach2017",
+      "title": "Mobile Edge Computing: A Survey on Architecture and Computation Offloading",
+      "authors": [
+        "Pavel Mach",
+        "Zdenek Becvar"
+      ],
+      "year": 2017,
+      "early_access_year": null,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "publication_type": "journal",
+      "doi": "10.1109/COMST.2017.2682318",
+      "doi_url": "https://doi.org/10.1109/COMST.2017.2682318",
+      "category": "surveys",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "오프로딩 결정, compute 자원 배분과 이동성 관리를 분류한다. AIO provider 선택과 세션 이동을 MEC 배경과 구별하여 정리하기 좋다.",
+      "metadata_sources": [
+        "https://6gmobile.fel.cvut.cz/wp-publications/ieee-mec-survey/",
+        "https://ieeexplore.ieee.org/document/7879258",
+        "https://api.crossref.org/works/10.1109/COMST.2017.2682318"
+      ],
+      "open_access_url": "https://arxiv.org/abs/1702.05309",
+      "citation_details": "19(3):1628–1656",
+      "limitations": "Publisher-deposited Crossref and author institution verify final bibliography. Transferable MEC survey, not an 802.11bu specification.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "MEC 및 edge AI 배경 연구로 응용할 수 있으나 IEEE 802.11bu 규범 사양이나 채택된 절차는 아니다."
+    },
+    {
+      "id": "survey-zhou2019",
+      "title": "Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing",
+      "authors": [
+        "Zhi Zhou",
+        "Xu Chen",
+        "En Li",
+        "Liekang Zeng",
+        "Ke Luo",
+        "Junshan Zhang"
+      ],
+      "year": 2019,
+      "early_access_year": null,
+      "venue": "Proceedings of the IEEE",
+      "publication_type": "journal",
+      "doi": "10.1109/JPROC.2019.2918951",
+      "doi_url": "https://doi.org/10.1109/JPROC.2019.2918951",
+      "category": "surveys",
+      "relevance_scope": "transferable_edge_ai",
+      "relevance_ko": "edge에서 학습과 추론을 수행하는 구조와 기술을 정리한다. AI offload의 동기와 device-edge-cloud 구분을 설명하는 입문 자료다.",
+      "metadata_sources": [
+        "https://ieeexplore.ieee.org/document/8736011/",
+        "https://arxiv.org/abs/1905.10083"
+      ],
+      "open_access_url": "https://arxiv.org/abs/1905.10083",
+      "citation_details": "107(8):1738–1762",
+      "limitations": "Not an IEEE 802.11bu specification or adopted mechanism.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "MEC 및 edge AI 배경 연구로 응용할 수 있으나 IEEE 802.11bu 규범 사양이나 채택된 절차는 아니다."
+    },
+    {
+      "id": "survey-shi2020",
+      "title": "Communication-Efficient Edge AI: Algorithms and Systems",
+      "authors": [
+        "Yuanming Shi",
+        "Kai Yang",
+        "Tao Jiang",
+        "Jun Zhang",
+        "Khaled B. Letaief"
+      ],
+      "year": 2020,
+      "early_access_year": null,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "publication_type": "journal",
+      "doi": "10.1109/COMST.2020.3007787",
+      "doi_url": "https://doi.org/10.1109/COMST.2020.3007787",
+      "category": "surveys",
+      "relevance_scope": "transferable_edge_ai",
+      "relevance_ko": "학습과 추론에서 통신 비용을 줄이는 알고리즘 및 시스템을 정리한다. inference 입력과 중간 feature 전송을 비교할 때 유용하며 학습 관련 부분은 AIO 추론과 구분한다.",
+      "metadata_sources": [
+        "https://research.polyu.edu.hk/en/publications/communication-efficient-edge-ai-algorithms-and-systems/"
+      ],
+      "open_access_url": "https://arxiv.org/abs/2002.09668",
+      "citation_details": "22(4):2167–2191",
+      "limitations": "Not an IEEE 802.11bu specification or adopted mechanism.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "MEC 및 edge AI 배경 연구로 응용할 수 있으나 IEEE 802.11bu 규범 사양이나 채택된 절차는 아니다."
+    },
+    {
+      "id": "survey-deng2020",
+      "title": "Edge Intelligence: The Confluence of Edge Computing and Artificial Intelligence",
+      "authors": [
+        "Shuiguang Deng",
+        "Hailiang Zhao",
+        "Weijia Fang",
+        "Jianwei Yin",
+        "Schahram Dustdar",
+        "Albert Y. Zomaya"
+      ],
+      "year": 2020,
+      "early_access_year": null,
+      "venue": "IEEE Internet of Things Journal",
+      "publication_type": "journal",
+      "doi": "10.1109/JIOT.2020.2984887",
+      "doi_url": "https://doi.org/10.1109/JIOT.2020.2984887",
+      "category": "surveys",
+      "relevance_scope": "transferable_edge_ai",
+      "relevance_ko": "AI for edge와 AI on edge를 분리하는 개념 틀. WLAN을 AI로 제어하는 연구와 WLAN으로 AI 추론을 지원하는 연구가 섞이지 않도록 한다.",
+      "metadata_sources": [
+        "https://ieeexplore.ieee.org/document/9052677/"
+      ],
+      "open_access_url": "https://dsg.tuwien.ac.at/~sd/papers/Zeitschriftenartikel_2020_SD_Edge_Intelligence.pdf",
+      "citation_details": "7(8):7457–7469",
+      "limitations": "Not an IEEE 802.11bu specification or adopted mechanism.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "MEC 및 edge AI 배경 연구로 응용할 수 있으나 IEEE 802.11bu 규범 사양이나 채택된 절차는 아니다."
+    },
+    {
+      "id": "survey-trustworthy2025",
+      "title": "A Survey on Trustworthy Edge Intelligence: From Security and Reliability to Transparency and Sustainability",
+      "authors": [
+        "Xiaojie Wang",
+        "Beibei Wang",
+        "Yu Wu",
+        "Zhaolong Ning",
+        "Song Guo",
+        "Fei Richard Yu"
+      ],
+      "year": 2025,
+      "early_access_year": 2024,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "publication_type": "journal",
+      "doi": "10.1109/COMST.2024.3446585",
+      "doi_url": "https://doi.org/10.1109/COMST.2024.3446585",
+      "category": "security_reliability",
+      "relevance_scope": "transferable_edge_ai",
+      "relevance_ko": "compute endpoint의 보안·신뢰성과 무선 링크 보호를 별도 문제로 보는 배경. AIO 서비스 인가 및 신뢰 가정을 설계할 때 참고한다.",
+      "metadata_sources": [
+        "https://ieeexplore.ieee.org/document/10640100/similar",
+        "https://arxiv.org/abs/2310.17944"
+      ],
+      "open_access_url": "https://arxiv.org/abs/2310.17944",
+      "citation_details": "27(3):1729–1757",
+      "limitations": "Not an IEEE 802.11bu specification or adopted mechanism.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "MEC 및 edge AI 배경 연구로 응용할 수 있으나 IEEE 802.11bu 규범 사양이나 채택된 절차는 아니다."
+    },
+    {
+      "id": "wifi-ax-tutorial2019",
+      "title": "A Tutorial on IEEE 802.11ax High Efficiency WLANs",
+      "authors": [
+        "Evgeny Khorov",
+        "Anton Kiryanov",
+        "Andrey Lyakhov",
+        "Giuseppe Bianchi"
+      ],
+      "year": 2019,
+      "early_access_year": null,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "publication_type": "journal",
+      "doi": "10.1109/COMST.2018.2871099",
+      "doi_url": "https://doi.org/10.1109/COMST.2018.2871099",
+      "category": "wifi_mac",
+      "relevance_scope": "direct_wlan",
+      "relevance_ko": "OFDMA random access, 공간 재사용과 기존 WLAN 동작을 이해하는 기반. bu 논문에서 재사용할 기존 MAC 기능과 새 서비스 신호 교환을 구분하는 데 유용하다.",
+      "metadata_sources": [
+        "https://art.torvergata.it/handle/2108/240055"
+      ],
+      "open_access_url": "https://www.ittc.ku.edu/~frost/EECS_563/A_Tutorial_on_IEEE_802.11ax_High_Efficiency_WLANs.pdf",
+      "citation_details": "21(1):197–216",
+      "limitations": "Tutorial snapshot based on Draft D3.0; not a current normative specification or bu paper.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "publication_date_note": "Final 2019 issue verified; DOI includes 2018, but exact early-access date was not independently verified in this curation.",
+      "limitations_ko": "Draft D3.0을 설명하는 당시의 tutorial이며 현재 규범 사양이나 bu 논문은 아니다."
+    },
+    {
+      "id": "wifi-be-survey2020",
+      "title": "IEEE 802.11be Wi-Fi 7: New Challenges and Opportunities",
+      "authors": [
+        "Cailian Deng",
+        "Xuming Fang",
+        "Xiao Han",
+        "Xianbin Wang",
+        "Li Yan",
+        "Rong He",
+        "Yan Long",
+        "Yuchen Guo"
+      ],
+      "year": 2020,
+      "early_access_year": null,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "publication_type": "journal",
+      "doi": "10.1109/COMST.2020.3012715",
+      "doi_url": "https://doi.org/10.1109/COMST.2020.3012715",
+      "category": "wifi_mac",
+      "relevance_scope": "direct_wlan",
+      "relevance_ko": "Wi-Fi 7의 MAC 및 PHY 후보 기술을 폭넓게 분류한다. 무선 지연 제약의 배경과 표준화 동향 논문 구성 사례로 읽는다.",
+      "metadata_sources": [
+        "https://ieeexplore.ieee.org/abstract/document/9152055",
+        "https://arxiv.org/abs/2007.13401"
+      ],
+      "open_access_url": "https://arxiv.org/abs/2007.13401",
+      "citation_details": "22(4):2136–2166",
+      "limitations": "Historical TGbe candidate-feature survey. Discussed candidates must not be relabelled as final standardized features.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "TGbe의 역사적 후보 기능 조사다. 논의된 후보를 최종 채택 기능으로 바꾸어 쓰지 않는다."
+    },
+    {
+      "id": "wifi-spatial2021",
+      "title": "Spatial Reuse in IEEE 802.11ax WLANs",
+      "authors": [
+        "Francesc Wilhelmi",
+        "Sergio Barrachina-Muñoz",
+        "Cristina Cano",
+        "Ioannis Selinis",
+        "Boris Bellalta"
+      ],
+      "year": 2021,
+      "early_access_year": null,
+      "venue": "Computer Communications",
+      "publication_type": "journal",
+      "doi": "10.1016/j.comcom.2021.01.028",
+      "doi_url": "https://doi.org/10.1016/j.comcom.2021.01.028",
+      "category": "wifi_mac",
+      "relevance_scope": "direct_wlan",
+      "relevance_ko": "규격 설명→작은 토폴로지 분석→시뮬레이션의 전개가 명확하다. AIO의 신호 비용과 기존 트래픽 영향을 평가하는 작성·검증 방식에 응용한다.",
+      "metadata_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S0140366421000499"
+      ],
+      "open_access_url": "https://arxiv.org/abs/1907.04141",
+      "citation_details": "170:65–83",
+      "limitations": "802.11ax spatial-reuse study, not AI offloading; Draft 4.0 is the analysis snapshot.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "11ax 공간 재사용 연구다. AI offload 자체를 다루지 않으며 분석 기준은 Draft 4.0이다."
+    },
+    {
+      "id": "wifi-mlo2024",
+      "title": "Wi-Fi Multi-Link Operation: An Experimental Study of Latency and Throughput",
+      "authors": [
+        "Marc Carrascosa-Zamacois",
+        "Giovanni Geraci",
+        "Edward Knightly",
+        "Boris Bellalta"
+      ],
+      "year": 2024,
+      "early_access_year": null,
+      "venue": "IEEE/ACM Transactions on Networking",
+      "publication_type": "journal",
+      "doi": "10.1109/TNET.2023.3283154",
+      "doi_url": "https://doi.org/10.1109/TNET.2023.3283154",
+      "category": "wireless_latency",
+      "relevance_scope": "direct_wlan",
+      "relevance_ko": "실측 channel-occupancy trace로 MLO의 지연과 처리량을 분석하고 비대칭 링크에서의 악화도 설명한다. offload 전송 지연을 상수로 가정하는 모델의 대안이다.",
+      "metadata_sources": [
+        "https://ieeexplore.ieee.org/document/10149044/",
+        "https://www.upf.edu/web/wisecom/publications?_ppc_WAR_ppcportlet_INSTANCE_XzeaCbHWu7o9_cur=3&_ppc_WAR_ppcportlet_INSTANCE_XzeaCbHWu7o9_delta=20&_ppc_WAR_ppcportlet_INSTANCE_XzeaCbHWu7o9_ppcSearchKeyWord=&_ppc_WAR_ppcportlet_INSTANCE_XzeaCbHWu7o9_resetCur=false&p_p_id=ppc_WAR_ppcportlet_INSTANCE_XzeaCbHWu7o9&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
+        "https://www.upf.edu/documents/7825760/0/paper_submitted.pdf/d8cfa96d-e57e-648c-429b-b77bef6eb283?t=1739194090764",
+        "https://api.crossref.org/works/10.1109/TNET.2023.3283154"
+      ],
+      "open_access_url": "https://arxiv.org/abs/2305.02052",
+      "citation_details": "32(1):308–322",
+      "limitations": "Trace-driven evaluation, not commercial Wi-Fi 7 hardware validation or bu. Author manuscript uses Marc Carrascosa; final record uses Marc Carrascosa-Zamacois.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "publication_date_note": "Final February 2024 issue verified by publisher-deposited metadata. A 2023 author manuscript and DOI registration exist; exact early-access date was not independently verified.",
+      "limitations_ko": "실측 trace를 활용한 평가이며 상용 Wi-Fi 7 하드웨어 직접 검증이라는 뜻은 아니다. 최종 저자 표기는 Carrascosa-Zamacois다."
+    },
+    {
+      "id": "wifi-mlo-coexistence2021",
+      "title": "Multi-Link Operation with Enhanced Synchronous Channel Access in IEEE 802.11be Wireless LANs: Coexistence Issue and Solutions",
+      "authors": [
+        "Wisnu Murti",
+        "Ji-Hoon Yun"
+      ],
+      "year": 2021,
+      "early_access_year": null,
+      "venue": "Sensors",
+      "publication_type": "journal",
+      "doi": "10.3390/s21237974",
+      "doi_url": "https://doi.org/10.3390/s21237974",
+      "category": "wireless_latency",
+      "relevance_scope": "direct_wlan",
+      "relevance_ko": "MLO 이득과 legacy 단말 피해를 함께 평가한다. AIO signal overhead의 공존성 평가와 절차·상태 전이 설명을 배우는 보완 자료다.",
+      "metadata_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8659962/"
+      ],
+      "open_access_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8659962/",
+      "citation_details": "21(23):7974",
+      "limitations": "Supplementary WLAN mechanism exemplar, not selected by venue ranking; proposal does not establish final 11be or bu adoption.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "venue 순위로 고른 논문이 아니라 공존성 평가의 보완 사례다. 저자 제안의 최종 표준 채택을 뜻하지 않는다."
+    },
+    {
+      "id": "wifi-strikes2021",
+      "title": "IEEE 802.11be: Wi-Fi 7 Strikes Back",
+      "authors": [
+        "Adrian Garcia-Rodriguez",
+        "David López-Pérez",
+        "Lorenzo Galati-Giordano",
+        "Giovanni Geraci"
+      ],
+      "year": 2021,
+      "early_access_year": null,
+      "venue": "IEEE Communications Magazine",
+      "publication_type": "magazine",
+      "doi": "10.1109/MCOM.001.2000711",
+      "doi_url": "https://doi.org/10.1109/MCOM.001.2000711",
+      "category": "standards_writing",
+      "relevance_scope": "direct_wlan",
+      "relevance_ko": "표준화 개요와 CBF 지연 사례를 결합한 magazine 논문. 개요 논문에 어느 깊이의 절차와 검증 사례를 넣는지 참고하기 좋다.",
+      "metadata_sources": [
+        "https://ieeexplore.ieee.org/document/9433521/"
+      ],
+      "open_access_url": "https://arxiv.org/abs/2008.02815",
+      "citation_details": "59(4):102–108",
+      "limitations": "Historical candidate discussion and simulations, not a current feature inventory or proof of adopted mechanisms.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "과거 후보와 simulation의 기록이다. 현재 기능 목록 또는 채택 근거로 사용하지 않는다."
+    },
+    {
+      "id": "wifi-bn-tutorial2025",
+      "title": "A Tutorial on Wi-Fi 8: The Journey to Ultra High Reliability",
+      "authors": [
+        "A. Karamyshev",
+        "I. Levitsky",
+        "D. Bankov",
+        "E. Khorov"
+      ],
+      "year": 2025,
+      "early_access_year": null,
+      "venue": "Problems of Information Transmission",
+      "publication_type": "journal",
+      "doi": "10.1134/S003294602502005X",
+      "doi_url": "https://doi.org/10.1134/S003294602502005X",
+      "category": "standards_writing",
+      "relevance_scope": "direct_wlan",
+      "relevance_ko": "기능별 KPI 대응과 draft 포함 여부를 구분한다. AIO 기고문·정보 수집용 poll·규범적 채택을 구분하는 문헌 정리의 사례다.",
+      "metadata_sources": [
+        "https://link.springer.com/article/10.1134/S003294602502005X"
+      ],
+      "open_access_url": "https://link.springer.com/article/10.1134/S003294602502005X",
+      "citation_details": "61:164–210",
+      "limitations": "Peer-reviewed journal tutorial, but its 2025 bn draft snapshot is historical; targets are not universally measured gains.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "2025년 bn 초안의 상태를 설명한다. KPI 목표를 보편적으로 측정된 성능 이득으로 해석하지 않는다."
+    },
+    {
+      "id": "conf-neurosurgeon2017",
+      "title": "Neurosurgeon: Collaborative Intelligence Between the Cloud and Mobile Edge",
+      "authors": [
+        "Yiping Kang",
+        "Johann Hauswald",
+        "Cao Gao",
+        "Austin Rovinski",
+        "Trevor Mudge",
+        "Jason Mars",
+        "Lingjia Tang"
+      ],
+      "year": 2017,
+      "early_access_year": null,
+      "venue": "ACM ASPLOS",
+      "publication_type": "conference",
+      "doi": "10.1145/3037697.3037698",
+      "doi_url": "https://doi.org/10.1145/3037697.3037698",
+      "category": "conference_foundations",
+      "relevance_scope": "transferable_edge_ai",
+      "relevance_ko": "DNN의 device-cloud 분할과 layer별 비용 profile을 이용하는 초기 대표 시스템. 단순 FLOPs/FLOPS 비율 대신 실제 layer·통신 비용을 비교하는 출발점이다.",
+      "metadata_sources": [
+        "https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R244_2023_2024/papers/kang_asplos_2017.pdf"
+      ],
+      "open_access_url": "https://www.cl.cam.ac.uk/~ey204/teaching/ACS/R244_2023_2024/papers/kang_asplos_2017.pdf",
+      "citation_details": "",
+      "limitations": "Conference proceedings DOI; do not substitute the SIGARCH issue DOI or classify it as a journal. No bu signaling specified.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "ASPLOS proceedings 논문이다. SIGARCH issue DOI와 혼동하거나 학술지 논문으로 분류하지 않는다. bu 신호 교환을 정의하지 않는다."
+    },
+    {
+      "id": "conf-ddnn2017",
+      "title": "Distributed Deep Neural Networks Over the Cloud, the Edge and End Devices",
+      "authors": [
+        "Surat Teerapittayanon",
+        "Bradley McDanel",
+        "H. T. Kung"
+      ],
+      "year": 2017,
+      "early_access_year": null,
+      "venue": "IEEE ICDCS",
+      "publication_type": "conference",
+      "doi": "10.1109/ICDCS.2017.226",
+      "doi_url": "https://doi.org/10.1109/ICDCS.2017.226",
+      "category": "conference_foundations",
+      "relevance_scope": "transferable_edge_ai",
+      "relevance_ko": "device-edge-cloud 계층에 DNN을 분산하는 구조와 통신 절감을 다룬다. 여러 compute provider를 쓰는 실험을 생각할 때 참고하되 모델 분할 자체를 bu 범위로 가정하지 않는다.",
+      "metadata_sources": [
+        "https://dash.harvard.edu/bitstreams/d5edc79d-48a2-4884-88a7-a9636e55f444/download",
+        "https://www.eecs.harvard.edu/~htk/publication/2017-icdcs-teerapittayanon-mcdanel-kung.pdf"
+      ],
+      "open_access_url": "https://arxiv.org/abs/1709.01921",
+      "citation_details": "328–339",
+      "limitations": "Not an IEEE 802.11bu specification or adopted mechanism.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "분산 추론 시스템의 선행 연구다. 모델 분할과 다중 장치 orchestration이 현재 bu 규범 범위에 포함된다는 근거는 아니다."
+    },
+    {
+      "id": "conf-mcdnn2016",
+      "title": "MCDNN: An Approximation-Based Execution Framework for Deep Stream Processing Under Resource Constraints",
+      "authors": [
+        "Seungyeop Han",
+        "Haichen Shen",
+        "Matthai Philipose",
+        "Sharad Agarwal",
+        "Alec Wolman",
+        "Arvind Krishnamurthy"
+      ],
+      "year": 2016,
+      "early_access_year": null,
+      "venue": "ACM MobiSys",
+      "publication_type": "conference",
+      "doi": "10.1145/2906388.2906396",
+      "doi_url": "https://doi.org/10.1145/2906388.2906396",
+      "category": "conference_foundations",
+      "relevance_scope": "transferable_edge_ai",
+      "relevance_ko": "여러 DNN stream의 정확도·메모리·에너지·remote 실행 비용을 함께 다룬다. compute descriptor가 peak 성능 한 숫자보다 풍부해야 하는 이유를 보여 주는 시스템 배경이다.",
+      "metadata_sources": [
+        "https://homes.cs.washington.edu/~arvind/papers/mcdnn.pdf"
+      ],
+      "open_access_url": "https://homes.cs.washington.edu/~arvind/papers/mcdnn.pdf",
+      "citation_details": "",
+      "limitations": "Not an IEEE 802.11bu specification or adopted mechanism.",
+      "verified_on": "2026-09-30",
+      "optional": false,
+      "limitations_ko": "모바일 DNN 자원 관리 시스템 연구다. IEEE 802.11bu 절차 또는 프레임을 정의하지 않는다."
+    },
+    {
+      "id": "inference-jointdnn",
+      "title": "JointDNN: An Efficient Training and Inference Engine for Intelligent Mobile Cloud Computing Services",
+      "authors": [
+        "Amir Erfan Eshratifar",
+        "Mohammad Saeed Abrishami",
+        "Massoud Pedram"
+      ],
+      "year": 2021,
+      "early_access_year": 2019,
+      "venue": "IEEE Transactions on Mobile Computing",
+      "publication_type": "journal",
+      "doi": "10.1109/TMC.2019.2947893",
+      "doi_url": "https://doi.org/10.1109/TMC.2019.2947893",
+      "category": "inference_partition",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "계층별 연산·전송 비용으로 단말–서버 분할을 결정하는 기본 모델이다. Wi-Fi 오프로딩에서는 실측 airtime과 서버 대기시간을 넣어 확장할 수 있다.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TMC.2019.2947893",
+        "https://ieeexplore.ieee.org/document/8871124/",
+        "https://amirerfan.com/",
+        "https://hal.usc.edu/publications.html",
+        "https://www.mpedram.com/Papers/research_projects_papers/Amirerfan/Joint/jointdnn.pdf"
+      ],
+      "open_access_url": "https://www.mpedram.com/Papers/research_projects_papers/Amirerfan/Joint/jointdnn.pdf",
+      "citation_details": "20(2):565-576",
+      "limitations": "Transferable mobile/cloud optimization, not an 802.11 MAC protocol. For Wi-Fi, replace generic link costs with contention-sensitive measurements.",
+      "verified_on": "2026-09-30",
+      "publication_date_note": "Author homepage lists October 2019 TMC publication; final issue date is February 2021.",
+      "tags": [
+        "DNN partition",
+        "energy",
+        "latency",
+        "mobile-cloud"
+      ],
+      "optional": false,
+      "limitations_ko": "모바일 및 클라우드 최적화다. Wi-Fi 적용 시 일반화된 링크 비용을 contention에 민감한 실제 비용으로 바꿔야 한다."
+    },
+    {
+      "id": "inference-edgent",
+      "title": "Edge AI: On-Demand Accelerating Deep Neural Network Inference via Edge Computing",
+      "authors": [
+        "En Li",
+        "Liekang Zeng",
+        "Zhi Zhou",
+        "Xu Chen"
+      ],
+      "year": 2020,
+      "early_access_year": null,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "publication_type": "journal",
+      "doi": "10.1109/TWC.2019.2946140",
+      "doi_url": "https://doi.org/10.1109/TWC.2019.2946140",
+      "category": "inference_partition",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "DNN 분할점과 early exit를 함께 조정해 추론 정확도·지연을 절충한다. Wi-Fi 전송률 변동에 대응하는 오프로딩 정책의 출발점으로 적합하다.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TWC.2019.2946140",
+        "https://ieeexplore.ieee.org/document/8876870/",
+        "https://arxiv.org/abs/1910.05316"
+      ],
+      "open_access_url": "https://arxiv.org/abs/1910.05316",
+      "citation_details": "19(1):447-457",
+      "limitations": "Bandwidth-adaptive inference design; does not establish Wi-Fi 8/802.11bu support or implement a standardized Wi-Fi MAC scheduler.",
+      "verified_on": "2026-09-30",
+      "publication_date_note": "2019 author accepted version and 2019 DOI registration exist; exact early-access publication date was not independently read. Final issue is January 2020, not JSAC 2019.",
+      "tags": [
+        "DNN partition",
+        "early exit",
+        "bandwidth adaptation"
+      ],
+      "optional": false,
+      "limitations_ko": "대역폭 적응형 추론 설계다. 표준화된 Wi-Fi MAC scheduler나 bu 기능의 구현 근거는 아니다."
+    },
+    {
+      "id": "inference-coedge",
+      "title": "CoEdge: Cooperative DNN Inference With Adaptive Workload Partitioning Over Heterogeneous Edge Devices",
+      "authors": [
+        "Liekang Zeng",
+        "Xu Chen",
+        "Zhi Zhou",
+        "Lei Yang",
+        "Junshan Zhang"
+      ],
+      "year": 2021,
+      "early_access_year": 2020,
+      "venue": "IEEE/ACM Transactions on Networking",
+      "publication_type": "journal",
+      "doi": "10.1109/TNET.2020.3042320",
+      "doi_url": "https://doi.org/10.1109/TNET.2020.3042320",
+      "category": "inference_partition",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "여러 엣지 장치의 이기종 성능과 통신 비용을 함께 보는 협력 추론 연구다. AP 주변 장치 간 작업 분산에서 airtime·연산 자원 공동 할당 문제로 옮겨갈 수 있다.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TNET.2020.3042320",
+        "https://ieeexplore.ieee.org/document/9296560/",
+        "https://par.nsf.gov/servlets/purl/10313790",
+        "https://asu.elsevierpure.com/en/publications/coedge-cooperative-dnn-inference-with-adaptive-workload-partition/"
+      ],
+      "open_access_url": "https://par.nsf.gov/servlets/purl/10313790",
+      "citation_details": "29(2):595-608",
+      "limitations": "Distinguish this 2021 ToN CoEdge paper from other unrelated papers also named CoEdge. Prototype/workload results do not by themselves validate 802.11bu scheduling.",
+      "verified_on": "2026-09-30",
+      "publication_date_note": "Version-of-record first page states date of publication December 16, 2020; final issue is April 2021.",
+      "tags": [
+        "cooperative inference",
+        "heterogeneity",
+        "deadline",
+        "energy"
+      ],
+      "optional": false,
+      "limitations_ko": "같은 CoEdge 이름의 다른 논문과 구분한다. 이 논문의 testbed 결과만으로 bu scheduling이 검증되는 것은 아니다."
+    },
+    {
+      "id": "inference-hivemind",
+      "title": "HiveMind: Towards Cellular Native Machine Learning Model Splitting",
+      "authors": [
+        "Song Wang",
+        "Xinyu Zhang",
+        "Hiromasa Uchiyama",
+        "Hiroki Matsuda"
+      ],
+      "year": 2022,
+      "early_access_year": 2021,
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "publication_type": "journal",
+      "doi": "10.1109/JSAC.2021.3118403",
+      "doi_url": "https://doi.org/10.1109/JSAC.2021.3118403",
+      "category": "resource_scheduling",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "단말–다중 엣지–클라우드 사이의 다중 분할과 제어 메시지 비용을 함께 고려한다. 다중 AP/엣지 배치의 설계 참고로 유용하다.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/JSAC.2021.3118403",
+        "https://ieeexplore.ieee.org/document/9562523/",
+        "https://sowang46.github.io/files/hivemind.pdf",
+        "https://www.comsoc.org/publications/blogs/selected-ideas-communications/how-split-learning-model-across-5g-wireless-network"
+      ],
+      "open_access_url": "https://sowang46.github.io/files/hivemind.pdf",
+      "citation_details": "40(2):626-640",
+      "limitations": "Specifically evaluated for 5G cellular MEC. Transfer graph-placement and control-overhead ideas to Wi-Fi only after replacing cellular topology and link assumptions.",
+      "verified_on": "2026-09-30",
+      "publication_date_note": "Version-of-record first page: publication October 6, 2021; February 2022 issue.",
+      "tags": [
+        "multi-split",
+        "placement",
+        "signaling overhead",
+        "cellular MEC"
+      ],
+      "optional": false,
+      "limitations_ko": "5G cellular MEC 연구다. Wi-Fi 적용에는 cellular 토폴로지와 링크 가정의 변경이 필요하다."
+    },
+    {
+      "id": "inference-delay-aware-throughput",
+      "title": "Throughput Maximization of Delay-Aware DNN Inference in Edge Computing by Exploring DNN Model Partitioning and Inference Parallelism",
+      "authors": [
+        "Jing Li",
+        "Weifa Liang",
+        "Yuchen Li",
+        "Zichuan Xu",
+        "Xiaohua Jia",
+        "Song Guo"
+      ],
+      "year": 2023,
+      "early_access_year": 2021,
+      "venue": "IEEE Transactions on Mobile Computing",
+      "publication_type": "journal",
+      "doi": "10.1109/TMC.2021.3125949",
+      "doi_url": "https://doi.org/10.1109/TMC.2021.3125949",
+      "category": "resource_scheduling",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "패킷 처리량 대신 deadline을 만족한 추론 요청 수를 최적화한다. Wi-Fi–엣지 공동 스케줄러의 목적함수와 admission control 설계에 직접 참고할 만하다.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TMC.2021.3125949",
+        "https://ieeexplore.ieee.org/document/9606540/",
+        "https://scholars.cityu.edu.hk/en/publications/throughput-maximization-of-delay-aware-dnn-inference-in-edge-comp/",
+        "https://www.cs.cityu.edu.hk/~weliang/papers/LLLXJG23.pdf"
+      ],
+      "open_access_url": "https://www.cs.cityu.edu.hk/~weliang/papers/LLLXJG23.pdf",
+      "citation_details": "22(5):3017-3030",
+      "limitations": "MEC request admission and compute parallelism, not packet-level Wi-Fi contention control. Final journal year is 2023 although DOI contains 2021.",
+      "verified_on": "2026-09-30",
+      "publication_date_note": "CityU institutional metadata explicitly states online publication November 8, 2021 and final May 2023 issue.",
+      "tags": [
+        "admission control",
+        "deadline",
+        "online scheduling",
+        "partition",
+        "parallelism"
+      ],
+      "optional": false,
+      "limitations_ko": "요청 admission과 compute 병렬성 연구다. 패킷 수준의 Wi-Fi contention 제어와 구별한다. 최종 권호는 2023년이다."
+    },
+    {
+      "id": "inference-multi-agent-co-inference",
+      "title": "Multi-Agent Collaborative Inference via DNN Decoupling: Intermediate Feature Compression and Edge Learning",
+      "authors": [
+        "Zhiwei Hao",
+        "Guanyu Xu",
+        "Yong Luo",
+        "Han Hu",
+        "Jianping An",
+        "Shiwen Mao"
+      ],
+      "year": 2023,
+      "early_access_year": 2022,
+      "venue": "IEEE Transactions on Mobile Computing",
+      "publication_type": "journal",
+      "doi": "10.1109/TMC.2022.3183098",
+      "doi_url": "https://doi.org/10.1109/TMC.2022.3183098",
+      "category": "inference_partition",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "여러 단말의 분할점·채널·전력을 함께 정하고 중간 특징을 압축한다. AI 특징 전송량과 무선 자원 경쟁의 결합을 공부하기 좋다.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TMC.2022.3183098",
+        "https://ieeexplore.ieee.org/document/9796588/",
+        "https://www.eng.auburn.edu/~szm0001/papers/TMC2023Hao.pdf",
+        "https://www.eng.auburn.edu/~szm0001/papers/tmc22han.pdf"
+      ],
+      "open_access_url": "https://www.eng.auburn.edu/~szm0001/papers/TMC2023Hao.pdf",
+      "citation_details": "22(10):6041-6055",
+      "limitations": "The system model assumes a powerful edge server and omits edge-side inference latency. Do not cite it as resolving compute-queue contention. Wireless interference model is not 802.11 CSMA/CA.",
+      "verified_on": "2026-09-30",
+      "publication_date_note": "Author-hosted version of record: publication June 15, 2022; October 2023 issue, pages 6041–6055.",
+      "tags": [
+        "multi-user",
+        "feature compression",
+        "resource allocation",
+        "reinforcement learning"
+      ],
+      "optional": false,
+      "limitations_ko": "강력한 edge server를 가정하여 edge 추론 지연을 생략한다. compute queue를 해결한 연구로 인용하지 않는다. 무선 간섭 모델도 802.11 CSMA/CA와 다르다."
+    },
+    {
+      "id": "inference-job-offloading-schedule",
+      "title": "Optimizing Job Offloading Schedule for Collaborative DNN Inference",
+      "authors": [
+        "Yubin Duan",
+        "Jie Wu"
+      ],
+      "year": 2024,
+      "early_access_year": null,
+      "venue": "IEEE Transactions on Mobile Computing",
+      "publication_type": "journal",
+      "doi": "10.1109/TMC.2023.3276937",
+      "doi_url": "https://doi.org/10.1109/TMC.2023.3276937",
+      "category": "resource_scheduling",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "분할점만 최적화하면 놓치기 쉬운 다중 추론 작업의 파이프라인 순서를 다룬다. Wi-Fi 업로드 순서와 엣지 실행 순서를 함께 설계할 때 핵심 참고다.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TMC.2023.3276937",
+        "https://ieeexplore.ieee.org/document/10128735/",
+        "https://cis.temple.edu/~wu/research/publications/Publication_files/TMC_2022_04_0301_Final.pdf"
+      ],
+      "open_access_url": "https://cis.temple.edu/~wu/research/publications/Publication_files/TMC_2022_04_0301_Final.pdf",
+      "citation_details": "23(4):3436-3451",
+      "limitations": "Application/compute pipeline scheduler. A Wi-Fi implementation still needs explicit airtime, retry, contention, and queue models.",
+      "verified_on": "2026-09-30",
+      "publication_date_note": "Author-hosted accepted journal manuscript and DOI record are from 2023; final publisher-deposited issue is April 2024. Exact early-access day not independently verified.",
+      "tags": [
+        "pipeline scheduling",
+        "multi-job",
+        "partition",
+        "makespan"
+      ],
+      "optional": false,
+      "limitations_ko": "애플리케이션 및 compute pipeline scheduling이다. airtime, 재전송, contention과 무선 queue는 별도 모델이 필요하다."
+    },
+    {
+      "id": "inference-fine-grained-partition",
+      "title": "Distributed DNN Inference With Fine-Grained Model Partitioning in Mobile Edge Computing Networks",
+      "authors": [
+        "Hui Li",
+        "Xiuhua Li",
+        "Qilin Fan",
+        "Qiang He",
+        "Xiaofei Wang",
+        "Victor C. M. Leung"
+      ],
+      "year": 2024,
+      "early_access_year": null,
+      "venue": "IEEE Transactions on Mobile Computing",
+      "publication_type": "journal",
+      "doi": "10.1109/TMC.2024.3357874",
+      "doi_url": "https://doi.org/10.1109/TMC.2024.3357874",
+      "category": "inference_partition",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "세밀한 DNN 블록 분할로 이기종 장치의 추론 지연을 줄인다. Wi-Fi 환경에서는 분할이 늘릴 수 있는 전송 횟수와 제어 비용까지 포함한 확장이 필요하다.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TMC.2024.3357874",
+        "https://ieeexplore.ieee.org/document/10413648/",
+        "https://threadlocal.github.io/assets/files/TMC-Model_partition.pdf",
+        "https://www.cse.cqu.edu.cn/info/2165/8493.htm"
+      ],
+      "open_access_url": "https://threadlocal.github.io/assets/files/TMC-Model_partition.pdf",
+      "citation_details": "23(10):9060-9074",
+      "limitations": "Algorithmic MEC model, not a Wi-Fi standard feature or MAC implementation. Use for partition-action design and heterogeneous compute modeling.",
+      "verified_on": "2026-09-30",
+      "publication_date_note": "Accepted author version and Crossref DOI creation are January 2024; final issue is October 2024. Exact early-access day not independently read.",
+      "tags": [
+        "fine-grained partition",
+        "heterogeneity",
+        "reinforcement learning"
+      ],
+      "optional": false,
+      "limitations_ko": "알고리즘 중심의 MEC 연구이며 Wi-Fi 표준 기능이나 MAC 구현은 아니다."
+    },
+    {
+      "id": "inference-fin",
+      "title": "Distributing Inference Tasks Over Interconnected Systems Through Dynamic DNNs",
+      "authors": [
+        "Chetna Singhal",
+        "Yashuo Wu",
+        "Francesco Malandrino",
+        "Marco Levorato",
+        "Carla Fabiana Chiasserini"
+      ],
+      "year": 2025,
+      "early_access_year": null,
+      "venue": "IEEE Transactions on Networking",
+      "publication_type": "journal",
+      "doi": "10.1109/TON.2025.3543848",
+      "doi_url": "https://doi.org/10.1109/TON.2025.3543848",
+      "category": "resource_scheduling",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "분할·배치·대역폭·연산·메모리를 함께 제한하는 문제로, 추론을 어디서 실행할지와 통신 자원 할당을 연결한다. Wi-Fi 엣지 배치 연구의 포괄적인 모델이다.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TON.2025.3543848",
+        "https://ieeexplore.ieee.org/document/10905030/",
+        "https://iris.polito.it/handle/11583/2997572",
+        "https://www.comsoc.org/system/files/2025-09/publications_contents_digest_2025_aug.pdf"
+      ],
+      "open_access_url": null,
+      "citation_details": "33(4):1717-1730",
+      "limitations": "Publisher-deposited venue is IEEE Transactions on Networking; some author repositories retain IEEE/ACM Transactions on Networking. Model is not 802.11bu standardization evidence.",
+      "verified_on": "2026-09-30",
+      "publication_date_note": "Crossref and final issue metadata: August 2025, 33(4):1717–1730. Project page reports February 2025 online publication, but exact day differs from DOI registration; not asserted here.",
+      "tags": [
+        "placement",
+        "early exit",
+        "memory",
+        "joint communication-compute"
+      ],
+      "optional": false,
+      "abstract_digest_url": "https://www.comsoc.org/system/files/2025-09/publications_contents_digest_2025_aug.pdf",
+      "content_evidence_note": "Relevance annotation is based on the institutional abstract and IEEE ComSoc contents digest. The digest is not the complete paper; full experimental details were not independently reviewed.",
+      "limitations_ko": "출판사 메타데이터는 IEEE Transactions on Networking을 사용한다. 일부 저자 자료의 IEEE/ACM 명칭과 다르다. bu 채택 증거는 아니다."
+    },
+    {
+      "id": "inference-robust-partition",
+      "title": "Robust DNN Partitioning and Resource Allocation Under Uncertain Inference Time",
+      "authors": [
+        "Zhaojun Nan",
+        "Yunchu Han",
+        "Sheng Zhou",
+        "Zhisheng Niu"
+      ],
+      "year": 2026,
+      "early_access_year": 2025,
+      "venue": "IEEE Transactions on Mobile Computing",
+      "publication_type": "journal",
+      "doi": "10.1109/TMC.2025.3619509",
+      "doi_url": "https://doi.org/10.1109/TMC.2025.3619509",
+      "category": "resource_scheduling",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "추론 시간 불확실성과 deadline 위반 확률을 함께 다뤄 평균 지연만 최적화하는 접근을 보완한다. Wi-Fi의 지연 변동까지 결합하는 후속 연구에 적합하다.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TMC.2025.3619509",
+        "https://ieeexplore.ieee.org/document/11197924/",
+        "https://ieeexplore.ieee.org/document/11197924/"
+      ],
+      "open_access_url": null,
+      "citation_details": "25(3):3680-3696",
+      "limitations": "Chance-constrained MEC resource optimization. Wireless contention/retries require a separate WLAN model; no claim of standardized 802.11bu behavior.",
+      "verified_on": "2026-09-30",
+      "publication_date_note": "Publisher search metadata explicitly: publication October 9, 2025; final March 2026 issue, 25(3):3680–3696.",
+      "tags": [
+        "uncertainty",
+        "probabilistic deadline",
+        "energy",
+        "CPU/GPU",
+        "bandwidth"
+      ],
+      "optional": false,
+      "content_evidence_note": "Final bibliographic metadata is verified separately. Relevance annotation is limited to the publisher abstract; no open full text was verified in this curation.",
+      "limitations_ko": "확률적 deadline을 고려한 MEC 최적화다. WLAN contention과 재전송은 별도 모델로 결합해야 한다."
+    },
+    {
+      "id": "inference-task-oriented-edge-communication",
+      "title": "Learning Task-Oriented Communication for Edge Inference: An Information Bottleneck Approach",
+      "authors": [
+        "Jiawei Shao",
+        "Yuyi Mao",
+        "Jun Zhang"
+      ],
+      "year": 2022,
+      "early_access_year": null,
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "publication_type": "journal",
+      "doi": "10.1109/JSAC.2021.3126087",
+      "doi_url": "https://doi.org/10.1109/JSAC.2021.3126087",
+      "category": "inference_communication",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "정확도 유지에 필요한 특징만 전송하는 관점에서 AI 트래픽의 크기를 줄인다. Wi-Fi airtime 절감과 추론 정확도 사이의 절충을 연구하는 데 유용하다.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/JSAC.2021.3126087",
+        "https://ieeexplore.ieee.org/document/9606667/",
+        "https://ira.lib.polyu.edu.hk/handle/10397/107084",
+        "https://ira.lib.polyu.edu.hk/bitstream/10397/107084/1/Shao_Learning_Task-Oriented_Communication.pdf",
+        "https://researchportal.hkust.edu.hk/en/publications/learning-task-oriented-communication-for-edge-inference-an-inform/"
+      ],
+      "open_access_url": "https://ira.lib.polyu.edu.hk/bitstream/10397/107084/1/Shao_Learning_Task-Oriented_Communication.pdf",
+      "citation_details": "40(1):197-211",
+      "limitations": "Optional adjacent communication-design paper rather than a compute-placement scheduler. Learned source/channel coding is not a drop-in standardized Wi-Fi PHY/MAC.",
+      "verified_on": "2026-09-30",
+      "publication_date_note": "Final January 2022 issue confirmed by publisher deposit and institutional repositories. DOI registration was November 2021; exact early-access date not independently read.",
+      "tags": [
+        "feature compression",
+        "task-oriented communication",
+        "information bottleneck"
+      ],
+      "optional": true,
+      "limitations_ko": "선택적 인접 연구다. 학습된 source/channel coding을 표준 Wi-Fi PHY/MAC에 그대로 적용할 수 있다는 뜻은 아니다."
+    }
+  ]
+}
