@@ -1,7 +1,7 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "26 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "scope_note": "28 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
   "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year.",
   "papers": [
     {
@@ -898,6 +898,89 @@
       ],
       "optional": true,
       "limitations_ko": "선택적 인접 연구다. 학습된 source/channel coding을 표준 Wi-Fi PHY/MAC에 그대로 적용할 수 있다는 뜻은 아니다."
+    },
+    {
+      "id": "wifi-mapc-drl2026",
+      "title": "Deep Reinforcement Learning-Based Scheduling for Wi-Fi Multi-Access Point Coordination",
+      "authors": [
+        "David Nunez",
+        "Francesc Wilhelmi",
+        "Maksymilian Wojnar",
+        "Katarzyna Kosek-Szott",
+        "Szymon Szott",
+        "Boris Bellalta"
+      ],
+      "year": 2026,
+      "early_access_year": 2026,
+      "venue": "IEEE Transactions on Machine Learning in Communications and Networking",
+      "publication_type": "journal",
+      "doi": "10.1109/TMLCN.2026.3682239",
+      "doi_url": "https://doi.org/10.1109/TMLCN.2026.3682239",
+      "category": "wireless_latency",
+      "relevance_scope": "direct_wlan",
+      "relevance_ko": "PPO 기반 multi-AP spatial-reuse scheduling을 MNP·OP·TAT 휴리스틱과 비교하고 평균 및 99th-percentile 지연을 평가한다. 추론 오프로딩 전송 경로의 tail latency와 배경 트래픽 평가를 설계할 때 참고할 수 있다.",
+      "relevance_en": "Compares PPO-based multi-AP spatial-reuse scheduling with MNP, OP and TAT heuristics using mean and 99th-percentile delay. Useful for designing tail-latency and background-traffic evaluations of inference-offload transport.",
+      "metadata_sources": [
+        "https://ieeexplore.ieee.org/document/11478468/",
+        "https://szymonszott.github.io/publication/mapc-drl/"
+      ],
+      "open_access_url": "https://arxiv.org/abs/2507.19377",
+      "citation_details": "4:744–757",
+      "limitations": "AI for Wi-Fi scheduling, not an AI-inference offloading protocol or evidence of 802.11bu adoption. Simulation results depend on traffic and topology; some overloaded realizations are excluded, and low-load results do not uniformly favor the learned scheduler. The accessible manuscript is distinct from the verified journal publication.",
+      "limitations_ko": "Wi-Fi를 제어하는 AI 연구이며 AI 추론 오프로딩 프로토콜이나 802.11bu 채택 근거는 아니다. 시뮬레이션 결과는 트래픽·토폴로지 조건에 의존하고 일부 과부하 사례를 제외하며 저부하에서 학습 기반 기법이 항상 우세하지는 않다. 공개 원고와 검증된 학술지 게재정보를 구분한다.",
+      "verified_on": "2026-10-01",
+      "publication_date_note": "IEEE publisher metadata gives April 9, 2026 and volume 4, pages 744–757; author publication page independently confirms the 2026 journal record. The arXiv manuscript began in July 2025 and is not a separate paper.",
+      "tags": [
+        "MAPC",
+        "coordinated spatial reuse",
+        "tail latency",
+        "PPO",
+        "simulation"
+      ],
+      "optional": false
+    },
+    {
+      "id": "inference-task-aware2026",
+      "title": "Task-Aware Collaborative Inference and Fine-Grained DNN Partitioning in MEC Networks",
+      "authors": [
+        "Guanlei Zhang",
+        "Qiyang Zhang",
+        "Lei Feng",
+        "Fanqin Zhou",
+        "Praveen Kumar Donta",
+        "Schahram Dustdar"
+      ],
+      "year": 2026,
+      "early_access_year": 2026,
+      "venue": "IEEE Transactions on Mobile Computing",
+      "publication_type": "journal",
+      "doi": "10.1109/TMC.2025.3650680",
+      "doi_url": "https://doi.org/10.1109/TMC.2025.3650680",
+      "category": "inference_partition",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "DAG의 연산자 단위 분할과 작업 완료에 맞춘 의사결정 구간, 자원 공동 할당을 결합한다. 소규모 Wi-Fi 연결 엣지 실험도 포함해 오프로딩 스케줄러의 결정 갱신 시점을 연구하는 데 유용하다.",
+      "relevance_en": "Combines operator-level DAG partitioning with task-completion-based decision windows and joint resource allocation. A small Wi-Fi-connected edge testbed complements the MEC model; useful for studying when an offload scheduler should update its decisions.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TMC.2025.3650680",
+        "https://repositum.tuwien.at/handle/20.500.12708/229329",
+        "https://repositum.tuwien.at/handle/20.500.12708/229329?mode=full",
+        "https://www.dsg.tuwien.ac.at/team/sd/publications.html",
+        "https://dsg.tuwien.ac.at/team/sd/papers/Journal_paper_2026_S_Dustdar_Task.pdf"
+      ],
+      "open_access_url": "https://dsg.tuwien.ac.at/team/sd/papers/Journal_paper_2026_S_Dustdar_Task.pdf",
+      "citation_details": "25(6):8911–8927",
+      "limitations": "Transferable MEC scheduling research with a small Wi-Fi-connected prototype. The analytical radio model and omitted control-message latency do not validate an 802.11 MAC procedure or 802.11bu feature.",
+      "limitations_ko": "소규모 Wi-Fi 연결 실험을 포함한 MEC 스케줄링 연구다. 분석적 무선 모델을 사용하고 제어 메시지 지연을 생략하므로 802.11 MAC 절차나 802.11bu 기능의 검증으로 보지 않는다.",
+      "verified_on": "2026-10-01",
+      "publication_date_note": "Final IEEE article states publication on 5 January 2026 and current version on 7 May 2026; final issue is June 2026. The 2025 DOI string is not the publication year.",
+      "tags": [
+        "DAG partitioning",
+        "task-aware scheduling",
+        "resource allocation",
+        "edge testbed"
+      ],
+      "optional": false
     }
-  ]
+  ],
+  "updated_on": "2026-10-01"
 }

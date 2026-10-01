@@ -4,9 +4,11 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Verified:** 2026-09-30 · **Papers:** 26 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-10-01 · **Papers:** 28 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
+
+Each paper’s metadata-check date is recorded as `verified_on` in [papers.json](papers.json). The standards guide retains its own verification cutoff.
 
 ## Start here
 
@@ -24,11 +26,13 @@ This collection makes no claim to a formal venue ranking or an exhaustive litera
 
 ## Quick index
 
-Ordered as 23 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 25 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
+| 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN latency and coexistence](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [Robust DNN Partitioning](https://doi.org/10.1109/TMC.2025.3619509) | IEEE TMC · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
+| 2026 | [Task-Aware DNN Partitioning](https://doi.org/10.1109/TMC.2025.3650680) | IEEE TMC · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
 | 2025 | [Trustworthy Edge Intelligence](https://doi.org/10.1109/COMST.2024.3446585) | IEEE COMST · Journal | [Trust and security](#trustworthy-edge-intelligence) |
 | 2025 | [Wi-Fi 8 Tutorial](https://doi.org/10.1134/S003294602502005X) | Problems of Information Transmission · Journal | [Standards writing](#standards-overview-and-tutorial-writing) |
 | 2025 | [Dynamic DNN Inference (FIN)](https://doi.org/10.1109/TON.2025.3543848) | IEEE TON · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
@@ -93,6 +97,10 @@ Ordered as 23 journal articles → 1 magazine article → 3 conference papers, n
 
 ## DNN inference offloading and partitioning
 
+- **[2026 · IEEE Transactions on Mobile Computing · Journal] [Task-Aware Collaborative Inference and Fine-Grained DNN Partitioning in MEC Networks](https://doi.org/10.1109/TMC.2025.3650680)** `Transferable`
+  - Combines operator-level DAG partitioning with task-completion-based decision windows and joint resource allocation. A small Wi-Fi-connected edge testbed complements the MEC model; useful for studying when an offload scheduler should update its decisions.
+  - [DOI](https://doi.org/10.1109/TMC.2025.3650680) · [Metadata source](https://api.crossref.org/works/10.1109/TMC.2025.3650680) · [Accessible manuscript](https://dsg.tuwien.ac.at/team/sd/papers/Journal_paper_2026_S_Dustdar_Task.pdf) · 25(6):8911–8927
+  - Scope: Transferable MEC scheduling research with a small Wi-Fi-connected prototype. The analytical radio model and omitted control-message latency do not validate an 802.11 MAC procedure or 802.11bu feature.
 - **[2024 · IEEE Transactions on Mobile Computing · Journal] [Distributed DNN Inference With Fine-Grained Model Partitioning in Mobile Edge Computing Networks](https://doi.org/10.1109/TMC.2024.3357874)** `Transferable`
   - Uses fine-grained DNN block partitioning to reduce inference latency on heterogeneous devices. Wi-Fi extensions should also account for additional transfers and control costs caused by partitioning.
   - [DOI](https://doi.org/10.1109/TMC.2024.3357874) · [Metadata source](https://api.crossref.org/works/10.1109/TMC.2024.3357874) · [Accessible manuscript](https://threadlocal.github.io/assets/files/TMC-Model_partition.pdf) · 23(10):9060-9074
@@ -156,6 +164,10 @@ Ordered as 23 journal articles → 1 magazine article → 3 conference papers, n
 
 ## WLAN latency reliability and coexistence
 
+- **[2026 · IEEE Transactions on Machine Learning in Communications and Networking · Journal] [Deep Reinforcement Learning-Based Scheduling for Wi-Fi Multi-Access Point Coordination](https://doi.org/10.1109/TMLCN.2026.3682239)** `WLAN`
+  - Compares PPO-based multi-AP spatial-reuse scheduling with MNP, OP and TAT heuristics using mean and 99th-percentile delay. Useful for designing tail-latency and background-traffic evaluations of inference-offload transport.
+  - [DOI](https://doi.org/10.1109/TMLCN.2026.3682239) · [Metadata source](https://ieeexplore.ieee.org/document/11478468/) · [Accessible manuscript](https://arxiv.org/abs/2507.19377) · 4:744–757
+  - Scope: AI for Wi-Fi scheduling, not an AI-inference offloading protocol or evidence of 802.11bu adoption. Simulation results depend on traffic and topology; some overloaded realizations are excluded, and low-load results do not uniformly favor the learned scheduler. The accessible manuscript is distinct from the verified journal publication.
 - **[2024 · IEEE/ACM Transactions on Networking · Journal] [Wi-Fi Multi-Link Operation: An Experimental Study of Latency and Throughput](https://doi.org/10.1109/TNET.2023.3283154)** `WLAN`
   - Uses measured channel-occupancy traces to analyze MLO latency and throughput, including degradation with asymmetric links. An alternative to modeling offload-transfer delay as a constant.
   - [DOI](https://doi.org/10.1109/TNET.2023.3283154) · [Metadata source](https://ieeexplore.ieee.org/document/10149044/) · [Accessible manuscript](https://arxiv.org/abs/2305.02052) · 32(1):308–322
@@ -224,4 +236,5 @@ An optional adjacent topic. Do not equate learned feature-communication designs 
 [Edge AI Papers](https://github.com/withhaotian/awesome-edge-AI-papers) · [Edge Machine Learning](https://github.com/Bisonai/awesome-edge-machine-learning) · [Real-time AI](https://github.com/bob-zhihe/awesome-real-time-AI)
 
 These repositories informed the classification and navigation structure. Their descriptions and metadata were not copied.
+
 

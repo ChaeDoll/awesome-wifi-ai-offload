@@ -4,9 +4,11 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**검증일:** 2026-09-30 · **논문:** 핵심 26편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-10-01 · **논문:** 핵심 28편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
+
+각 논문의 서지 확인일은 [papers.json](papers.json)의 `verified_on`에 기록한다. 표준 문헌의 확인 기준일은 별도 안내에 유지한다.
 
 ## Start here
 
@@ -24,11 +26,13 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Quick index
 
-학술지 23편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 25편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
+| 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [Robust DNN Partitioning](https://doi.org/10.1109/TMC.2025.3619509) | IEEE TMC · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
+| 2026 | [Task-Aware DNN Partitioning](https://doi.org/10.1109/TMC.2025.3650680) | IEEE TMC · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
 | 2025 | [Trustworthy Edge Intelligence](https://doi.org/10.1109/COMST.2024.3446585) | IEEE COMST · Journal | [신뢰성·보안](#trustworthy-edge-intelligence) |
 | 2025 | [Wi-Fi 8 Tutorial](https://doi.org/10.1134/S003294602502005X) | Problems of Information Transmission · Journal | [표준화 글쓰기](#standards-overview-and-tutorial-writing) |
 | 2025 | [Dynamic DNN Inference (FIN)](https://doi.org/10.1109/TON.2025.3543848) | IEEE TON · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
@@ -93,6 +97,10 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## DNN inference offloading and partitioning
 
+- **[2026 · IEEE Transactions on Mobile Computing · Journal] [Task-Aware Collaborative Inference and Fine-Grained DNN Partitioning in MEC Networks](https://doi.org/10.1109/TMC.2025.3650680)** `Transferable`
+  - DAG의 연산자 단위 분할과 작업 완료에 맞춘 의사결정 구간, 자원 공동 할당을 결합한다. 소규모 Wi-Fi 연결 엣지 실험도 포함해 오프로딩 스케줄러의 결정 갱신 시점을 연구하는 데 유용하다.
+  - [DOI](https://doi.org/10.1109/TMC.2025.3650680) · [서지 근거](https://api.crossref.org/works/10.1109/TMC.2025.3650680) · [공개 원문](https://dsg.tuwien.ac.at/team/sd/papers/Journal_paper_2026_S_Dustdar_Task.pdf) · 25(6):8911–8927
+  - 범위: 소규모 Wi-Fi 연결 실험을 포함한 MEC 스케줄링 연구다. 분석적 무선 모델을 사용하고 제어 메시지 지연을 생략하므로 802.11 MAC 절차나 802.11bu 기능의 검증으로 보지 않는다.
 - **[2024 · IEEE Transactions on Mobile Computing · Journal] [Distributed DNN Inference With Fine-Grained Model Partitioning in Mobile Edge Computing Networks](https://doi.org/10.1109/TMC.2024.3357874)** `Transferable`
   - 세밀한 DNN 블록 분할로 이기종 장치의 추론 지연을 줄인다. Wi-Fi 환경에서는 분할이 늘릴 수 있는 전송 횟수와 제어 비용까지 포함한 확장이 필요하다.
   - [DOI](https://doi.org/10.1109/TMC.2024.3357874) · [서지 근거](https://api.crossref.org/works/10.1109/TMC.2024.3357874) · [공개 원문](https://threadlocal.github.io/assets/files/TMC-Model_partition.pdf) · 23(10):9060-9074
@@ -156,6 +164,10 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## WLAN latency reliability and coexistence
 
+- **[2026 · IEEE Transactions on Machine Learning in Communications and Networking · Journal] [Deep Reinforcement Learning-Based Scheduling for Wi-Fi Multi-Access Point Coordination](https://doi.org/10.1109/TMLCN.2026.3682239)** `WLAN`
+  - PPO 기반 multi-AP spatial-reuse scheduling을 MNP·OP·TAT 휴리스틱과 비교하고 평균 및 99th-percentile 지연을 평가한다. 추론 오프로딩 전송 경로의 tail latency와 배경 트래픽 평가를 설계할 때 참고할 수 있다.
+  - [DOI](https://doi.org/10.1109/TMLCN.2026.3682239) · [서지 근거](https://ieeexplore.ieee.org/document/11478468/) · [공개 원문](https://arxiv.org/abs/2507.19377) · 4:744–757
+  - 범위: Wi-Fi를 제어하는 AI 연구이며 AI 추론 오프로딩 프로토콜이나 802.11bu 채택 근거는 아니다. 시뮬레이션 결과는 트래픽·토폴로지 조건에 의존하고 일부 과부하 사례를 제외하며 저부하에서 학습 기반 기법이 항상 우세하지는 않다. 공개 원고와 검증된 학술지 게재정보를 구분한다.
 - **[2024 · IEEE/ACM Transactions on Networking · Journal] [Wi-Fi Multi-Link Operation: An Experimental Study of Latency and Throughput](https://doi.org/10.1109/TNET.2023.3283154)** `WLAN`
   - 실측 channel-occupancy trace로 MLO의 지연과 처리량을 분석하고 비대칭 링크에서의 악화도 설명한다. offload 전송 지연을 상수로 가정하는 모델의 대안이다.
   - [DOI](https://doi.org/10.1109/TNET.2023.3283154) · [서지 근거](https://ieeexplore.ieee.org/document/10149044/) · [공개 원문](https://arxiv.org/abs/2305.02052) · 32(1):308–322
@@ -224,4 +236,5 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 [Edge AI Papers](https://github.com/withhaotian/awesome-edge-AI-papers) · [Edge Machine Learning](https://github.com/Bisonai/awesome-edge-machine-learning) · [Real-time AI](https://github.com/bob-zhihe/awesome-real-time-AI)
 
 위 저장소는 분류와 탐색 구조를 참고했으며 설명문과 메타데이터를 복사하지 않았다.
+
 
