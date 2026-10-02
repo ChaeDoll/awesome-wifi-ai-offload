@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-10-01 · **Papers:** 28 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-10-02 · **Papers:** 29 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -26,10 +26,11 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 25 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 26 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
+| 2026 | [DNN Partitioning Survey](https://doi.org/10.1145/3786145) | ACM CSUR · Journal | [Surveys and foundations](#surveys-and-edge-intelligence-foundations) |
 | 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN latency and coexistence](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [Robust DNN Partitioning](https://doi.org/10.1109/TMC.2025.3619509) | IEEE TMC · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Task-Aware DNN Partitioning](https://doi.org/10.1109/TMC.2025.3650680) | IEEE TMC · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
@@ -74,6 +75,10 @@ Ordered as 25 journal articles → 1 magazine article → 3 conference papers, n
 
 ## Surveys and edge intelligence foundations
 
+- **[2026 · ACM Computing Surveys · Journal] [DNN Partitioning for Cooperative Inference in Edge Intelligence: Modeling, Solutions, Toolchains](https://doi.org/10.1145/3786145)** `Transferable`
+  - Organizes collaborative inference by partition count and granularity, with modeling and experimental toolchains. Useful for selecting partitioning baselines and computation/communication evaluation dimensions for Wi-Fi offloading.
+  - [DOI](https://doi.org/10.1145/3786145) · [Metadata source](https://crossmark.crossref.org/dialog?cm_version=v2.0&doi=10.1145%2F3786145&domain=dl.acm.org) · [Open-access article](https://doi.org/10.1145/3786145) · 58(8):Article 204, 1–34
+  - Scope: A survey of general collaborative-inference partitioning, not a new WLAN MAC implementation or evidence of IEEE 802.11bu adoption. Its reviewed algorithms and evaluation settings are heterogeneous; no universal performance gain is implied.
 - **[2020 · IEEE Communications Surveys & Tutorials · Journal] [Communication-Efficient Edge AI: Algorithms and Systems](https://doi.org/10.1109/COMST.2020.3007787)** `Transferable`
   - Reviews algorithms and systems that reduce communication costs in training and inference. Useful for comparing inference-input and intermediate-feature transfers; distinguish the training material from AIO inference.
   - [DOI](https://doi.org/10.1109/COMST.2020.3007787) · [Metadata source](https://research.polyu.edu.hk/en/publications/communication-efficient-edge-ai-algorithms-and-systems/) · [Accessible manuscript](https://arxiv.org/abs/2002.09668) · 22(4):2167–2191
@@ -236,5 +241,6 @@ An optional adjacent topic. Do not equate learned feature-communication designs 
 [Edge AI Papers](https://github.com/withhaotian/awesome-edge-AI-papers) · [Edge Machine Learning](https://github.com/Bisonai/awesome-edge-machine-learning) · [Real-time AI](https://github.com/bob-zhihe/awesome-real-time-AI)
 
 These repositories informed the classification and navigation structure. Their descriptions and metadata were not copied.
+
 
 

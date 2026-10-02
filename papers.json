@@ -1,7 +1,7 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "28 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "scope_note": "29 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
   "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year.",
   "papers": [
     {
@@ -980,7 +980,48 @@
         "edge testbed"
       ],
       "optional": false
+    },
+    {
+      "id": "survey-partitioning2026",
+      "title": "DNN Partitioning for Cooperative Inference in Edge Intelligence: Modeling, Solutions, Toolchains",
+      "authors": [
+        "Yuntao Hao",
+        "Nan Ding",
+        "Weiguo Xia",
+        "Hongwei Ge",
+        "Li Xu"
+      ],
+      "year": 2026,
+      "early_access_year": 2025,
+      "venue": "ACM Computing Surveys",
+      "publication_type": "journal",
+      "doi": "10.1145/3786145",
+      "doi_url": "https://doi.org/10.1145/3786145",
+      "category": "surveys",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "분할 개수와 세분도에 따른 협력 추론 설계를 비교하고 모델링·실험 도구를 정리한다. Wi-Fi 오프로딩의 분할 기준선과 연산·통신 비용 평가 항목을 고르는 데 유용하다.",
+      "relevance_en": "Organizes collaborative inference by partition count and granularity, with modeling and experimental toolchains. Useful for selecting partitioning baselines and computation/communication evaluation dimensions for Wi-Fi offloading.",
+      "metadata_sources": [
+        "https://doi.org/10.1145/3786145",
+        "https://crossmark.crossref.org/dialog?cm_version=v2.0&doi=10.1145%2F3786145&domain=dl.acm.org",
+        "https://faculty.dlut.edu.cn/2005011019/zh_CN/lwcg/722798/content/362811.htm"
+      ],
+      "open_access_url": "https://doi.org/10.1145/3786145",
+      "citation_details": "58(8):Article 204, 1–34",
+      "limitations": "A survey of general collaborative-inference partitioning, not a new WLAN MAC implementation or evidence of IEEE 802.11bu adoption. Its reviewed algorithms and evaluation settings are heterogeneous; no universal performance gain is implied.",
+      "limitations_ko": "일반 협력 추론 분할 연구의 survey이며 새로운 WLAN MAC 구현이나 IEEE 802.11bu 채택 근거는 아니다. 검토한 알고리즘과 평가 조건이 서로 달라 보편적인 성능 이득으로 해석하지 않는다.",
+      "verified_on": "2026-10-02",
+      "publication_date_note": "ACM lists Online AM on December 30, 2025 and publication on February 4, 2026; the final issue is June 2026, volume 58, issue 8, article 204, 34 pages. The early_access_year refers to the online accepted manuscript, not the final issue.",
+      "tags": [
+        "survey",
+        "partition granularity",
+        "modeling",
+        "toolchains",
+        "collaborative inference"
+      ],
+      "optional": false
     }
   ],
-  "updated_on": "2026-10-01"
+  "updated_on": "2026-10-02"
 }
+

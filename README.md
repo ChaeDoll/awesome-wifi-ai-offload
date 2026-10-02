@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-10-01 · **논문:** 핵심 28편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-10-02 · **논문:** 핵심 29편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -26,10 +26,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Quick index
 
-학술지 25편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 26편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
+| 2026 | [DNN Partitioning Survey](https://doi.org/10.1145/3786145) | ACM CSUR · Journal | [Survey·기반](#surveys-and-edge-intelligence-foundations) |
 | 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [Robust DNN Partitioning](https://doi.org/10.1109/TMC.2025.3619509) | IEEE TMC · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Task-Aware DNN Partitioning](https://doi.org/10.1109/TMC.2025.3650680) | IEEE TMC · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
@@ -74,6 +75,10 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Surveys and edge intelligence foundations
 
+- **[2026 · ACM Computing Surveys · Journal] [DNN Partitioning for Cooperative Inference in Edge Intelligence: Modeling, Solutions, Toolchains](https://doi.org/10.1145/3786145)** `Transferable`
+  - 분할 개수와 세분도에 따른 협력 추론 설계를 비교하고 모델링·실험 도구를 정리한다. Wi-Fi 오프로딩의 분할 기준선과 연산·통신 비용 평가 항목을 고르는 데 유용하다.
+  - [DOI](https://doi.org/10.1145/3786145) · [서지 근거](https://crossmark.crossref.org/dialog?cm_version=v2.0&doi=10.1145%2F3786145&domain=dl.acm.org) · [공개 원문](https://doi.org/10.1145/3786145) · 58(8):Article 204, 1–34
+  - 범위: 일반 협력 추론 분할 연구의 survey이며 새로운 WLAN MAC 구현이나 IEEE 802.11bu 채택 근거는 아니다. 검토한 알고리즘과 평가 조건이 서로 달라 보편적인 성능 이득으로 해석하지 않는다.
 - **[2020 · IEEE Communications Surveys & Tutorials · Journal] [Communication-Efficient Edge AI: Algorithms and Systems](https://doi.org/10.1109/COMST.2020.3007787)** `Transferable`
   - 학습과 추론에서 통신 비용을 줄이는 알고리즘 및 시스템을 정리한다. inference 입력과 중간 feature 전송을 비교할 때 유용하며 학습 관련 부분은 AIO 추론과 구분한다.
   - [DOI](https://doi.org/10.1109/COMST.2020.3007787) · [서지 근거](https://research.polyu.edu.hk/en/publications/communication-efficient-edge-ai-algorithms-and-systems/) · [공개 원문](https://arxiv.org/abs/2002.09668) · 22(4):2167–2191
@@ -236,5 +241,6 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 [Edge AI Papers](https://github.com/withhaotian/awesome-edge-AI-papers) · [Edge Machine Learning](https://github.com/Bisonai/awesome-edge-machine-learning) · [Real-time AI](https://github.com/bob-zhihe/awesome-real-time-AI)
 
 위 저장소는 분류와 탐색 구조를 참고했으며 설명문과 메타데이터를 복사하지 않았다.
+
 
 
