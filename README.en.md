@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-10-02 · **Papers:** 29 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-10-04 · **Papers:** 32 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -24,13 +24,18 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 - Years prioritize the verified final issue. An arXiv link may provide an accessible manuscript; it does not itself verify the final venue
 - Links point to publishers and publicly accessible author versions. PDFs are not copied into this repository
 
+- Journal papers without a verified final issue are labeled `Early Access`. A future assigned issue month is separate from the online-publication date.
+
 ## Quick index
 
-Ordered as 26 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 29 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
+| 2026 | [Coinf QoS-Aware Batching](https://doi.org/10.1145/3777373) | ACM TECS · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [DNN Partitioning Survey](https://doi.org/10.1145/3786145) | ACM CSUR · Journal | [Surveys and foundations](#surveys-and-edge-intelligence-foundations) |
+| 2026 | [MacEdge Object-Level Offloading](https://doi.org/10.1016/j.future.2026.108610) | FGCS · Journal | [Inference offloading](#dnn-inference-offloading-and-partitioning) |
+| 2026 | [MAPC Topology-Aware Offloading](https://doi.org/10.1109/TVT.2026.3705747) | IEEE TVT (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN latency and coexistence](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [Robust DNN Partitioning](https://doi.org/10.1109/TMC.2025.3619509) | IEEE TMC · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Task-Aware DNN Partitioning](https://doi.org/10.1109/TMC.2025.3650680) | IEEE TMC · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
@@ -102,6 +107,11 @@ Ordered as 26 journal articles → 1 magazine article → 3 conference papers, n
 
 ## DNN inference offloading and partitioning
 
+- **[2026 · Future Generation Computer Systems · Journal] [MacEdge: Motion-aware Collaborative Inference between large and small models for real-time video analysis](https://doi.org/10.1016/j.future.2026.108610)** `Transferable`
+  - Combines object-level offloading with deadline-aware batching for video inference; useful for jointly considering Wi-Fi transfer volume and server waiting time.
+  - [DOI](https://doi.org/10.1016/j.future.2026.108610) · [Metadata source](https://www.sciencedirect.com/science/article/pii/S0167739X2600244X) · 184:Article 108610 (assigned November 2026 issue)
+  - Scope: Application-layer edge inference evaluated over Wi-Fi, not a WLAN MAC mechanism or IEEE 802.11bu adoption record. Full experimental details were not independently reviewed; no quantitative gain is asserted here.
+  - Date/evidence: The publisher abstract and introduction are already accessible; November 2026 is the assigned future issue. Exact online-publication date and open full text are unverified.
 - **[2026 · IEEE Transactions on Mobile Computing · Journal] [Task-Aware Collaborative Inference and Fine-Grained DNN Partitioning in MEC Networks](https://doi.org/10.1109/TMC.2025.3650680)** `Transferable`
   - Combines operator-level DAG partitioning with task-completion-based decision windows and joint resource allocation. A small Wi-Fi-connected edge testbed complements the MEC model; useful for studying when an offload scheduler should update its decisions.
   - [DOI](https://doi.org/10.1109/TMC.2025.3650680) · [Metadata source](https://api.crossref.org/works/10.1109/TMC.2025.3650680) · [Accessible manuscript](https://dsg.tuwien.ac.at/team/sd/papers/Journal_paper_2026_S_Dustdar_Task.pdf) · 25(6):8911–8927
@@ -129,6 +139,16 @@ Ordered as 26 journal articles → 1 magazine article → 3 conference papers, n
 
 ## Resource aware admission placement and scheduling
 
+- **[2026 · IEEE Transactions on Vehicular Technology · Journal · Early Access] [Topology-aware Dynamic Offloading for MEC-enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework](https://doi.org/10.1109/TVT.2026.3705747)** `WLAN`
+  - Jointly optimizes AP selection and compute-load distribution in MAPC Wi-Fi; a reference for latency and load-balancing models with multiple offload destinations.
+  - [DOI](https://doi.org/10.1109/TVT.2026.3705747) · [Metadata source](https://api.crossref.org/works/10.1109/TVT.2026.3705747) · [Author manuscript via institutional page](https://faculty.swjtu.edu.cn/xmfang/zh_CN/zdylm/163243/list/index.htm) · Early Access, 1–16 (final volume/issue not yet verified)
+  - Scope: Simulation of generic delay-sensitive/tolerant tasks with separate AP–AP backhaul resources. DNN-specific workloads and a WLAN MAC implementation were not independently verified; proposed signaling is not IEEE 802.11bu adoption evidence.
+  - Date/evidence: Institutional pages and publisher metadata verify 2026 Early Access; the exact online-publication date is unverified. Annotation uses selected indexed manuscript sections.
+- **[2026 · ACM Transactions on Embedded Computing Systems · Journal] [Coinf: QoS-aware DRL-based Inference Task Scheduling Framework with Batching Processing](https://doi.org/10.1145/3777373)** `Transferable`
+  - Profiles execution time and schedules batches for heterogeneous DNN requests with differing latency requirements and server loads. Useful for evaluating compute-side waiting, batching costs and QoS violations alongside Wi-Fi transfer latency.
+  - [DOI](https://doi.org/10.1145/3777373) · [Metadata source](https://siis.dhu.edu.cn/2024/1108/c24724a366496/page.htm) · 25(1):Article 3, 1–20
+  - Evidence: Publisher abstract and accessible design/profiling sections; the complete experimental evaluation was not independently reviewed.
+  - Scope: Edge-server inference scheduling; mentioning Wi-Fi as a transport does not establish a WLAN MAC implementation or IEEE 802.11bu adoption. No quantitative gain is asserted here.
 - **[2026 · IEEE Transactions on Mobile Computing · Journal] [Robust DNN Partitioning and Resource Allocation Under Uncertain Inference Time](https://doi.org/10.1109/TMC.2025.3619509)** `Transferable`
   - Accounts for inference-time uncertainty and deadline-violation probability, extending approaches that optimize only average latency. Relevant to further work incorporating Wi-Fi delay variability.
   - [DOI](https://doi.org/10.1109/TMC.2025.3619509) · [Metadata source](https://api.crossref.org/works/10.1109/TMC.2025.3619509) · 25(3):3680-3696
@@ -241,6 +261,3 @@ An optional adjacent topic. Do not equate learned feature-communication designs 
 [Edge AI Papers](https://github.com/withhaotian/awesome-edge-AI-papers) · [Edge Machine Learning](https://github.com/Bisonai/awesome-edge-machine-learning) · [Real-time AI](https://github.com/bob-zhihe/awesome-real-time-AI)
 
 These repositories informed the classification and navigation structure. Their descriptions and metadata were not copied.
-
-
-

@@ -1,8 +1,8 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "29 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
-  "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year.",
+  "scope_note": "32 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year. If no final issue is verified, explicitly label the verified journal Early Access year; distinguish future assigned issue dates from online-publication dates.",
   "papers": [
     {
       "id": "survey-mao2017",
@@ -1020,8 +1020,132 @@
         "collaborative inference"
       ],
       "optional": false
+    },
+    {
+      "id": "inference-coinf2026",
+      "title": "Coinf: QoS-aware DRL-based Inference Task Scheduling Framework with Batching Processing",
+      "authors": [
+        "Guanglin Zhang",
+        "Yuhao Zhang",
+        "Xiaowen Huang",
+        "Wenqian Zhang"
+      ],
+      "year": 2026,
+      "early_access_year": null,
+      "venue": "ACM Transactions on Embedded Computing Systems",
+      "publication_type": "journal",
+      "doi": "10.1145/3777373",
+      "doi_url": "https://doi.org/10.1145/3777373",
+      "category": "resource_scheduling",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "서로 다른 DNN 요청의 지연 요구와 서버 부하를 고려해 실행시간을 예측하고 배치를 스케줄링한다. Wi-Fi 오프로딩의 통신 지연 외에 compute-side 대기·배치 비용과 QoS 위반율을 평가하는 데 유용하다.",
+      "relevance_en": "Profiles execution time and schedules batches for heterogeneous DNN requests with differing latency requirements and server loads. Useful for evaluating compute-side waiting, batching costs and QoS violations alongside Wi-Fi transfer latency.",
+      "metadata_sources": [
+        "https://doi.org/10.1145/3777373",
+        "https://siis.dhu.edu.cn/2024/1108/c24724a366496/page.htm"
+      ],
+      "open_access_url": null,
+      "citation_details": "25(1):Article 3, 1–20",
+      "limitations": "Edge-server inference scheduling; mentioning Wi-Fi as a transport does not establish a WLAN MAC implementation or IEEE 802.11bu adoption. No quantitative gain is asserted here.",
+      "limitations_ko": "엣지 서버의 추론 스케줄링 연구다. 전송 경로로 Wi-Fi를 언급한 것이 WLAN MAC 구현이나 IEEE 802.11bu 채택 근거는 아니다. 정량적 성능 이득은 이 목록에서 주장하지 않는다.",
+      "content_evidence_note": "Annotation is based on the publisher abstract and accessible design/profiling sections, with bibliography cross-checked against the author institution. The complete experimental evaluation was not independently reviewed.",
+      "verified_on": "2026-10-04",
+      "publication_date_note": "ACM lists publication on 7 January 2026; the author institution confirms volume 25, issue 1, article 3, pages 1–20, January 2026. Earlier online-first timing was not independently verified.",
+      "tags": [
+        "batching",
+        "heterogeneous DNN",
+        "profiling",
+        "QoS",
+        "compute scheduling"
+      ],
+      "optional": false
+    },
+    {
+      "id": "inference-macedge2026",
+      "title": "MacEdge: Motion-aware Collaborative Inference between large and small models for real-time video analysis",
+      "authors": [
+        "Jin Zhang",
+        "Shunmei Meng",
+        "Qianmu Li",
+        "Jin Sun",
+        "Lianyong Qi",
+        "Xiaolong Xu",
+        "Xuyun Zhang"
+      ],
+      "year": 2026,
+      "early_access_year": null,
+      "venue": "Future Generation Computer Systems",
+      "publication_type": "journal",
+      "doi": "10.1016/j.future.2026.108610",
+      "doi_url": "https://doi.org/10.1016/j.future.2026.108610",
+      "category": "inference_partition",
+      "relevance_scope": "transferable_edge_ai",
+      "relevance_ko": "객체별 오프로딩과 deadline-aware 배치를 결합한 영상 추론 연구다. Wi-Fi 전송량과 서버 대기시간을 함께 줄이는 설계를 참고할 수 있다.",
+      "relevance_en": "Combines object-level offloading with deadline-aware batching for video inference; useful for jointly considering Wi-Fi transfer volume and server waiting time.",
+      "metadata_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S0167739X2600244X",
+        "https://api.crossref.org/works/10.1016/j.future.2026.108610",
+        "https://data-science-group.github.io/publications/"
+      ],
+      "open_access_url": null,
+      "citation_details": "184:Article 108610 (assigned November 2026 issue)",
+      "limitations": "Application-layer edge inference evaluated over Wi-Fi, not a WLAN MAC mechanism or IEEE 802.11bu adoption record. Full experimental details were not independently reviewed; no quantitative gain is asserted here.",
+      "limitations_ko": "Wi-Fi를 전송 경로로 사용한 응용 계층 추론 연구이며 WLAN MAC 절차나 IEEE 802.11bu 채택 근거는 아니다. 전체 실험을 독립 검토하지 않아 정량적 이득은 인용하지 않는다.",
+      "content_evidence_note": "Annotation is limited to the publicly indexed publisher abstract and introduction. Crossref publisher-deposited metadata and the author laboratory publication list verify the bibliography; no open full text was verified.",
+      "publication_date_note": "Publisher and Crossref assign volume 184 to November 2026, a future issue as of this check. The publisher abstract/introduction are already accessible. The exact online-publication date is unverified; the May 22, 2026 DOI creation date is not treated as a publication date.",
+      "verified_on": "2026-10-04",
+      "tags": [
+        "object-level offloading",
+        "video inference",
+        "deadline-aware batching",
+        "Wi-Fi transport"
+      ],
+      "optional": false
+    },
+    {
+      "id": "wifi-mapc-offloading2026",
+      "title": "Topology-aware Dynamic Offloading for MEC-enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework",
+      "authors": [
+        "Junjie Wu",
+        "Xuming Fang",
+        "Jingyu Wang",
+        "Baolin Yin",
+        "Tianrui Li"
+      ],
+      "year": 2026,
+      "early_access_year": 2026,
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "publication_type": "journal",
+      "doi": "10.1109/TVT.2026.3705747",
+      "doi_url": "https://doi.org/10.1109/TVT.2026.3705747",
+      "category": "resource_scheduling",
+      "relevance_scope": "direct_wlan",
+      "relevance_ko": "MAPC Wi-Fi에서 AP 선택과 계산 부하 분배를 함께 최적화한다. 여러 AP를 오프로딩 후보로 삼는 지연·부하 균형 모델의 참고 사례다.",
+      "relevance_en": "Jointly optimizes AP selection and compute-load distribution in MAPC Wi-Fi; a reference for latency and load-balancing models with multiple offload destinations.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TVT.2026.3705747",
+        "https://ieeexplore.ieee.org/document/11573212/",
+        "https://faculty.swjtu.edu.cn/xmfang/zh_CN/zdylm/163243/list/index.htm",
+        "https://faculty.swjtu.edu.cn/wujunjie/zh_CN/lwcg/925189/content/30395.htm",
+        "https://faculty.swjtu.edu.cn/system/resource/tsites/download.jsp?ap=tscustomcontentfile&fl=ueYbqaBjIvMv"
+      ],
+      "open_access_url": "https://faculty.swjtu.edu.cn/xmfang/zh_CN/zdylm/163243/list/index.htm",
+      "citation_details": "Early Access, 1–16 (final volume/issue not yet verified)",
+      "limitations": "Simulation of generic delay-sensitive/tolerant tasks with separate AP–AP backhaul resources. DNN-specific workloads and a WLAN MAC implementation were not independently verified; proposed signaling is not IEEE 802.11bu adoption evidence.",
+      "limitations_ko": "별도 AP 간 백홀 자원을 가정한 일반 지연 민감·허용 작업의 시뮬레이션이다. DNN별 추론 실험과 WLAN MAC 구현은 독립 검증하지 못했으며, 제안된 신호 교환은 IEEE 802.11bu 채택 근거가 아니다.",
+      "content_evidence_note": "Bibliography is verified from the IEEE deposit in Crossref and the author institution. Scope was checked against indexed author-manuscript abstract, system-model and simulation-setup sections; the complete evaluation was not independently reviewed. The institutional publications page links the manuscript; direct PDF retrieval was blocked by its anti-hotlink mechanism.",
+      "publication_date_note": "IEEE-deposited Crossref metadata gives 2026 and pages 1–16, without final volume/issue. One author institutional page identifies Early Access in June 2026, while another lists July 4, 2026; the exact online-publication date is therefore not asserted. The year records verified Early Access, not a verified final issue year.",
+      "verified_on": "2026-10-04",
+      "tags": [
+        "MAPC",
+        "task offloading",
+        "AP selection",
+        "load balancing",
+        "hierarchical DRL",
+        "simulation"
+      ],
+      "optional": false
     }
   ],
-  "updated_on": "2026-10-02"
+  "updated_on": "2026-10-04"
 }
-
