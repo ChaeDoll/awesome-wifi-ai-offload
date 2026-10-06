@@ -2,11 +2,11 @@
 
 [한국어](ieee-contributions.md) | [English](ieee-contributions.en.md)
 
-**확인 기준일: 2026-09-30**
+**확인 기준일: 2026-10-06 (한국시간)**
 
-AIO SG가 승인한 PAR/CSD 범위와 기고문 제안을 정리한 목록이다. IEEE-SA 최종 승인, 규범적 필드/프레임 채택 또는 제품 준수를 의미하지 않는다. 2026-09-30 기준 AIO는 SG 단계이며 11월 LMSC 의견 대응 및 최종 승인 추진이 예정되어 있다.
+AIO PAR/CSD 범위와 기고문 제안을 정리한 목록이다. [공식 WG 현황](https://www.ieee802.org/11/)은 PAR/CSD의 Working Group 승인을 확인하며, IEEE 802 검토·승인은 2026년 11월로 예상한다. 확인 기준일 현재 AIO는 여전히 Study Group으로 표시되어 있다. WG 승인은 IEEE-SA 최종 승인, 규범적 필드/프레임 채택 또는 제품 준수를 의미하지 않는다.
 
-공식 문헌을 추적하는 참고 목록이며 IEEE의 공식 해석이나 표준 채택 보증이 아닙니다. 기고자의 제안, SG 범위 승인, 규범적 표준 채택은 서로 다릅니다.
+공식 문헌을 추적하는 참고 목록이며 IEEE의 공식 해석이나 표준 채택 보증이 아닙니다. 기고자의 제안, SG/WG 범위 승인, 규범적 표준 채택은 서로 다릅니다.
 
 - [AIO SG 현황](https://www.ieee802.org/11/Reports/aio_update.htm)
 - [IEEE Mentor AIO 문서 목록](https://mentor.ieee.org/802.11/documents?is_group=0aio)
@@ -73,6 +73,8 @@ date는 IEEE Mentor catalog의 업로드일(ET). cover_date는 별도 확인된 
 - 상태: initial_minutes_not_yet_approved_at_cutoff
 
  9월 16–17일 논의. SG straw poll은 정보 수집 목적임을 명시하며 session termination poll은 41/8/23으로 기록한다. 11월 LMSC 의견 대응과 최종 승인 추진을 다음 목표로 제시한다.
+
+2026-10-05 [WG reflector](https://www.ieee802.org/11/email/stds-802-11/msg09645.html)에 Tao Chun Lee의 보안 관련 검토 의견 5개가 담긴 주석본이 공개됐다. 1944r0의 본문 텍스트는 그대로이며, 이는 개별 검토 의견으로 새 Mentor revision, 회의록 승인 또는 규범적 채택을 의미하지 않는다.
 
 ### IEEE 802.11-26/1517r0 — aio-sg-september-2026-closing-report
 

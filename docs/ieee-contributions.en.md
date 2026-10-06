@@ -4,11 +4,11 @@
 
 [English home](../README.en.md)
 
-**Verification cutoff: 2026-09-30**
+**Verification cutoff: 2026-10-06 (KST)**
 
-This list summarizes the PAR/CSD scope approved by the AIO SG and proposals in contributions. It does not indicate final IEEE-SA approval, normative adoption of fields or frames, or product compliance. As of 2026-09-30, AIO remains at the SG stage, with responses to LMSC comments and efforts toward final approval planned for November.
+This list summarizes the AIO PAR/CSD scope and proposals in contributions. The [official WG update](https://www.ieee802.org/11/) reports working-group approval of the PAR/CSD, with IEEE 802 review and approval expected in November 2026. As of the verification cutoff, AIO remains listed as a Study Group. WG approval does not establish final IEEE-SA approval, normative adoption of fields or frames, or product compliance.
 
-This is a reference list for tracking official documents, not an official IEEE interpretation or a guarantee of standards adoption. Contributor proposals, SG scope approval, and normative standards adoption are distinct.
+This is a reference list for tracking official documents, not an official IEEE interpretation or a guarantee of standards adoption. Contributor proposals, SG/WG scope approval, and normative standards adoption are distinct.
 
 - [AIO SG status](https://www.ieee802.org/11/Reports/aio_update.htm)
 - [IEEE Mentor AIO document catalog](https://mentor.ieee.org/802.11/documents?is_group=0aio)
@@ -75,6 +75,8 @@ date is the upload date (ET) in the IEEE Mentor catalog. cover_date is the separ
 - Status: initial_minutes_not_yet_approved_at_cutoff
 
  Covers discussions on September 16–17. It explicitly states that SG straw polls are for information gathering and records the session termination poll as 41/8/23. It identifies responding to LMSC comments and pursuing final approval in November as the next objectives.
+
+On 5 October 2026, Tao Chun Lee posted an annotated copy with five security-related review comments to the [WG reflector](https://www.ieee802.org/11/email/stds-802-11/msg09645.html). The body text of 1944r0 is unchanged; these individual comments do not constitute a new Mentor revision, approval of the minutes, or normative adoption.
 
 ### IEEE 802.11-26/1517r0 — aio-sg-september-2026-closing-report
 
