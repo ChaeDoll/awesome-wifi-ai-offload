@@ -1,7 +1,7 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "32 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "scope_note": "33 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
   "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year. If no final issue is verified, explicitly label the verified journal Early Access year; distinguish future assigned issue dates from online-publication dates.",
   "papers": [
     {
@@ -844,12 +844,12 @@
       "metadata_sources": [
         "https://api.crossref.org/works/10.1109/TMC.2025.3619509",
         "https://ieeexplore.ieee.org/document/11197924/",
-        "https://ieeexplore.ieee.org/document/11197924/"
+        "https://arxiv.org/abs/2503.21476v2"
       ],
-      "open_access_url": null,
+      "open_access_url": "https://arxiv.org/abs/2503.21476v2",
       "citation_details": "25(3):3680-3696",
-      "limitations": "Chance-constrained MEC resource optimization. Wireless contention/retries require a separate WLAN model; no claim of standardized 802.11bu behavior.",
-      "verified_on": "2026-09-30",
+      "limitations": "Uses FDMA with known channel state and dedicated, equally provisioned edge VMs; excludes VM setup and result-download delay. WLAN contention, retransmissions and shared-server queueing need separate validation.",
+      "verified_on": "2026-10-06",
       "publication_date_note": "Publisher search metadata explicitly: publication October 9, 2025; final March 2026 issue, 25(3):3680–3696.",
       "tags": [
         "uncertainty",
@@ -859,8 +859,8 @@
         "bandwidth"
       ],
       "optional": false,
-      "content_evidence_note": "Final bibliographic metadata is verified separately. Relevance annotation is limited to the publisher abstract; no open full text was verified in this curation.",
-      "limitations_ko": "확률적 deadline을 고려한 MEC 최적화다. WLAN contention과 재전송은 별도 모델로 결합해야 한다."
+      "content_evidence_note": "Author manuscript arXiv:2503.21476v2 (23 September 2025), including system-model and evaluation sections, was reviewed; the publisher version was not independently reviewed. Final journal metadata is verified separately.",
+      "limitations_ko": "채널 상태가 알려진 FDMA와 단말별로 계산 자원을 균등 배분한 전용 엣지 VM을 가정하며, VM 설정·결과 다운로드 지연은 제외한다. WLAN 경쟁·재전송·공유 서버 대기열은 별도 검증이 필요하다."
     },
     {
       "id": "inference-task-oriented-edge-communication",
@@ -1145,7 +1145,49 @@
         "simulation"
       ],
       "optional": false
+    },
+    {
+      "id": "inference-mobisplit2026",
+      "title": "MobiSplit: Mobility-Aware Inference Partitioning and Offloading for Efficient Edge Intelligence",
+      "authors": [
+        "Peng Wang",
+        "Wen Sun",
+        "Yi Yang",
+        "Dusit Niyato",
+        "Dapeng Oliver Wu"
+      ],
+      "year": 2026,
+      "early_access_year": 2025,
+      "venue": "IEEE Transactions on Mobile Computing",
+      "publication_type": "journal",
+      "doi": "10.1109/TMC.2025.3620438",
+      "doi_url": "https://doi.org/10.1109/TMC.2025.3620438",
+      "category": "inference_partition",
+      "relevance_scope": "transferable_mec",
+      "relevance_ko": "단말 이동성, 변동하는 네트워크 상태와 계산 자원 제약에 맞춰 추론 분할·오프로딩을 조정한다. Wi-Fi 오프로딩 평가에 이동과 실행 중단 가능성을 반영하는 참고 자료다.",
+      "relevance_en": "Adapts inference partitioning and offloading to device mobility, changing network conditions and compute limits. Useful background for incorporating movement and interruption risk into Wi-Fi offload evaluation.",
+      "metadata_sources": [
+        "https://api.crossref.org/works/10.1109/TMC.2025.3620438",
+        "https://scholars.cityu.edu.hk/en/publications/mobisplit-mobility-aware-inference-partitioning-and-offloading-fo/",
+        "https://www.cs.cityu.edu.hk/~dapengwu/publications_areaJ.html"
+      ],
+      "open_access_url": null,
+      "citation_details": "25(3):3969–3984",
+      "limitations": "Simulation-based general edge-inference research. Detailed assumptions and baselines were not independently inspected; it does not validate WLAN roaming, a MAC implementation or IEEE 802.11bu adoption.",
+      "limitations_ko": "일반 엣지 추론의 시뮬레이션 연구다. 본문의 상세 가정과 비교 기준은 독립적으로 확인하지 못했으며, WLAN 로밍·MAC 구현 검증이나 IEEE 802.11bu 채택 근거는 아니다.",
+      "content_evidence_note": "Annotation is based on the author institution’s public abstract. No authorized open full text was obtained during this review; no quantitative performance gain is asserted.",
+      "publication_date_note": "Final March 2026 issue, 25(3):3969–3984, verified from the IEEE deposit in Crossref and the coauthor’s CityU publication list. CityU Scholars separately records online publication on 13 October 2025.",
+      "verified_on": "2026-10-06",
+      "tags": [
+        "mobility",
+        "inference partitioning",
+        "offloading",
+        "interruption risk",
+        "distributed auction",
+        "simulation"
+      ],
+      "optional": false
     }
   ],
-  "updated_on": "2026-10-04"
+  "updated_on": "2026-10-06"
 }

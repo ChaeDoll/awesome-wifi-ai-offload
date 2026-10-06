@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-10-04 · **Papers:** 32 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-10-06 · **Papers:** 33 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -28,7 +28,7 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 29 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 30 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
@@ -37,6 +37,7 @@ Ordered as 29 journal articles → 1 magazine article → 3 conference papers, n
 | 2026 | [MacEdge Object-Level Offloading](https://doi.org/10.1016/j.future.2026.108610) | FGCS · Journal | [Inference offloading](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [MAPC Topology-Aware Offloading](https://doi.org/10.1109/TVT.2026.3705747) | IEEE TVT (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN latency and coexistence](#wlan-latency-reliability-and-coexistence) |
+| 2026 | [MobiSplit Mobility-Aware Offloading](https://doi.org/10.1109/TMC.2025.3620438) | IEEE TMC · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [Robust DNN Partitioning](https://doi.org/10.1109/TMC.2025.3619509) | IEEE TMC · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Task-Aware DNN Partitioning](https://doi.org/10.1109/TMC.2025.3650680) | IEEE TMC · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
 | 2025 | [Trustworthy Edge Intelligence](https://doi.org/10.1109/COMST.2024.3446585) | IEEE COMST · Journal | [Trust and security](#trustworthy-edge-intelligence) |
@@ -112,6 +113,11 @@ Ordered as 29 journal articles → 1 magazine article → 3 conference papers, n
   - [DOI](https://doi.org/10.1016/j.future.2026.108610) · [Metadata source](https://www.sciencedirect.com/science/article/pii/S0167739X2600244X) · 184:Article 108610 (assigned November 2026 issue)
   - Scope: Application-layer edge inference evaluated over Wi-Fi, not a WLAN MAC mechanism or IEEE 802.11bu adoption record. Full experimental details were not independently reviewed; no quantitative gain is asserted here.
   - Date/evidence: The publisher abstract and introduction are already accessible; November 2026 is the assigned future issue. Exact online-publication date and open full text are unverified.
+- **[2026 · IEEE Transactions on Mobile Computing · Journal] [MobiSplit: Mobility-Aware Inference Partitioning and Offloading for Efficient Edge Intelligence](https://doi.org/10.1109/TMC.2025.3620438)** `Transferable`
+  - Adapts inference partitioning and offloading to device mobility, changing network conditions and compute limits. Useful background for incorporating movement and interruption risk into Wi-Fi offload evaluation.
+  - [DOI](https://doi.org/10.1109/TMC.2025.3620438) · [Metadata and abstract](https://scholars.cityu.edu.hk/en/publications/mobisplit-mobility-aware-inference-partitioning-and-offloading-fo/) · 25(3):3969–3984
+  - Access scope: Institutional abstract only; no open full text obtained. Online publication: 13 October 2025; final issue: March 2026.
+  - Scope: Simulation-based general edge-inference research. Detailed assumptions and baselines were not independently inspected; it does not validate WLAN roaming, a MAC implementation or IEEE 802.11bu adoption.
 - **[2026 · IEEE Transactions on Mobile Computing · Journal] [Task-Aware Collaborative Inference and Fine-Grained DNN Partitioning in MEC Networks](https://doi.org/10.1109/TMC.2025.3650680)** `Transferable`
   - Combines operator-level DAG partitioning with task-completion-based decision windows and joint resource allocation. A small Wi-Fi-connected edge testbed complements the MEC model; useful for studying when an offload scheduler should update its decisions.
   - [DOI](https://doi.org/10.1109/TMC.2025.3650680) · [Metadata source](https://api.crossref.org/works/10.1109/TMC.2025.3650680) · [Accessible manuscript](https://dsg.tuwien.ac.at/team/sd/papers/Journal_paper_2026_S_Dustdar_Task.pdf) · 25(6):8911–8927
@@ -151,9 +157,9 @@ Ordered as 29 journal articles → 1 magazine article → 3 conference papers, n
   - Scope: Edge-server inference scheduling; mentioning Wi-Fi as a transport does not establish a WLAN MAC implementation or IEEE 802.11bu adoption. No quantitative gain is asserted here.
 - **[2026 · IEEE Transactions on Mobile Computing · Journal] [Robust DNN Partitioning and Resource Allocation Under Uncertain Inference Time](https://doi.org/10.1109/TMC.2025.3619509)** `Transferable`
   - Accounts for inference-time uncertainty and deadline-violation probability, extending approaches that optimize only average latency. Relevant to further work incorporating Wi-Fi delay variability.
-  - [DOI](https://doi.org/10.1109/TMC.2025.3619509) · [Metadata source](https://api.crossref.org/works/10.1109/TMC.2025.3619509) · 25(3):3680-3696
-  - Access scope: Final bibliographic metadata and the publisher abstract were checked. No open full text was obtained for this curation, so no claims about detailed experiments are included.
-  - Scope: MEC optimization with probabilistic deadlines. WLAN contention and retransmissions require a separate model.
+  - [DOI](https://doi.org/10.1109/TMC.2025.3619509) · [Metadata source](https://api.crossref.org/works/10.1109/TMC.2025.3619509) · [Accessible author manuscript (v2)](https://arxiv.org/abs/2503.21476v2) · 25(3):3680-3696
+  - Access scope: Author manuscript v2 (23 September 2025), including system-model and evaluation sections, was reviewed. Final journal metadata is verified separately; the publisher version was not independently reviewed.
+  - Scope: Uses FDMA with known channel state and dedicated, equally provisioned edge VMs; excludes VM setup and result-download delay. WLAN contention, retransmissions and shared-server queueing need separate validation.
 - **[2025 · IEEE Transactions on Networking · Journal] [Distributing Inference Tasks Over Interconnected Systems Through Dynamic DNNs](https://doi.org/10.1109/TON.2025.3543848)** `Transferable`
   - Connects inference placement with communication-resource allocation under joint partitioning, placement, bandwidth, compute and memory constraints. A broad modeling reference for Wi-Fi edge placement.
   - [DOI](https://doi.org/10.1109/TON.2025.3543848) · [Metadata source](https://api.crossref.org/works/10.1109/TON.2025.3543848) · [Abstract/digest](https://www.comsoc.org/system/files/2025-09/publications_contents_digest_2025_aug.pdf) · 33(4):1717-1730

@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-10-04 · **논문:** 핵심 32편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-10-06 · **논문:** 핵심 33편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -28,7 +28,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Quick index
 
-학술지 29편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 30편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
@@ -37,6 +37,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 | 2026 | [MacEdge Object-Level Offloading](https://doi.org/10.1016/j.future.2026.108610) | FGCS · Journal | [추론 오프로딩](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [MAPC Topology-Aware Offloading](https://doi.org/10.1109/TVT.2026.3705747) | IEEE TVT (Early Access) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
+| 2026 | [MobiSplit Mobility-Aware Offloading](https://doi.org/10.1109/TMC.2025.3620438) | IEEE TMC · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [Robust DNN Partitioning](https://doi.org/10.1109/TMC.2025.3619509) | IEEE TMC · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Task-Aware DNN Partitioning](https://doi.org/10.1109/TMC.2025.3650680) | IEEE TMC · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
 | 2025 | [Trustworthy Edge Intelligence](https://doi.org/10.1109/COMST.2024.3446585) | IEEE COMST · Journal | [신뢰성·보안](#trustworthy-edge-intelligence) |
@@ -112,6 +113,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
   - [DOI](https://doi.org/10.1016/j.future.2026.108610) · [서지 출처](https://www.sciencedirect.com/science/article/pii/S0167739X2600244X) · 184:Article 108610 (2026년 11월 권호 배정)
   - 한계: Wi-Fi를 전송 경로로 사용한 응용 계층 추론 연구이며 WLAN MAC 절차나 IEEE 802.11bu 채택 근거는 아니다. 전체 실험을 독립 검토하지 않아 정량적 이득은 인용하지 않는다.
   - 날짜·근거: 출판사 초록과 서론은 이미 공개되어 있으며 2026년 11월은 배정된 미래 권호다. 정확한 온라인 출판일과 공개 전문은 확인하지 못했다.
+- **[2026 · IEEE Transactions on Mobile Computing · Journal] [MobiSplit: Mobility-Aware Inference Partitioning and Offloading for Efficient Edge Intelligence](https://doi.org/10.1109/TMC.2025.3620438)** `Transferable`
+  - 단말 이동성, 변동하는 네트워크 상태와 계산 자원 제약에 맞춰 추론 분할·오프로딩을 조정한다. Wi-Fi 오프로딩 평가에 이동과 실행 중단 가능성을 반영하는 참고 자료다.
+  - [DOI](https://doi.org/10.1109/TMC.2025.3620438) · [서지·초록 근거](https://scholars.cityu.edu.hk/en/publications/mobisplit-mobility-aware-inference-partitioning-and-offloading-fo/) · 25(3):3969–3984
+  - 열람 범위: 기관 공개 초록에 한정하며 공개 전문은 확보하지 못했다. 온라인 출판은 2025-10-13, 최종 권호는 2026년 3월이다.
+  - 범위: 일반 엣지 추론의 시뮬레이션 연구다. 본문의 상세 가정과 비교 기준은 독립적으로 확인하지 못했으며, WLAN 로밍·MAC 구현 검증이나 IEEE 802.11bu 채택 근거는 아니다.
 - **[2026 · IEEE Transactions on Mobile Computing · Journal] [Task-Aware Collaborative Inference and Fine-Grained DNN Partitioning in MEC Networks](https://doi.org/10.1109/TMC.2025.3650680)** `Transferable`
   - DAG의 연산자 단위 분할과 작업 완료에 맞춘 의사결정 구간, 자원 공동 할당을 결합한다. 소규모 Wi-Fi 연결 엣지 실험도 포함해 오프로딩 스케줄러의 결정 갱신 시점을 연구하는 데 유용하다.
   - [DOI](https://doi.org/10.1109/TMC.2025.3650680) · [서지 근거](https://api.crossref.org/works/10.1109/TMC.2025.3650680) · [공개 원문](https://dsg.tuwien.ac.at/team/sd/papers/Journal_paper_2026_S_Dustdar_Task.pdf) · 25(6):8911–8927
@@ -151,9 +157,9 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
   - 범위: 엣지 서버의 추론 스케줄링 연구다. 전송 경로로 Wi-Fi를 언급한 것이 WLAN MAC 구현이나 IEEE 802.11bu 채택 근거는 아니다. 정량적 성능 이득은 이 목록에서 주장하지 않는다.
 - **[2026 · IEEE Transactions on Mobile Computing · Journal] [Robust DNN Partitioning and Resource Allocation Under Uncertain Inference Time](https://doi.org/10.1109/TMC.2025.3619509)** `Transferable`
   - 추론 시간 불확실성과 deadline 위반 확률을 함께 다뤄 평균 지연만 최적화하는 접근을 보완한다. Wi-Fi의 지연 변동까지 결합하는 후속 연구에 적합하다.
-  - [DOI](https://doi.org/10.1109/TMC.2025.3619509) · [서지 근거](https://api.crossref.org/works/10.1109/TMC.2025.3619509) · 25(3):3680-3696
-  - 열람 범위: 최종 서지정보와 출판사 초록을 확인했다. 이 목록에서는 공개 전문을 확보하지 않아 상세 실험에 대한 주장은 포함하지 않는다.
-  - 범위: 확률적 deadline을 고려한 MEC 최적화다. WLAN contention과 재전송은 별도 모델로 결합해야 한다.
+  - [DOI](https://doi.org/10.1109/TMC.2025.3619509) · [서지 근거](https://api.crossref.org/works/10.1109/TMC.2025.3619509) · [공개 저자 원고(v2)](https://arxiv.org/abs/2503.21476v2) · 25(3):3680-3696
+  - 열람 범위: 저자 원고 v2(2025-09-23)의 시스템 모델·평가 부분을 확인했다. 최종 저널 서지는 별도로 검증했으며, 출판사 판본은 독립적으로 검토하지 않았다.
+  - 범위: 채널 상태가 알려진 FDMA와 단말별로 계산 자원을 균등 배분한 전용 엣지 VM을 가정하며, VM 설정·결과 다운로드 지연은 제외한다. WLAN 경쟁·재전송·공유 서버 대기열은 별도 검증이 필요하다.
 - **[2025 · IEEE Transactions on Networking · Journal] [Distributing Inference Tasks Over Interconnected Systems Through Dynamic DNNs](https://doi.org/10.1109/TON.2025.3543848)** `Transferable`
   - 분할·배치·대역폭·연산·메모리를 함께 제한하는 문제로, 추론을 어디서 실행할지와 통신 자원 할당을 연결한다. Wi-Fi 엣지 배치 연구의 포괄적인 모델이다.
   - [DOI](https://doi.org/10.1109/TON.2025.3543848) · [서지 근거](https://api.crossref.org/works/10.1109/TON.2025.3543848) · [초록·digest](https://www.comsoc.org/system/files/2025-09/publications_contents_digest_2025_aug.pdf) · 33(4):1717-1730
