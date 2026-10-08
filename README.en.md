@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-10-06 · **Papers:** 33 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-10-07 · **Papers:** 34 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -28,7 +28,7 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 30 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 31 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
@@ -38,6 +38,7 @@ Ordered as 30 journal articles → 1 magazine article → 3 conference papers, n
 | 2026 | [MAPC Topology-Aware Offloading](https://doi.org/10.1109/TVT.2026.3705747) | IEEE TVT (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN latency and coexistence](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [MobiSplit Mobility-Aware Offloading](https://doi.org/10.1109/TMC.2025.3620438) | IEEE TMC · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
+| 2026 | [Parameter-Sharing Model Caching](https://doi.org/10.1109/TPDS.2026.3728847) | IEEE TPDS · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Robust DNN Partitioning](https://doi.org/10.1109/TMC.2025.3619509) | IEEE TMC · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Task-Aware DNN Partitioning](https://doi.org/10.1109/TMC.2025.3650680) | IEEE TMC · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
 | 2025 | [Trustworthy Edge Intelligence](https://doi.org/10.1109/COMST.2024.3446585) | IEEE COMST · Journal | [Trust and security](#trustworthy-edge-intelligence) |
@@ -145,6 +146,11 @@ Ordered as 30 journal articles → 1 magazine article → 3 conference papers, n
 
 ## Resource aware admission placement and scheduling
 
+- **[2026 · IEEE Transactions on Parallel and Distributed Systems · Journal] [Collaborative Large Model Caching and Inference Offloading With Parameter Sharing in MEC](https://doi.org/10.1109/TPDS.2026.3728847)** `Transferable`
+  - Jointly considers parameter-sharing model caching and inference offloading across MEC providers, balancing accuracy, delay and cost through coalition formation. Useful for studying whether model availability and shared parameter storage should influence offload-provider selection.
+  - [DOI](https://doi.org/10.1109/TPDS.2026.3728847) · [Metadata source](https://api.crossref.org/works/10.1109/TPDS.2026.3728847) · [Publisher abstract](https://ieeexplore.ieee.org/abstract/document/11672295/) · 37(11):2476–2493
+  - Date/access scope: Published online on 1 September 2026 and assigned to the November 2026 issue, a future issue month at this review. Annotation uses the publicly indexed publisher abstract; the full methodology and experimental evaluation were not independently reviewed.
+  - Scope: General MEC optimization and economic cooperation research; no WLAN MAC implementation or IEEE 802.11bu adoption is established. Radio assumptions and experimental deployment details require full-text review.
 - **[2026 · IEEE Transactions on Vehicular Technology · Journal · Early Access] [Topology-aware Dynamic Offloading for MEC-enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework](https://doi.org/10.1109/TVT.2026.3705747)** `WLAN`
   - Jointly optimizes AP selection and compute-load distribution in MAPC Wi-Fi; a reference for latency and load-balancing models with multiple offload destinations.
   - [DOI](https://doi.org/10.1109/TVT.2026.3705747) · [Metadata source](https://api.crossref.org/works/10.1109/TVT.2026.3705747) · [Author manuscript via institutional page](https://faculty.swjtu.edu.cn/xmfang/zh_CN/zdylm/163243/list/index.htm) · Early Access, 1–16 (final volume/issue not yet verified)

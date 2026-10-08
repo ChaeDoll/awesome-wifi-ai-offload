@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-10-06 · **논문:** 핵심 33편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-10-07 · **논문:** 핵심 34편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -28,7 +28,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Quick index
 
-학술지 30편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 31편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
@@ -38,6 +38,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 | 2026 | [MAPC Topology-Aware Offloading](https://doi.org/10.1109/TVT.2026.3705747) | IEEE TVT (Early Access) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [MobiSplit Mobility-Aware Offloading](https://doi.org/10.1109/TMC.2025.3620438) | IEEE TMC · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
+| 2026 | [Parameter-Sharing Model Caching](https://doi.org/10.1109/TPDS.2026.3728847) | IEEE TPDS · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Robust DNN Partitioning](https://doi.org/10.1109/TMC.2025.3619509) | IEEE TMC · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Task-Aware DNN Partitioning](https://doi.org/10.1109/TMC.2025.3650680) | IEEE TMC · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
 | 2025 | [Trustworthy Edge Intelligence](https://doi.org/10.1109/COMST.2024.3446585) | IEEE COMST · Journal | [신뢰성·보안](#trustworthy-edge-intelligence) |
@@ -145,6 +146,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Resource aware admission placement and scheduling
 
+- **[2026 · IEEE Transactions on Parallel and Distributed Systems · Journal] [Collaborative Large Model Caching and Inference Offloading With Parameter Sharing in MEC](https://doi.org/10.1109/TPDS.2026.3728847)** `Transferable`
+  - 매개변수 공유를 활용한 모델 캐싱과 추론 오프로딩을 함께 다루며, 여러 MEC 제공자의 협력을 통해 정확도·지연·비용을 조정한다. 모델 가용성과 공유 매개변수 저장 비용을 오프로딩 제공자 선택에 반영하는 연구에 유용하다.
+  - [DOI](https://doi.org/10.1109/TPDS.2026.3728847) · [서지 근거](https://api.crossref.org/works/10.1109/TPDS.2026.3728847) · [출판사 초록](https://ieeexplore.ieee.org/abstract/document/11672295/) · 37(11):2476–2493
+  - 날짜·접근 범위: 온라인 출판은 2026년 9월 1일이며 2026년 11월호로 배정되었다. 확인일 기준 11월호는 미래 권호다. 설명은 공개 검색으로 확인한 출판사 초록에 근거하며 전체 방법론과 실험 평가는 독립 검토하지 못했다.
+  - 범위: 일반 MEC 최적화·경제적 협력 연구이며 WLAN MAC 구현이나 IEEE 802.11bu 채택의 근거는 아니다. 무선 모델의 가정과 실험 환경은 원문 추가 검토가 필요하다.
 - **[2026 · IEEE Transactions on Vehicular Technology · Journal · Early Access] [Topology-aware Dynamic Offloading for MEC-enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework](https://doi.org/10.1109/TVT.2026.3705747)** `WLAN`
   - MAPC Wi-Fi에서 AP 선택과 계산 부하 분배를 함께 최적화한다. 여러 AP를 오프로딩 후보로 삼는 지연·부하 균형 모델의 참고 사례다.
   - [DOI](https://doi.org/10.1109/TVT.2026.3705747) · [서지 출처](https://api.crossref.org/works/10.1109/TVT.2026.3705747) · [기관 페이지의 저자 원고 링크](https://faculty.swjtu.edu.cn/xmfang/zh_CN/zdylm/163243/list/index.htm) · Early Access, 1–16 (최종 권·호 미확인)
