@@ -2,7 +2,7 @@
 
 [한국어](ieee-contributions.md) | [English](ieee-contributions.en.md)
 
-**확인 기준일: 2026-10-06 (한국시간)**
+**문서 검토 기준일: 2026-10-06 (한국시간); 개정 공지 확인일: 2026-10-09 (한국시간)**
 
 AIO PAR/CSD 범위와 기고문 제안을 정리한 목록이다. [공식 WG 현황](https://www.ieee802.org/11/)은 PAR/CSD의 Working Group 승인을 확인하며, IEEE 802 검토·승인은 2026년 11월로 예상한다. 확인 기준일 현재 AIO는 여전히 Study Group으로 표시되어 있다. WG 승인은 IEEE-SA 최종 승인, 규범적 필드/프레임 채택 또는 제품 준수를 의미하지 않는다.
 
@@ -74,7 +74,7 @@ date는 IEEE Mentor catalog의 업로드일(ET). cover_date는 별도 확인된 
 
  9월 16–17일 논의. SG straw poll은 정보 수집 목적임을 명시하며 session termination poll은 41/8/23으로 기록한다. 11월 LMSC 의견 대응과 최종 승인 추진을 다음 목표로 제시한다.
 
-2026-10-05 [WG reflector](https://www.ieee802.org/11/email/stds-802-11/msg09645.html)에 Tao Chun Lee의 보안 관련 검토 의견 5개가 담긴 주석본이 공개됐다. 1944r0의 본문 텍스트는 그대로이며, 이는 개별 검토 의견으로 새 Mentor revision, 회의록 승인 또는 규범적 채택을 의미하지 않는다.
+2026-10-05 Tao Chun Lee가 [WG reflector](https://www.ieee802.org/11/email/stds-802-11/msg09645.html)에 보안 관련 검토 의견을 공개했다. 10월 8일 Zhanjing Bao는 이에 대한 회신에서 [R1 업데이트를 알렸다](https://www.ieee802.org/11/email/stds-802-11/msg09650.html). R1 원문과 catalog 메타데이터는 아직 독립적으로 검증하지 못했으므로 이 항목의 상세 요약과 날짜는 r0 기준이다. 이 공지는 회의록 승인이나 규범적 채택을 입증하지 않는다.
 
 ### IEEE 802.11-26/1517r0 — aio-sg-september-2026-closing-report
 
@@ -262,5 +262,5 @@ date는 IEEE Mentor catalog의 업로드일(ET). cover_date는 별도 확인된 
 
 ## 자료 검증 범위
 
-PAR/CSD, 7·9월 회의록, 9월 closing report, 10개 9월 기술 기고문, 1042r1·857r0·1391r0 원문을 확인했습니다. 1379r0·1340r1·1282r0은 공식 catalog와 회의록을 교차 확인했으며 각 슬라이드 전체를 독립 검토했다는 의미는 아닙니다. 1944r0은 기준일에 아직 다음 회의의 승인을 받지 않은 초기 회의록입니다. 이후 새 revision이나 motion 결과가 나오면 갱신이 필요합니다.
+PAR/CSD, 7·9월 회의록, 9월 closing report, 10개 9월 기술 기고문, 1042r1·857r0·1391r0 원문을 확인했습니다. 1379r0·1340r1·1282r0은 공식 catalog와 회의록을 교차 확인했으며 각 슬라이드 전체를 독립 검토했다는 의미는 아닙니다. 9월 회의록의 상세 검토는 1944r0 기준입니다. 10월 8일 공식 R1 개정 공지는 10월 9일(한국시간)에 확인했으며, R1 원문 대조와 catalog 메타데이터 검증은 아직 완료하지 못했습니다. 해당 공지만으로 회의록 승인이나 규범적 채택을 확인할 수는 없습니다.
 

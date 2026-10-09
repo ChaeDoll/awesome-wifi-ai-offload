@@ -4,7 +4,7 @@
 
 [English home](../README.en.md)
 
-**Verification cutoff: 2026-10-06 (KST)**
+**Document review cutoff: 2026-10-06 (KST); revision-announcement check: 2026-10-09 (KST)**
 
 This list summarizes the AIO PAR/CSD scope and proposals in contributions. The [official WG update](https://www.ieee802.org/11/) reports working-group approval of the PAR/CSD, with IEEE 802 review and approval expected in November 2026. As of the verification cutoff, AIO remains listed as a Study Group. WG approval does not establish final IEEE-SA approval, normative adoption of fields or frames, or product compliance.
 
@@ -76,7 +76,7 @@ date is the upload date (ET) in the IEEE Mentor catalog. cover_date is the separ
 
  Covers discussions on September 16–17. It explicitly states that SG straw polls are for information gathering and records the session termination poll as 41/8/23. It identifies responding to LMSC comments and pursuing final approval in November as the next objectives.
 
-On 5 October 2026, Tao Chun Lee posted an annotated copy with five security-related review comments to the [WG reflector](https://www.ieee802.org/11/email/stds-802-11/msg09645.html). The body text of 1944r0 is unchanged; these individual comments do not constitute a new Mentor revision, approval of the minutes, or normative adoption.
+On 5 October 2026, Tao Chun Lee posted security-related review comments to the [WG reflector](https://www.ieee802.org/11/email/stds-802-11/msg09645.html). On 8 October, Zhanjing Bao [announced an R1 update](https://www.ieee802.org/11/email/stds-802-11/msg09650.html) in response. The R1 document and catalog metadata have not yet been independently verified here, so this entry’s detailed summary and dates refer to r0. The announcement does not establish approval of the minutes or normative adoption.
 
 ### IEEE 802.11-26/1517r0 — aio-sg-september-2026-closing-report
 
@@ -264,5 +264,5 @@ On 5 October 2026, Tao Chun Lee posted an annotated copy with five security-rela
 
 ## Scope of source verification
 
-The original PAR/CSD documents, July and September minutes, September closing report, 10 September technical contributions, and 1042r1, 857r0, and 1391r0 were reviewed. For 1379r0, 1340r1, and 1282r0, the official catalog and minutes were cross-checked; this does not mean that every slide was independently reviewed in full. At the cutoff date, 1944r0 was an initial set of minutes that had not yet been approved at the next meeting. Updates will be needed when new revisions or motion results become available.
+The original PAR/CSD documents, July and September minutes, September closing report, 10 September technical contributions, and 1042r1, 857r0, and 1391r0 were reviewed. For 1379r0, 1340r1, and 1282r0, the official catalog and minutes were cross-checked; this does not mean that every slide was independently reviewed in full. The detailed September-minutes review covers 1944r0. The official 8 October announcement of R1 was checked on 9 October (KST); a full-text comparison and verification of R1 catalog metadata remain pending. Approval of the minutes or normative adoption is not established by that announcement.
 
