@@ -4,7 +4,7 @@
 
 [English home](../README.en.md)
 
-**Document review cutoff: 2026-10-06 (KST); revision-announcement check: 2026-10-09 (KST)**
+**Document review cutoff: 2026-10-06 (KST); 1944r1 text/catalog comparison: 2026-10-10 (KST)**
 
 This list summarizes the AIO PAR/CSD scope and proposals in contributions. The [official WG update](https://www.ieee802.org/11/) reports working-group approval of the PAR/CSD, with IEEE 802 review and approval expected in November 2026. As of the verification cutoff, AIO remains listed as a Study Group. WG approval does not establish final IEEE-SA approval, normative adoption of fields or frames, or product compliance.
 
@@ -66,17 +66,17 @@ date is the upload date (ET) in the IEEE Mentor catalog. cover_date is the separ
 
  Records discussions on July 13–15, PAR/CSD votes, and disagreements about layer boundaries. These minutes were approved in September and help distinguish presentation content from agreed outcomes.
 
-### IEEE 802.11-26/1944r0 — AIO September 2026 Interim Meeting Minutes
+### IEEE 802.11-26/1944r1 — AIO September 2026 Interim Meeting Minutes
 
-- [Official source](https://mentor.ieee.org/802.11/dcn/26/11-26-1944-00-0aio-aio-september-2026-interim-meeting-minutes.docx)
-- Authors: Zhanjing Bao, Gaurang Naik | Affiliations: ZTE, Qualcomm
-- Upload date (ET): 2026-09-30 | Cover date: 2026-09-26
+- [Official source](https://mentor.ieee.org/802.11/dcn/26/11-26-1944-01-0aio-aio-september-2026-interim-meeting-minutes.docx)
+- Authors: Zhanjing Bao, Gaurang Naik, Tao Chun Lee | Affiliations: ZTE, Qualcomm, MediaTek
+- Upload date (ET): 2026-10-08 04:05:51 | Cover date: 2026-09-26
 - Topics: minutes, discovery, scope
-- Status: initial_minutes_not_yet_approved_at_cutoff
+- Status: revised_minutes_approval_not_verified
 
  Covers discussions on September 16–17. It explicitly states that SG straw polls are for information gathering and records the session termination poll as 41/8/23. It identifies responding to LMSC comments and pursuing final approval in November as the next objectives.
 
-On 5 October 2026, Tao Chun Lee posted security-related review comments to the [WG reflector](https://www.ieee802.org/11/email/stds-802-11/msg09645.html). On 8 October, Zhanjing Bao [announced an R1 update](https://www.ieee802.org/11/email/stds-802-11/msg09650.html) in response. The R1 document and catalog metadata have not yet been independently verified here, so this entry’s detailed summary and dates refer to r0. The announcement does not establish approval of the minutes or normative adoption.
+On 5 October 2026, Tao Chun Lee posted security-related review comments to the [WG reflector](https://www.ieee802.org/11/email/stds-802-11/msg09645.html). On 8 October, Zhanjing Bao [announced an R1 update](https://www.ieee802.org/11/email/stds-802-11/msg09650.html) in response. The official catalog and r0/r1 texts were compared on 10 October 2026 (KST). Revision r1 adds Tao Chun Lee to the authors and revises wording in the 1701 security discussion. It retains the distinction between network-level 802.11 authentication and finer user/session authentication at higher layers. The termination poll remains 41/8/23. The cover date remains 2026-09-26, while the header identifies October 2026 and 1944r1. Revision and upload do not establish approval of the minutes or normative adoption.
 
 ### IEEE 802.11-26/1517r0 — aio-sg-september-2026-closing-report
 
@@ -253,7 +253,7 @@ On 5 October 2026, Tao Chun Lee posted security-related review comments to the [
 ## Reading order for FLOPS / FLOPs and AIO discovery
 
 1. **1042r1, slides 4–5**: A starting point for TOPS-based device examples and discovery of capabilities/available resources
-2. **1601r0, slides 5–6 and the related discussion in 1944r0**: Beacon capability advertisement and the distinction between pre-association TOPS/memory and subsequent dynamic availability
+2. **1601r0, slides 5–6 and the related discussion in 1944r1**: Beacon capability advertisement and the distinction between pre-association TOPS/memory and subsequent dynamic availability
 3. **1670r0, slides 3–4**: The difference between nominal device capability and current availability; the distinction between coarse discovery and detailed setup
 4. **1667r2, slide 5**: Detailed model/compute information and service descriptors through optional request/response exchanges
 5. **1605r1, slide 4**: Distribution of information across pre-association, detailed, and protected stages, and layer boundaries
@@ -264,5 +264,5 @@ On 5 October 2026, Tao Chun Lee posted security-related review comments to the [
 
 ## Scope of source verification
 
-The original PAR/CSD documents, July and September minutes, September closing report, 10 September technical contributions, and 1042r1, 857r0, and 1391r0 were reviewed. For 1379r0, 1340r1, and 1282r0, the official catalog and minutes were cross-checked; this does not mean that every slide was independently reviewed in full. The detailed September-minutes review covers 1944r0. The official 8 October announcement of R1 was checked on 9 October (KST); a full-text comparison and verification of R1 catalog metadata remain pending. Approval of the minutes or normative adoption is not established by that announcement.
+The original PAR/CSD documents, July and September minutes, September closing report, 10 September technical contributions, and 1042r1, 857r0, and 1391r0 were reviewed. For 1379r0, 1340r1, and 1282r0, the official catalog and minutes were cross-checked; this does not mean that every slide was independently reviewed in full. The 1944r0 and 1944r1 September-minutes texts were compared, and the official r1 catalog upload date verified, on 10 October 2026 (KST). The detailed summary now uses r1; the existing review cutoff for other documents is unchanged. Approval of these minutes or normative adoption was not established by this revision.
 
