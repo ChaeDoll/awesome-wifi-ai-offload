@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-10-07 · **Papers:** 34 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-10-16 · **Papers:** 35 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -28,10 +28,11 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 31 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 32 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
+| 2026 | [LLM Split Inference With Token Reduction](https://doi.org/10.1109/TVT.2026.3742922) | IEEE TVT (Early Access) · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [Coinf QoS-Aware Batching](https://doi.org/10.1145/3777373) | ACM TECS · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [DNN Partitioning Survey](https://doi.org/10.1145/3786145) | ACM CSUR · Journal | [Surveys and foundations](#surveys-and-edge-intelligence-foundations) |
 | 2026 | [MacEdge Object-Level Offloading](https://doi.org/10.1016/j.future.2026.108610) | FGCS · Journal | [Inference offloading](#dnn-inference-offloading-and-partitioning) |
@@ -109,6 +110,10 @@ Ordered as 31 journal articles → 1 magazine article → 3 conference papers, n
 
 ## DNN inference offloading and partitioning
 
+- **[2026 · IEEE Transactions on Vehicular Technology · Journal · Early Access] [Latency-Efficient LLM Split Inference With Token Reduction](https://doi.org/10.1109/TVT.2026.3742922)** `Transferable`
+  - Jointly selects the LLM split layer, retained tokens and radio/edge resources to reduce prefill latency. Useful for studying how intermediate-payload reduction changes the computation–communication trade-off in Wi-Fi offloading.
+  - [DOI](https://doi.org/10.1109/TVT.2026.3742922) · [IEEE publisher abstract](https://ieeexplore.ieee.org/abstract/document/11734004) · [Author bibliography](https://www.scss.tcd.ie/Viet.Pham/publication.html) · Early Access, pp. 1–6 (2026-10-12)
+  - Scope: Publisher-abstract-based annotation; full text was not reviewed. Qwen2.5-0.5B-Instruct-calibrated simulation, not a WLAN testbed or IEEE 802.11bu adoption claim. Do not generalize prefill results to full autoregressive completion latency.
 - **[2026 · Future Generation Computer Systems · Journal] [MacEdge: Motion-aware Collaborative Inference between large and small models for real-time video analysis](https://doi.org/10.1016/j.future.2026.108610)** `Transferable`
   - Combines object-level offloading with deadline-aware batching for video inference; useful for jointly considering Wi-Fi transfer volume and server waiting time.
   - [DOI](https://doi.org/10.1016/j.future.2026.108610) · [Metadata source](https://www.sciencedirect.com/science/article/pii/S0167739X2600244X) · 184:Article 108610 (assigned November 2026 issue)

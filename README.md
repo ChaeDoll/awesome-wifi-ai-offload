@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-10-07 · **논문:** 핵심 34편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-10-16 · **논문:** 핵심 35편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -28,10 +28,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Quick index
 
-학술지 31편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 32편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
+| 2026 | [LLM Split Inference With Token Reduction](https://doi.org/10.1109/TVT.2026.3742922) | IEEE TVT (Early Access) · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [Coinf QoS-Aware Batching](https://doi.org/10.1145/3777373) | ACM TECS · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [DNN Partitioning Survey](https://doi.org/10.1145/3786145) | ACM CSUR · Journal | [Survey·기반](#surveys-and-edge-intelligence-foundations) |
 | 2026 | [MacEdge Object-Level Offloading](https://doi.org/10.1016/j.future.2026.108610) | FGCS · Journal | [추론 오프로딩](#dnn-inference-offloading-and-partitioning) |
@@ -109,6 +110,10 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## DNN inference offloading and partitioning
 
+- **[2026 · IEEE Transactions on Vehicular Technology · Journal · Early Access] [Latency-Efficient LLM Split Inference With Token Reduction](https://doi.org/10.1109/TVT.2026.3742922)** `Transferable`
+  - LLM 분할 계층, 유지할 토큰, 무선·엣지 자원을 함께 선택해 prefill 지연을 줄인다. 중간 데이터 축소가 Wi-Fi 오프로딩의 계산·통신 절충에 미치는 영향을 연구할 때 참고할 수 있다.
+  - [DOI](https://doi.org/10.1109/TVT.2026.3742922) · [IEEE publisher abstract](https://ieeexplore.ieee.org/abstract/document/11734004) · [Author bibliography](https://www.scss.tcd.ie/Viet.Pham/publication.html) · Early Access, pp. 1–6 (2026-10-12)
+  - 범위: 출판사 초록 기반 설명이며 원문 전체는 검토하지 않았다. Qwen2.5-0.5B-Instruct 기반 보정 모델을 이용한 시뮬레이션으로, WLAN 실측이나 IEEE 802.11bu 채택 근거가 아니다. Prefill 결과를 전체 자기회귀 생성 완료 지연으로 일반화하지 않는다.
 - **[2026 · Future Generation Computer Systems · Journal] [MacEdge: Motion-aware Collaborative Inference between large and small models for real-time video analysis](https://doi.org/10.1016/j.future.2026.108610)** `Transferable`
   - 객체별 오프로딩과 deadline-aware 배치를 결합한 영상 추론 연구다. Wi-Fi 전송량과 서버 대기시간을 함께 줄이는 설계를 참고할 수 있다.
   - [DOI](https://doi.org/10.1016/j.future.2026.108610) · [서지 출처](https://www.sciencedirect.com/science/article/pii/S0167739X2600244X) · 184:Article 108610 (2026년 11월 권호 배정)
