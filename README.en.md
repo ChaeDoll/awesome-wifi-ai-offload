@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-10-16 · **Papers:** 35 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-10-20 · **Papers:** 36 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -28,7 +28,7 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 32 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 33 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
@@ -37,6 +37,7 @@ Ordered as 32 journal articles → 1 magazine article → 3 conference papers, n
 | 2026 | [DNN Partitioning Survey](https://doi.org/10.1145/3786145) | ACM CSUR · Journal | [Surveys and foundations](#surveys-and-edge-intelligence-foundations) |
 | 2026 | [MacEdge Object-Level Offloading](https://doi.org/10.1016/j.future.2026.108610) | FGCS · Journal | [Inference offloading](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [MAPC Topology-Aware Offloading](https://doi.org/10.1109/TVT.2026.3705747) | IEEE TVT (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
+| 2026 | [MLO Block Ack Reordering](https://doi.org/10.1109/OJCOMS.2026.3686295) | IEEE OJCOMS · Journal | [WLAN latency and coexistence](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN latency and coexistence](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [MobiSplit Mobility-Aware Offloading](https://doi.org/10.1109/TMC.2025.3620438) | IEEE TMC · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [Parameter-Sharing Model Caching](https://doi.org/10.1109/TPDS.2026.3728847) | IEEE TPDS · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
@@ -206,6 +207,10 @@ Ordered as 32 journal articles → 1 magazine article → 3 conference papers, n
 
 ## WLAN latency reliability and coexistence
 
+- **[2026 · IEEE Open Journal of the Communications Society · Journal] [Characterizing Block Acknowledgment Window Reordering in Multi-Link Wi-Fi](https://doi.org/10.1109/OJCOMS.2026.3686295)** `WLAN`
+  - Analyzes Block Ack receive-reordering and window stalls that can cause MLO application-delay spikes. Useful for including MAC buffering and retransmission costs, beyond link rate, in AI offload completion-time models.
+  - [DOI](https://doi.org/10.1109/OJCOMS.2026.3686295) · [Metadata source](https://researchportal.ulisboa.pt/en/publications/characterizing-block-acknowledgment-window-reordering-in-multi-li/) · [Open-access article](https://ieeexplore.ieee.org/document/11489261/) · 7:4536–4558
+  - Scope: Single-hop ns-3 STR-MLO simulation with independent per-link downlink burst losses; no hardware or AI workload validation, NSTR/eMLSR, multi-hop evaluation or IEEE 802.11bu adoption. Indexed body sections were reviewed, not the full PDF.
 - **[2026 · IEEE Transactions on Machine Learning in Communications and Networking · Journal] [Deep Reinforcement Learning-Based Scheduling for Wi-Fi Multi-Access Point Coordination](https://doi.org/10.1109/TMLCN.2026.3682239)** `WLAN`
   - Compares PPO-based multi-AP spatial-reuse scheduling with MNP, OP and TAT heuristics using mean and 99th-percentile delay. Useful for designing tail-latency and background-traffic evaluations of inference-offload transport.
   - [DOI](https://doi.org/10.1109/TMLCN.2026.3682239) · [Metadata source](https://ieeexplore.ieee.org/document/11478468/) · [Accessible manuscript](https://arxiv.org/abs/2507.19377) · 4:744–757

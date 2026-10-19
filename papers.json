@@ -1,7 +1,7 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "35 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "scope_note": "36 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
   "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year. If no final issue is verified, explicitly label the verified journal Early Access year; distinguish future assigned issue dates from online-publication dates.",
   "papers": [
     {
@@ -1271,7 +1271,48 @@
         "resource allocation"
       ],
       "optional": false
+    },
+    {
+      "id": "wifi-ba-reordering2026",
+      "title": "Characterizing Block Acknowledgment Window Reordering in Multi-Link Wi-Fi",
+      "authors": [
+        "Rafael Oliveira",
+        "Duarte Raposo",
+        "Miguel Luís"
+      ],
+      "year": 2026,
+      "early_access_year": null,
+      "venue": "IEEE Open Journal of the Communications Society",
+      "publication_type": "journal",
+      "doi": "10.1109/OJCOMS.2026.3686295",
+      "doi_url": "https://doi.org/10.1109/OJCOMS.2026.3686295",
+      "category": "wireless_latency",
+      "relevance_scope": "direct_wlan",
+      "relevance_en": "Analyzes Block Ack receive-reordering and window stalls that can cause MLO application-delay spikes. Useful for including MAC buffering and retransmission costs, beyond link rate, in AI offload completion-time models.",
+      "relevance_ko": "Block Ack 수신 재정렬과 윈도 정체가 MLO 응용 계층의 지연 급증을 일으키는 과정을 분석한다. AI 오프로딩 완료 지연 모델에 전송률 외의 MAC 버퍼·재전송 비용을 반영하는 데 유용하다.",
+      "metadata_sources": [
+        "https://doi.org/10.1109/OJCOMS.2026.3686295",
+        "https://ieeexplore.ieee.org/document/11489261/",
+        "https://researchportal.ulisboa.pt/en/publications/characterizing-block-acknowledgment-window-reordering-in-multi-li/",
+        "https://sites.google.com/view/miguel-luis/publications"
+      ],
+      "open_access_url": "https://ieeexplore.ieee.org/document/11489261/",
+      "citation_details": "7:4536–4558",
+      "limitations": "Single-hop ns-3 STR-MLO simulation with independent per-link downlink burst losses; no hardware or AI workload validation, NSTR/eMLSR, multi-hop evaluation or IEEE 802.11bu adoption. Indexed body sections were reviewed, not the full PDF.",
+      "limitations_ko": "링크 간 독립적인 하향링크 버스트 손실을 사용한 단일 홉 ns-3 STR-MLO 시뮬레이션이다. 하드웨어·AI 작업 실증, NSTR/eMLSR·다중 홉 평가나 IEEE 802.11bu 채택 근거는 아니다. 검색에 공개된 본문 일부를 검토했으며 PDF 전체는 확인하지 못했다.",
+      "content_evidence_note": "Publisher-indexed abstract and MAC, evaluation, results and future-work sections were inspected beyond the abstract. The publisher marks the article open access under a Creative Commons license, but direct access required JavaScript verification and no full PDF was retrieved. No quantitative performance gain is asserted.",
+      "publication_date_note": "IEEE's indexed publisher record lists publication on 22 April 2026, volume 7, pages 4536–4558. Final bibliography is corroborated by the University of Lisbon and the coauthor's publication list. Added as an earlier-2026 coverage gap, not an October publication. No distinct early-access date was independently verified.",
+      "verified_on": "2026-10-20",
+      "tags": [
+        "Block Ack",
+        "reordering",
+        "STR MLO",
+        "tail latency",
+        "burst loss",
+        "simulation"
+      ],
+      "optional": false
     }
   ],
-  "updated_on": "2026-10-16"
+  "updated_on": "2026-10-20"
 }

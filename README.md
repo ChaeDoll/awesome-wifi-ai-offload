@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-10-16 · **논문:** 핵심 35편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-10-20 · **논문:** 핵심 36편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -28,7 +28,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Quick index
 
-학술지 32편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 33편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
@@ -37,6 +37,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 | 2026 | [DNN Partitioning Survey](https://doi.org/10.1145/3786145) | ACM CSUR · Journal | [Survey·기반](#surveys-and-edge-intelligence-foundations) |
 | 2026 | [MacEdge Object-Level Offloading](https://doi.org/10.1016/j.future.2026.108610) | FGCS · Journal | [추론 오프로딩](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [MAPC Topology-Aware Offloading](https://doi.org/10.1109/TVT.2026.3705747) | IEEE TVT (Early Access) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
+| 2026 | [MLO Block Ack Reordering](https://doi.org/10.1109/OJCOMS.2026.3686295) | IEEE OJCOMS · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [MobiSplit Mobility-Aware Offloading](https://doi.org/10.1109/TMC.2025.3620438) | IEEE TMC · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [Parameter-Sharing Model Caching](https://doi.org/10.1109/TPDS.2026.3728847) | IEEE TPDS · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
@@ -206,6 +207,10 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## WLAN latency reliability and coexistence
 
+- **[2026 · IEEE Open Journal of the Communications Society · Journal] [Characterizing Block Acknowledgment Window Reordering in Multi-Link Wi-Fi](https://doi.org/10.1109/OJCOMS.2026.3686295)** `WLAN`
+  - Block Ack 수신 재정렬과 윈도 정체가 MLO 응용 계층의 지연 급증을 일으키는 과정을 분석한다. AI 오프로딩 완료 지연 모델에 전송률 외의 MAC 버퍼·재전송 비용을 반영하는 데 유용하다.
+  - [DOI](https://doi.org/10.1109/OJCOMS.2026.3686295) · [서지 근거](https://researchportal.ulisboa.pt/en/publications/characterizing-block-acknowledgment-window-reordering-in-multi-li/) · [공개 논문](https://ieeexplore.ieee.org/document/11489261/) · 7:4536–4558
+  - 범위: 링크 간 독립적인 하향링크 버스트 손실을 사용한 단일 홉 ns-3 STR-MLO 시뮬레이션이다. 하드웨어·AI 작업 실증, NSTR/eMLSR·다중 홉 평가나 IEEE 802.11bu 채택 근거는 아니다. 검색에 공개된 본문 일부를 검토했으며 PDF 전체는 확인하지 못했다.
 - **[2026 · IEEE Transactions on Machine Learning in Communications and Networking · Journal] [Deep Reinforcement Learning-Based Scheduling for Wi-Fi Multi-Access Point Coordination](https://doi.org/10.1109/TMLCN.2026.3682239)** `WLAN`
   - PPO 기반 multi-AP spatial-reuse scheduling을 MNP·OP·TAT 휴리스틱과 비교하고 평균 및 99th-percentile 지연을 평가한다. 추론 오프로딩 전송 경로의 tail latency와 배경 트래픽 평가를 설계할 때 참고할 수 있다.
   - [DOI](https://doi.org/10.1109/TMLCN.2026.3682239) · [서지 근거](https://ieeexplore.ieee.org/document/11478468/) · [공개 원문](https://arxiv.org/abs/2507.19377) · 4:744–757
