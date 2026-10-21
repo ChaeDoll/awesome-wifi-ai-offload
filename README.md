@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-10-20 · **논문:** 핵심 36편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-10-21 · **논문:** 핵심 36편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -36,7 +36,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 | 2026 | [Coinf QoS-Aware Batching](https://doi.org/10.1145/3777373) | ACM TECS · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [DNN Partitioning Survey](https://doi.org/10.1145/3786145) | ACM CSUR · Journal | [Survey·기반](#surveys-and-edge-intelligence-foundations) |
 | 2026 | [MacEdge Object-Level Offloading](https://doi.org/10.1016/j.future.2026.108610) | FGCS · Journal | [추론 오프로딩](#dnn-inference-offloading-and-partitioning) |
-| 2026 | [MAPC Topology-Aware Offloading](https://doi.org/10.1109/TVT.2026.3705747) | IEEE TVT (Early Access) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
+| 2026 | [MAPC Topology-Aware Offloading](https://doi.org/10.1109/TVT.2026.3705747) | IEEE TVT · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [MLO Block Ack Reordering](https://doi.org/10.1109/OJCOMS.2026.3686295) | IEEE OJCOMS · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [MobiSplit Mobility-Aware Offloading](https://doi.org/10.1109/TMC.2025.3620438) | IEEE TMC · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
@@ -157,11 +157,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
   - [DOI](https://doi.org/10.1109/TPDS.2026.3728847) · [서지 근거](https://api.crossref.org/works/10.1109/TPDS.2026.3728847) · [출판사 초록](https://ieeexplore.ieee.org/abstract/document/11672295/) · 37(11):2476–2493
   - 날짜·접근 범위: 온라인 출판은 2026년 9월 1일이며 2026년 11월호로 배정되었다. 확인일 기준 11월호는 미래 권호다. 설명은 공개 검색으로 확인한 출판사 초록에 근거하며 전체 방법론과 실험 평가는 독립 검토하지 못했다.
   - 범위: 일반 MEC 최적화·경제적 협력 연구이며 WLAN MAC 구현이나 IEEE 802.11bu 채택의 근거는 아니다. 무선 모델의 가정과 실험 환경은 원문 추가 검토가 필요하다.
-- **[2026 · IEEE Transactions on Vehicular Technology · Journal · Early Access] [Topology-aware Dynamic Offloading for MEC-enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework](https://doi.org/10.1109/TVT.2026.3705747)** `WLAN`
+- **[2026 · IEEE Transactions on Vehicular Technology · Journal] [Topology-Aware Dynamic Offloading for MEC-Enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework](https://doi.org/10.1109/TVT.2026.3705747)** `WLAN`
   - MAPC Wi-Fi에서 AP 선택과 계산 부하 분배를 함께 최적화한다. 여러 AP를 오프로딩 후보로 삼는 지연·부하 균형 모델의 참고 사례다.
-  - [DOI](https://doi.org/10.1109/TVT.2026.3705747) · [서지 출처](https://api.crossref.org/works/10.1109/TVT.2026.3705747) · [기관 페이지의 저자 원고 링크](https://faculty.swjtu.edu.cn/xmfang/zh_CN/zdylm/163243/list/index.htm) · Early Access, 1–16 (최종 권·호 미확인)
+  - [DOI](https://doi.org/10.1109/TVT.2026.3705747) · [서지 출처](https://api.crossref.org/works/10.1109/TVT.2026.3705747) · [기관 페이지의 저자 원고 링크](https://faculty.swjtu.edu.cn/xmfang/zh_CN/zdylm/163243/list/index.htm) · 75(10):24951–24966 (2026년 10월호)
   - 한계: 별도 AP 간 백홀 자원을 가정한 일반 지연 민감·허용 작업의 시뮬레이션이다. DNN별 추론 실험과 WLAN MAC 구현은 독립 검증하지 못했으며, 제안된 신호 교환은 IEEE 802.11bu 채택 근거가 아니다.
-  - 날짜·근거: 기관 페이지와 출판사 메타데이터로 2026년 Early Access를 확인했다. 정확한 온라인 출판일은 미확인이다. 주석은 검색에 색인된 원고 일부에 근거한다.
+  - 날짜·근거: [IEEE Xplore](https://ieeexplore.ieee.org/document/11573212/)에서 온라인 출판일 2026년 6월 22일과 최종 2026년 10월호를 확인했으며, 출판사가 Crossref에 등록한 권·호·쪽수와도 일치한다. 내용 주석은 여전히 검색에 색인된 저자 원고 일부에 근거하며, 최종 출판본 전체를 검토한 것은 아니다.
 - **[2026 · ACM Transactions on Embedded Computing Systems · Journal] [Coinf: QoS-aware DRL-based Inference Task Scheduling Framework with Batching Processing](https://doi.org/10.1145/3777373)** `Transferable`
   - 서로 다른 DNN 요청의 지연 요구와 서버 부하를 고려해 실행시간을 예측하고 배치를 스케줄링한다. Wi-Fi 오프로딩의 통신 지연 외에 compute-side 대기·배치 비용과 QoS 위반율을 평가하는 데 유용하다.
   - [DOI](https://doi.org/10.1145/3777373) · [서지 근거](https://siis.dhu.edu.cn/2024/1108/c24724a366496/page.htm) · 25(1):Article 3, 1–20

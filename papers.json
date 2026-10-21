@@ -1104,7 +1104,7 @@
     },
     {
       "id": "wifi-mapc-offloading2026",
-      "title": "Topology-aware Dynamic Offloading for MEC-enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework",
+      "title": "Topology-Aware Dynamic Offloading for MEC-Enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework",
       "authors": [
         "Junjie Wu",
         "Xuming Fang",
@@ -1130,12 +1130,12 @@
         "https://faculty.swjtu.edu.cn/system/resource/tsites/download.jsp?ap=tscustomcontentfile&fl=ueYbqaBjIvMv"
       ],
       "open_access_url": "https://faculty.swjtu.edu.cn/xmfang/zh_CN/zdylm/163243/list/index.htm",
-      "citation_details": "Early Access, 1–16 (final volume/issue not yet verified)",
+      "citation_details": "75(10):24951–24966",
       "limitations": "Simulation of generic delay-sensitive/tolerant tasks with separate AP–AP backhaul resources. DNN-specific workloads and a WLAN MAC implementation were not independently verified; proposed signaling is not IEEE 802.11bu adoption evidence.",
       "limitations_ko": "별도 AP 간 백홀 자원을 가정한 일반 지연 민감·허용 작업의 시뮬레이션이다. DNN별 추론 실험과 WLAN MAC 구현은 독립 검증하지 못했으며, 제안된 신호 교환은 IEEE 802.11bu 채택 근거가 아니다.",
-      "content_evidence_note": "Bibliography is verified from the IEEE deposit in Crossref and the author institution. Scope was checked against indexed author-manuscript abstract, system-model and simulation-setup sections; the complete evaluation was not independently reviewed. The institutional publications page links the manuscript; direct PDF retrieval was blocked by its anti-hotlink mechanism.",
-      "publication_date_note": "IEEE-deposited Crossref metadata gives 2026 and pages 1–16, without final volume/issue. One author institutional page identifies Early Access in June 2026, while another lists July 4, 2026; the exact online-publication date is therefore not asserted. The year records verified Early Access, not a verified final issue year.",
-      "verified_on": "2026-10-04",
+      "content_evidence_note": "Final bibliography and the 22 June 2026 online-publication date were verified directly on IEEE Xplore; publisher-deposited Crossref metadata independently confirms the October 2026 issue, volume 75, number 10, pages 24951–24966. The scope annotation still relies on previously inspected indexed author-manuscript abstract, system-model and simulation-setup sections, not a complete review of the final publisher version. The institutional publications page links the manuscript; direct PDF retrieval was previously blocked by its anti-hotlink mechanism.",
+      "publication_date_note": "IEEE Xplore records online publication on 22 June 2026 and final publication in the October 2026 issue, 75(10):24951–24966. The IEEE deposit in Crossref independently confirms the final issue. The earlier uncertain institutional dates are superseded by the publisher record; the October 20 Crossref deposit date is a metadata update, not the online-publication date.",
+      "verified_on": "2026-10-21",
       "tags": [
         "MAPC",
         "task offloading",
@@ -1314,5 +1314,5 @@
       "optional": false
     }
   ],
-  "updated_on": "2026-10-20"
+  "updated_on": "2026-10-21"
 }

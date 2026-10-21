@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-10-20 · **Papers:** 36 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-10-21 · **Papers:** 36 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -36,7 +36,7 @@ Ordered as 33 journal articles → 1 magazine article → 3 conference papers, n
 | 2026 | [Coinf QoS-Aware Batching](https://doi.org/10.1145/3777373) | ACM TECS · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [DNN Partitioning Survey](https://doi.org/10.1145/3786145) | ACM CSUR · Journal | [Surveys and foundations](#surveys-and-edge-intelligence-foundations) |
 | 2026 | [MacEdge Object-Level Offloading](https://doi.org/10.1016/j.future.2026.108610) | FGCS · Journal | [Inference offloading](#dnn-inference-offloading-and-partitioning) |
-| 2026 | [MAPC Topology-Aware Offloading](https://doi.org/10.1109/TVT.2026.3705747) | IEEE TVT (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
+| 2026 | [MAPC Topology-Aware Offloading](https://doi.org/10.1109/TVT.2026.3705747) | IEEE TVT · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [MLO Block Ack Reordering](https://doi.org/10.1109/OJCOMS.2026.3686295) | IEEE OJCOMS · Journal | [WLAN latency and coexistence](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [MAPC DRL Scheduling](https://doi.org/10.1109/TMLCN.2026.3682239) | IEEE TMLCN · Journal | [WLAN latency and coexistence](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [MobiSplit Mobility-Aware Offloading](https://doi.org/10.1109/TMC.2025.3620438) | IEEE TMC · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
@@ -157,11 +157,11 @@ Ordered as 33 journal articles → 1 magazine article → 3 conference papers, n
   - [DOI](https://doi.org/10.1109/TPDS.2026.3728847) · [Metadata source](https://api.crossref.org/works/10.1109/TPDS.2026.3728847) · [Publisher abstract](https://ieeexplore.ieee.org/abstract/document/11672295/) · 37(11):2476–2493
   - Date/access scope: Published online on 1 September 2026 and assigned to the November 2026 issue, a future issue month at this review. Annotation uses the publicly indexed publisher abstract; the full methodology and experimental evaluation were not independently reviewed.
   - Scope: General MEC optimization and economic cooperation research; no WLAN MAC implementation or IEEE 802.11bu adoption is established. Radio assumptions and experimental deployment details require full-text review.
-- **[2026 · IEEE Transactions on Vehicular Technology · Journal · Early Access] [Topology-aware Dynamic Offloading for MEC-enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework](https://doi.org/10.1109/TVT.2026.3705747)** `WLAN`
+- **[2026 · IEEE Transactions on Vehicular Technology · Journal] [Topology-Aware Dynamic Offloading for MEC-Enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework](https://doi.org/10.1109/TVT.2026.3705747)** `WLAN`
   - Jointly optimizes AP selection and compute-load distribution in MAPC Wi-Fi; a reference for latency and load-balancing models with multiple offload destinations.
-  - [DOI](https://doi.org/10.1109/TVT.2026.3705747) · [Metadata source](https://api.crossref.org/works/10.1109/TVT.2026.3705747) · [Author manuscript via institutional page](https://faculty.swjtu.edu.cn/xmfang/zh_CN/zdylm/163243/list/index.htm) · Early Access, 1–16 (final volume/issue not yet verified)
+  - [DOI](https://doi.org/10.1109/TVT.2026.3705747) · [Metadata source](https://api.crossref.org/works/10.1109/TVT.2026.3705747) · [Author manuscript via institutional page](https://faculty.swjtu.edu.cn/xmfang/zh_CN/zdylm/163243/list/index.htm) · 75(10):24951–24966 (October 2026)
   - Scope: Simulation of generic delay-sensitive/tolerant tasks with separate AP–AP backhaul resources. DNN-specific workloads and a WLAN MAC implementation were not independently verified; proposed signaling is not IEEE 802.11bu adoption evidence.
-  - Date/evidence: Institutional pages and publisher metadata verify 2026 Early Access; the exact online-publication date is unverified. Annotation uses selected indexed manuscript sections.
+  - Date/evidence: [IEEE Xplore](https://ieeexplore.ieee.org/document/11573212/) confirms online publication on 22 June 2026 and the final October 2026 issue; the publisher deposit in Crossref corroborates the issue and pages. The scope annotation still uses selected indexed author-manuscript sections, not a full review of the final publisher version.
 - **[2026 · ACM Transactions on Embedded Computing Systems · Journal] [Coinf: QoS-aware DRL-based Inference Task Scheduling Framework with Batching Processing](https://doi.org/10.1145/3777373)** `Transferable`
   - Profiles execution time and schedules batches for heterogeneous DNN requests with differing latency requirements and server loads. Useful for evaluating compute-side waiting, batching costs and QoS violations alongside Wi-Fi transfer latency.
   - [DOI](https://doi.org/10.1145/3777373) · [Metadata source](https://siis.dhu.edu.cn/2024/1108/c24724a366496/page.htm) · 25(1):Article 3, 1–20
