@@ -1,7 +1,7 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "36 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "scope_note": "37 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
   "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year. If no final issue is verified, explicitly label the verified journal Early Access year; distinguish future assigned issue dates from online-publication dates.",
   "papers": [
     {
@@ -1312,7 +1312,49 @@
         "simulation"
       ],
       "optional": false
+    },
+    {
+      "id": "inference-chorus2025",
+      "title": "Chorus: Robust Multitasking Local Client-Server Collaborative Inference With Wi-Fi 6 for AIoT Against Stochastic Congestion Delay",
+      "authors": [
+        "Yuzhe Luo",
+        "Ji Qi",
+        "Ling Li",
+        "Ruizhi Chen",
+        "Xiaoyu Wu",
+        "Limin Cheng",
+        "Chen Zhao"
+      ],
+      "year": 2025,
+      "early_access_year": 2025,
+      "venue": "IEEE Transactions on Parallel and Distributed Systems",
+      "publication_type": "journal",
+      "doi": "10.1109/TPDS.2025.3619775",
+      "doi_url": "https://doi.org/10.1109/TPDS.2025.3619775",
+      "category": "resource_scheduling",
+      "relevance_scope": "transferable_mec",
+      "relevance_en": "Combines model partitioning, initialization caching and execution-stream allocation for multitask inference over Wi-Fi 6. Useful for including shared-server congestion and model warm-up alongside radio-transfer costs.",
+      "relevance_ko": "Wi-Fi 6 기반 다중 작업 추론에서 모델 분할, 초기화 캐싱과 실행 스트림 배분을 결합한다. 무선 전송 비용뿐 아니라 공유 서버 혼잡과 모델 준비 시간을 함께 평가하는 데 유용하다.",
+      "metadata_sources": [
+        "https://ieeexplore.ieee.org/document/11197920",
+        "https://lililqth.github.io/"
+      ],
+      "open_access_url": null,
+      "citation_details": "36(12):2706–2723",
+      "limitations": "Application/compute scheduling over Wi-Fi 6, not a verified WLAN MAC modification or IEEE 802.11bu mechanism. The prototype statistically simulates many virtual clients on limited physical devices; do not treat it as a large physical-client testbed or generalize its reported speedups.",
+      "limitations_ko": "Wi-Fi 6를 전송 경로로 쓰는 애플리케이션·연산 스케줄링 연구이며, WLAN MAC 변경이나 IEEE 802.11bu 절차를 검증한 것은 아니다. 제한된 물리 장치에서 다수의 가상 클라이언트를 통계적으로 모사한 프로토타입이므로 대규모 실제 단말 실험으로 해석하거나 보고된 속도 향상을 일반화하지 않는다.",
+      "content_evidence_note": "The public IEEE publisher abstract was inspected directly; the author publication page corroborates the title and all seven authors. The full methodology and evaluation were not accessible and were not independently reviewed. No quantitative gain is asserted here.",
+      "publication_date_note": "IEEE Xplore records online publication on 9 October 2025 and the final December 2025 issue, volume 36, number 12, pages 2706–2723. Added as a previously omitted relevant paper, not a new October 2026 publication.",
+      "verified_on": "2026-10-22",
+      "tags": [
+        "Wi-Fi 6 transport",
+        "multitask inference",
+        "model initialization",
+        "shared-server congestion",
+        "prototype"
+      ],
+      "optional": false
     }
   ],
-  "updated_on": "2026-10-21"
+  "updated_on": "2026-10-22"
 }

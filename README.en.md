@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-10-21 · **Papers:** 36 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-10-22 · **Papers:** 37 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -28,7 +28,7 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 33 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 34 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
@@ -43,6 +43,7 @@ Ordered as 33 journal articles → 1 magazine article → 3 conference papers, n
 | 2026 | [Parameter-Sharing Model Caching](https://doi.org/10.1109/TPDS.2026.3728847) | IEEE TPDS · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Robust DNN Partitioning](https://doi.org/10.1109/TMC.2025.3619509) | IEEE TMC · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Task-Aware DNN Partitioning](https://doi.org/10.1109/TMC.2025.3650680) | IEEE TMC · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
+| 2025 | [Chorus Wi-Fi 6 Multitask Inference](https://doi.org/10.1109/TPDS.2025.3619775) | IEEE TPDS · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2025 | [Trustworthy Edge Intelligence](https://doi.org/10.1109/COMST.2024.3446585) | IEEE COMST · Journal | [Trust and security](#trustworthy-edge-intelligence) |
 | 2025 | [Wi-Fi 8 Tutorial](https://doi.org/10.1134/S003294602502005X) | Problems of Information Transmission · Journal | [Standards writing](#standards-overview-and-tutorial-writing) |
 | 2025 | [Dynamic DNN Inference (FIN)](https://doi.org/10.1109/TON.2025.3543848) | IEEE TON · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
@@ -172,6 +173,11 @@ Ordered as 33 journal articles → 1 magazine article → 3 conference papers, n
   - [DOI](https://doi.org/10.1109/TMC.2025.3619509) · [Metadata source](https://api.crossref.org/works/10.1109/TMC.2025.3619509) · [Accessible author manuscript (v2)](https://arxiv.org/abs/2503.21476v2) · 25(3):3680-3696
   - Access scope: Author manuscript v2 (23 September 2025), including system-model and evaluation sections, was reviewed. Final journal metadata is verified separately; the publisher version was not independently reviewed.
   - Scope: Uses FDMA with known channel state and dedicated, equally provisioned edge VMs; excludes VM setup and result-download delay. WLAN contention, retransmissions and shared-server queueing need separate validation.
+- **[2025 · IEEE Transactions on Parallel and Distributed Systems · Journal] [Chorus: Robust Multitasking Local Client-Server Collaborative Inference With Wi-Fi 6 for AIoT Against Stochastic Congestion Delay](https://doi.org/10.1109/TPDS.2025.3619775)** `Transferable`
+  - Combines model partitioning, initialization caching and execution-stream allocation for multitask inference over Wi-Fi 6. Useful for including shared-server congestion and model warm-up alongside radio-transfer costs.
+  - [DOI](https://doi.org/10.1109/TPDS.2025.3619775) · [Publisher abstract and metadata](https://ieeexplore.ieee.org/document/11197920) · 36(12):2706–2723 (December 2025)
+  - Evidence: Publisher abstract only; the full methodology and evaluation were not independently reviewed. Online publication was 9 October 2025; this is an older addition, not a newly published 2026 paper.
+  - Scope: Application/compute scheduling over Wi-Fi 6, not a verified WLAN MAC modification or IEEE 802.11bu mechanism. The prototype statistically simulates many virtual clients on limited physical devices; do not treat it as a large physical-client testbed or generalize its reported speedups.
 - **[2025 · IEEE Transactions on Networking · Journal] [Distributing Inference Tasks Over Interconnected Systems Through Dynamic DNNs](https://doi.org/10.1109/TON.2025.3543848)** `Transferable`
   - Connects inference placement with communication-resource allocation under joint partitioning, placement, bandwidth, compute and memory constraints. A broad modeling reference for Wi-Fi edge placement.
   - [DOI](https://doi.org/10.1109/TON.2025.3543848) · [Metadata source](https://api.crossref.org/works/10.1109/TON.2025.3543848) · [Abstract/digest](https://www.comsoc.org/system/files/2025-09/publications_contents_digest_2025_aug.pdf) · 33(4):1717-1730
