@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-10-22 · **Papers:** 37 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-10-25 · **Papers:** 39 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -28,10 +28,12 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 34 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 36 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
+| 2026 | [CoMoE Collaborative MoE Inference](https://doi.org/10.1109/TMC.2026.3746721) | IEEE TMC (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
+| 2026 | [Uncertainty-Aware Video Offloading](https://doi.org/10.1109/TCC.2026.3745559) | IEEE TCC (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [LLM Split Inference With Token Reduction](https://doi.org/10.1109/TVT.2026.3742922) | IEEE TVT (Early Access) · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [Coinf QoS-Aware Batching](https://doi.org/10.1145/3777373) | ACM TECS · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [DNN Partitioning Survey](https://doi.org/10.1145/3786145) | ACM CSUR · Journal | [Surveys and foundations](#surveys-and-edge-intelligence-foundations) |
@@ -153,6 +155,16 @@ Ordered as 34 journal articles → 1 magazine article → 3 conference papers, n
 
 ## Resource aware admission placement and scheduling
 
+- **[2026 · IEEE Transactions on Mobile Computing (Early Access) · Journal] [CoMoE: Efficiency-Aware and Context-Adaptive Mixture-of-Experts Inference on Collaborative Mobile Devices](https://doi.org/10.1109/TMC.2026.3746721)** `Transferable`
+  - Selects MoE experts using device capability, changing context and communication topology, while reusing past routing patterns in recurrent contexts. Useful for studying context-dependent compute-provider selection and routing overhead beyond whole-model caching.
+  - [DOI](https://doi.org/10.1109/TMC.2026.3746721) · [Publisher abstract and metadata](https://ieeexplore.ieee.org/document/11749796) · Early Access, pp. 1–15
+  - Evidence: Publisher-abstract-based annotation; the full methodology and experimental conditions were not independently reviewed. Published online on 23 October 2026; no final volume or issue verified.
+  - Scope: Collaborative-device MoE inference, not a verified WLAN MAC mechanism or IEEE 802.11bu implementation. Radio assumptions, deployment details and evaluation conditions require full-text review; no quantitative gain is asserted.
+- **[2026 · IEEE Transactions on Cloud Computing (Early Access) · Journal] [Joint Accuracy and Latency Uncertainty-Aware Offloading for Edge Video Analytics](https://doi.org/10.1109/TCC.2026.3745559)** `Transferable`
+  - Jointly models accuracy and latency uncertainty when selecting video frames for edge offloading alongside local NPU inference. Its finite-state MDP and relative value iteration offer a reference for Wi-Fi offload policies balancing result quality and uncertain response time under latency SLOs.
+  - [DOI](https://doi.org/10.1109/TCC.2026.3745559) · [Publisher abstract and metadata](https://ieeexplore.ieee.org/abstract/document/11743958) · Early Access, pp. 1–14
+  - Evidence: Publisher-abstract-based annotation; the full methodology and experimental conditions were not independently reviewed. Published online on 21 October 2026; no final volume or issue verified.
+  - Scope: Application-layer edge video offloading, not verified WLAN-specific research or an IEEE 802.11bu mechanism. State-model assumptions, radio conditions and experimental comparisons require full-text review; no quantitative gain is asserted.
 - **[2026 · IEEE Transactions on Parallel and Distributed Systems · Journal] [Collaborative Large Model Caching and Inference Offloading With Parameter Sharing in MEC](https://doi.org/10.1109/TPDS.2026.3728847)** `Transferable`
   - Jointly considers parameter-sharing model caching and inference offloading across MEC providers, balancing accuracy, delay and cost through coalition formation. Useful for studying whether model availability and shared parameter storage should influence offload-provider selection.
   - [DOI](https://doi.org/10.1109/TPDS.2026.3728847) · [Metadata source](https://api.crossref.org/works/10.1109/TPDS.2026.3728847) · [Publisher abstract](https://ieeexplore.ieee.org/abstract/document/11672295/) · 37(11):2476–2493

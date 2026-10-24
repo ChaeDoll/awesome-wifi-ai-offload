@@ -1,7 +1,7 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "37 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "scope_note": "39 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
   "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year. If no final issue is verified, explicitly label the verified journal Early Access year; distinguish future assigned issue dates from online-publication dates.",
   "papers": [
     {
@@ -1354,7 +1354,91 @@
         "prototype"
       ],
       "optional": false
+    },
+    {
+      "id": "inference-comoe2026",
+      "title": "CoMoE: Efficiency-Aware and Context-Adaptive Mixture-of-Experts Inference on Collaborative Mobile Devices",
+      "authors": [
+        "Bowen Pang",
+        "Bin Guo",
+        "Sicong Liu",
+        "Ke Ma",
+        "Yasan Ding",
+        "Zhiwen Yu"
+      ],
+      "year": 2026,
+      "early_access_year": 2026,
+      "venue": "IEEE Transactions on Mobile Computing",
+      "publication_type": "journal",
+      "doi": "10.1109/TMC.2026.3746721",
+      "doi_url": "https://doi.org/10.1109/TMC.2026.3746721",
+      "category": "resource_scheduling",
+      "relevance_scope": "transferable_edge_ai",
+      "relevance_en": "Selects MoE experts using device capability, changing context and communication topology, while reusing past routing patterns in recurrent contexts. Useful for studying context-dependent compute-provider selection and routing overhead beyond whole-model caching.",
+      "relevance_ko": "장치 성능·상황 변화·통신 토폴로지를 고려해 MoE의 expert 모듈을 선택하고, 반복되는 상황에서는 과거 라우팅 패턴을 재사용한다. 전체 모델 캐싱을 넘어 상황별 연산 제공자 선택과 라우팅 오버헤드를 검토하는 데 유용하다.",
+      "metadata_sources": [
+        "https://ieeexplore.ieee.org/document/11749796",
+        "https://api.crossref.org/works/10.1109/TMC.2026.3746721"
+      ],
+      "open_access_url": null,
+      "citation_details": "Early Access, pp. 1–15",
+      "limitations": "Collaborative-device MoE inference, not a verified WLAN MAC mechanism or IEEE 802.11bu implementation. Radio assumptions, deployment details and evaluation conditions require full-text review; no quantitative gain is asserted.",
+      "limitations_ko": "협력 장치의 MoE 추론 연구이며, WLAN MAC 절차나 IEEE 802.11bu 구현을 검증한 것은 아니다. 무선 모델·실험 환경·평가 조건은 원문 검토가 필요하며 정량적 이득은 인용하지 않는다.",
+      "content_evidence_note": "The public IEEE publisher abstract and author list were inspected in the browser; bibliography was cross-checked against publisher-deposited Crossref metadata. Full methodology and evaluation were not accessible or independently reviewed.",
+      "publication_date_note": "IEEE Xplore records online publication on 23 October 2026. No final volume, issue or issue pagination was verified; pp. 1–15 are Early Access pagination, not final issue pages.",
+      "verified_on": "2026-10-25",
+      "tags": [
+        "MoE",
+        "expert selection",
+        "collaborative devices",
+        "context adaptation",
+        "routing reuse"
+      ],
+      "optional": false
+    },
+    {
+      "id": "inference-joint-uncertainty2026",
+      "title": "Joint Accuracy and Latency Uncertainty-Aware Offloading for Edge Video Analytics",
+      "authors": [
+        "Shi Chen",
+        "Bin Tang",
+        "Chaoyue Wang",
+        "Wenhu Shi",
+        "Xutong Jiang",
+        "Baoliu Ye"
+      ],
+      "year": 2026,
+      "early_access_year": 2026,
+      "venue": "IEEE Transactions on Cloud Computing",
+      "publication_type": "journal",
+      "doi": "10.1109/TCC.2026.3745559",
+      "doi_url": "https://doi.org/10.1109/TCC.2026.3745559",
+      "category": "resource_scheduling",
+      "relevance_scope": "transferable_mec",
+      "relevance_en": "Jointly models accuracy and latency uncertainty when selecting video frames for edge offloading alongside local NPU inference. Its finite-state MDP and relative value iteration offer a reference for Wi-Fi offload policies balancing result quality and uncertain response time under latency SLOs.",
+      "relevance_ko": "로컬 NPU 추론과 함께 엣지로 보낼 영상 프레임을 선택하면서 정확도·지연 불확실성을 함께 모델링한다. 유한 상태 MDP와 상대 가치 반복은 지연 SLO 아래 결과 품질과 응답 시간 변동을 함께 고려하는 Wi-Fi 오프로딩 정책의 참고가 된다.",
+      "metadata_sources": [
+        "https://ieeexplore.ieee.org/abstract/document/11743958",
+        "https://ieeexplore.ieee.org/document/11743958/",
+        "https://api.crossref.org/works/10.1109/TCC.2026.3745559"
+      ],
+      "open_access_url": null,
+      "citation_details": "Early Access, pp. 1–14",
+      "limitations": "Application-layer edge video offloading, not verified WLAN-specific research or an IEEE 802.11bu mechanism. State-model assumptions, radio conditions and experimental comparisons require full-text review; no quantitative gain is asserted.",
+      "limitations_ko": "응용 계층의 엣지 영상 오프로딩 연구이며, WLAN 특화 연구나 IEEE 802.11bu 절차로 검증된 것은 아니다. 상태 모델의 가정·무선 조건·비교 실험은 원문 검토가 필요하며 정량적 이득은 인용하지 않는다.",
+      "content_evidence_note": "Annotation is limited to the public IEEE publisher abstract. Author order and bibliography were independently cross-checked against publisher-deposited Crossref metadata. Full methodology and evaluation were not accessible or independently reviewed.",
+      "publication_date_note": "IEEE Xplore records online publication on 21 October 2026. No final volume or issue was verified; pp. 1–14 are Early Access pagination. The 22 October Crossref deposit is not the publication date.",
+      "verified_on": "2026-10-25",
+      "tags": [
+        "accuracy uncertainty",
+        "latency uncertainty",
+        "NPU",
+        "frame offloading",
+        "MDP",
+        "latency SLO"
+      ],
+      "optional": false
     }
   ],
-  "updated_on": "2026-10-22"
+  "updated_on": "2026-10-25"
 }
