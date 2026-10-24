@@ -26,6 +26,13 @@ A paper can be useful to an AIO design without proposing an IEEE 802.11bu mechan
 
 Use the focused inference journals in the bibliography after this path to choose a closer baseline for the actual problem: single-request partitioning, multi-request scheduling, server selection or end-edge collaboration.
 
+## Recent specialized reading leads
+
+- **[CoMoE (IEEE TMC, Early Access)](https://doi.org/10.1109/TMC.2026.3746721)**: For sparse-model execution across heterogeneous devices, consider expert selection and reuse of routing decisions alongside nominal compute capability.
+- **[Joint Accuracy and Latency Uncertainty-Aware Offloading (IEEE TCC, Early Access)](https://doi.org/10.1109/TCC.2026.3745559)**: For video analytics, distinguish frame-level accuracy gains from latency service-level objectives instead of optimizing a single average execution time.
+
+These entries are based on publisher abstracts, not full-methodology reviews. Check their experimental conditions before selecting them as reproducible baselines; neither entry establishes WLAN MAC behavior or IEEE 802.11bu adoption.
+
 ## FLOPS/FLOPs-based discovery designs
 
 The questions should be separated:
