@@ -4,6 +4,8 @@
 
 [English home](../README.en.md)
 
+**Cross-WG review records checked: 2026-10-27 (KST). Earlier document-review cutoffs below remain unchanged.**
+
 **Document review cutoff: 2026-10-06 (KST); 1944r1 text/catalog comparison: 2026-10-10 (KST)**
 
 This list summarizes the AIO PAR/CSD scope and proposals in contributions. The [official WG update](https://www.ieee802.org/11/) reports working-group approval of the PAR/CSD, with IEEE 802 review and approval expected in November 2026. As of the verification cutoff, AIO remains listed as a Study Group. WG approval does not establish final IEEE-SA approval, normative adoption of fields or frames, or product compliance.
@@ -53,6 +55,18 @@ date is the upload date (ET) in the IEEE Mentor catalog. cover_date is the separ
 - Status: SG_motion_passed_71_12_17_on_2026_07_15
 
  Describes the direction for discovery, session setup/authorization, information exchange, and teardown. It aims for independence from the PHY/lower MAC and software upgrades for existing devices, and gives advertising model availability/characteristics as an example.
+
+## Cross-WG review — proposed feedback
+
+### 2026-10-26 IEEE 802.3 PAR review ad hoc
+
+- [Official reflector record](https://www.ieee802.org/3/email_dialog/msg01885.html)
+- Author: Kent Lusted, IEEE 802.3 PAR review ad hoc chair
+- Status: proposed_feedback_not_final_WG_comments_or_AIO_adoption
+
+The proposed P802.11bu comments request clearer scope/acronyms, evidence of vendor support for AI offload specifically, architectural-boundary clarification, and references demonstrating technical feasibility. The message invites changes until 2026-11-09 at 09:00 Bangkok time; submission on behalf of IEEE 802.3 remains an intention, not a verified completed action.
+
+The [IEEE 802 PAR review list](https://www.ieee802.org/PARs.shtml) lists P802.11bu for 2026-11-09–13 consideration. These records do not establish final PAR approval or normative adoption.
 
 ## Meeting minutes and status reports
 

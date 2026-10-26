@@ -2,6 +2,8 @@
 
 [한국어](ieee-contributions.md) | [English](ieee-contributions.en.md)
 
+**다른 WG 검토 기록 확인일: 2026-10-27 (한국시간). 아래 기존 문서 검토 기준일은 유지한다.**
+
 **문서 검토 기준일: 2026-10-06 (한국시간); 1944r1 원문·catalog 대조일: 2026-10-10 (한국시간)**
 
 AIO PAR/CSD 범위와 기고문 제안을 정리한 목록이다. [공식 WG 현황](https://www.ieee802.org/11/)은 PAR/CSD의 Working Group 승인을 확인하며, IEEE 802 검토·승인은 2026년 11월로 예상한다. 확인 기준일 현재 AIO는 여전히 Study Group으로 표시되어 있다. WG 승인은 IEEE-SA 최종 승인, 규범적 필드/프레임 채택 또는 제품 준수를 의미하지 않는다.
@@ -51,6 +53,18 @@ date는 IEEE Mentor catalog의 업로드일(ET). cover_date는 별도 확인된 
 - 상태: SG_motion_passed_71_12_17_on_2026_07_15
 
  Discovery, session setup/authorization, 정보 교환과 teardown의 방향을 설명한다. PHY/lower-MAC 독립과 기존 장치의 software upgrade를 지향하며 모델 availability/characteristics 광고를 예시로 든다.
+
+## 다른 WG의 검토 — 제안된 의견
+
+### 2026-10-26 IEEE 802.3 PAR review ad hoc
+
+- [공식 reflector 기록](https://www.ieee802.org/3/email_dialog/msg01885.html)
+- 작성자: Kent Lusted, IEEE 802.3 PAR review ad hoc 의장
+- 상태: proposed_feedback_not_final_WG_comments_or_AIO_adoption
+
+P802.11bu 관련 제안 의견은 범위·약어의 명확화, AI offload에 특화된 공급업체 지지 근거, 아키텍처 경계 설명, 기술적 실현 가능성을 보여주는 참고 자료를 요청한다. 2026-11-09 방콕 시간 09:00까지 변경 의견을 받으며, IEEE 802.3을 대표한 제출은 예정으로 기술되어 있을 뿐 완료가 확인된 것은 아니다.
+
+[IEEE 802 PAR 검토 목록](https://www.ieee802.org/PARs.shtml)은 P802.11bu를 2026-11-09–13 검토 대상으로 열거한다. 이 기록은 PAR 최종 승인이나 규범적 채택을 입증하지 않는다.
 
 ## 회의록과 상태 보고
 
