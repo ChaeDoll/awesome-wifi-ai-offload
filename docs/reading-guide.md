@@ -31,7 +31,9 @@ Use the focused inference journals in the bibliography after this path to choose
 - **[CoMoE (IEEE TMC, Early Access)](https://doi.org/10.1109/TMC.2026.3746721)**: For sparse-model execution across heterogeneous devices, consider expert selection and reuse of routing decisions alongside nominal compute capability.
 - **[Joint Accuracy and Latency Uncertainty-Aware Offloading (IEEE TCC, Early Access)](https://doi.org/10.1109/TCC.2026.3745559)**: For video analytics, distinguish frame-level accuracy gains from latency service-level objectives instead of optimizing a single average execution time.
 
-These entries are based on publisher abstracts, not full-methodology reviews. Check their experimental conditions before selecting them as reproducible baselines; neither entry establishes WLAN MAC behavior or IEEE 802.11bu adoption.
+The two entries above are based on publisher abstracts, not full-methodology reviews. Check their experimental conditions before selecting them as reproducible baselines; neither entry establishes WLAN MAC behavior or IEEE 802.11bu adoption.
+
+- **[Budget-aware multi-agent LLM routing (Tsinghua Science and Technology, Just Accepted)](https://doi.org/10.26599/TST.2026.9010098)**: For device-edge-cloud provider selection, add long-term token/leasing budgets and permitted information sharing to the routing objective. Publisher metadata and selected full-text sections (§§3.1–3.2 and 6.1–6.2) were checked, not the entire methodology or an experimental replication. The shared-wireless model is not WLAN-specific; quality-feasible routing cost/budget results do not establish improved answer quality, cryptographic privacy or IEEE 802.11bu adoption. Online 23 October 2026; no final issue verified.
 
 ## FLOPS/FLOPs-based discovery designs
 
