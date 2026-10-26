@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-10-25 · **논문:** 핵심 39편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-10-27 · **논문:** 핵심 40편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -24,14 +24,15 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 - 연도는 검증된 최종 권호를 우선한다. arXiv는 공개 원문 링크일 수 있으며 그 자체로 최종 venue를 보증하지 않는다
 - 링크는 출판사 및 저자 공개본을 가리킨다. PDF를 이 저장소에 복제하지 않는다
 
-- 최종 권·호가 확인되지 않은 학술지 논문은 `Early Access`로 표시한다. 미래에 배정된 권호의 월과 실제 온라인 출판일을 구분한다.
+- 최종 권·호가 확인되지 않은 학술지 논문은 출판사 상태에 따라 `Early Access` 또는 `Just Accepted`로 표시한다. 미래에 배정된 권호의 월과 실제 온라인 출판일을 구분한다.
 
 ## Quick index
 
-학술지 36편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 37편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
+| 2026 | [Budget-Aware Multi-Agent LLM Routing](https://doi.org/10.26599/TST.2026.9010098) | Tsinghua Science and Technology (Just Accepted) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [CoMoE Collaborative MoE Inference](https://doi.org/10.1109/TMC.2026.3746721) | IEEE TMC (Early Access) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Uncertainty-Aware Video Offloading](https://doi.org/10.1109/TCC.2026.3745559) | IEEE TCC (Early Access) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [LLM Split Inference With Token Reduction](https://doi.org/10.1109/TVT.2026.3742922) | IEEE TVT (Early Access) · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
@@ -155,6 +156,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Resource aware admission placement and scheduling
 
+- **[2026 · Tsinghua Science and Technology (Just Accepted) · Journal] [Online LLM Inference Routing for Multi-Agent Systems under Long-Term Budget and Layered Privacy Constraints](https://doi.org/10.26599/TST.2026.9010098)** `Transferable`
+  - 장기 API 토큰·엣지 임대 예산 아래 다중 에이전트 LLM 추론을 단말·엣지·클라우드에 배치하며, Lyapunov 최적화와 협력형·제한정보형 라우팅 알고리즘을 결합한다. Wi-Fi 오프로딩 제공자 선택에 예산과 정보 공유 제약을 반영하는 데 참고할 수 있다.
+  - [DOI](https://doi.org/10.26599/TST.2026.9010098) · [출판사 서지·초록](https://www.sciopen.com/article/10.26599/TST.2026.9010098) · [공개 원문](https://www.sciopen.com/local/article_pdf/10.26599/TST.2026.9010098.pdf) · Just Accepted
+  - 근거: 출판사 서지·초록 및 원문 일부(§§3.1–3.2, 6.1–6.2)를 확인했으며, 전체 방법론 검토나 재현 실험은 아니다. 2026-10-22 게재 승인, 2026-10-23 온라인 공개된 Just Accepted 논문으로 최종 권·호·쪽수는 확인되지 않았다.
+  - 범위: 추상화된 공유 무선 전송률 모델을 사용하는 MEC 스케줄링 연구로, WLAN MAC이나 IEEE 802.11bu 구현은 아니다. 프라이버시는 정보 공유·데이터 배치 제한이며 암호학적 보장이 아니다. 평가는 품질 조건을 충족하는 선택지의 라우팅 비용·예산을 다루며 답변 품질 향상을 검증하는 것은 아니다. 정량적 이득을 일반화하지 않는다.
 - **[2026 · IEEE Transactions on Mobile Computing (Early Access) · Journal] [CoMoE: Efficiency-Aware and Context-Adaptive Mixture-of-Experts Inference on Collaborative Mobile Devices](https://doi.org/10.1109/TMC.2026.3746721)** `Transferable`
   - 장치 성능·상황 변화·통신 토폴로지를 고려해 MoE의 expert 모듈을 선택하고, 반복되는 상황에서는 과거 라우팅 패턴을 재사용한다. 전체 모델 캐싱을 넘어 상황별 연산 제공자 선택과 라우팅 오버헤드를 검토하는 데 유용하다.
   - [DOI](https://doi.org/10.1109/TMC.2026.3746721) · [출판사 초록·서지](https://ieeexplore.ieee.org/document/11749796) · Early Access, pp. 1–15

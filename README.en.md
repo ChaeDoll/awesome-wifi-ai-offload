@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-10-25 · **Papers:** 39 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-10-27 · **Papers:** 40 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -24,14 +24,15 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 - Years prioritize the verified final issue. An arXiv link may provide an accessible manuscript; it does not itself verify the final venue
 - Links point to publishers and publicly accessible author versions. PDFs are not copied into this repository
 
-- Journal papers without a verified final issue are labeled `Early Access`. A future assigned issue month is separate from the online-publication date.
+- Journal papers without a verified final issue retain the publisher status, `Early Access` or `Just Accepted`. A future assigned issue month is separate from the online-publication date.
 
 ## Quick index
 
-Ordered as 36 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 37 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
+| 2026 | [Budget-Aware Multi-Agent LLM Routing](https://doi.org/10.26599/TST.2026.9010098) | Tsinghua Science and Technology (Just Accepted) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [CoMoE Collaborative MoE Inference](https://doi.org/10.1109/TMC.2026.3746721) | IEEE TMC (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Uncertainty-Aware Video Offloading](https://doi.org/10.1109/TCC.2026.3745559) | IEEE TCC (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [LLM Split Inference With Token Reduction](https://doi.org/10.1109/TVT.2026.3742922) | IEEE TVT (Early Access) · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
@@ -155,6 +156,11 @@ Ordered as 36 journal articles → 1 magazine article → 3 conference papers, n
 
 ## Resource aware admission placement and scheduling
 
+- **[2026 · Tsinghua Science and Technology (Just Accepted) · Journal] [Online LLM Inference Routing for Multi-Agent Systems under Long-Term Budget and Layered Privacy Constraints](https://doi.org/10.26599/TST.2026.9010098)** `Transferable`
+  - Routes multi-agent LLM inference across device, edge and cloud under long-term API-token and edge-leasing budgets, using Lyapunov optimization with cooperative and limited-information routing algorithms. Useful for adding budget and information-sharing constraints to Wi-Fi offload-provider selection.
+  - [DOI](https://doi.org/10.26599/TST.2026.9010098) · [Publisher metadata and abstract](https://www.sciopen.com/article/10.26599/TST.2026.9010098) · [Open full text](https://www.sciopen.com/local/article_pdf/10.26599/TST.2026.9010098.pdf) · Just Accepted
+  - Evidence: Publisher metadata, abstract and selected full-text sections (§§3.1–3.2 and 6.1–6.2) checked; not an exhaustive methodological review or replication. Accepted 22 October 2026; online 23 October 2026; Just Accepted, with no final volume, issue or pagination verified.
+  - Scope: Transferable MEC scheduling with an abstract shared-wireless rate model, not a WLAN MAC or IEEE 802.11bu implementation. Privacy means information-sharing and data-placement restrictions, not cryptographic guarantees. Evaluation addresses routing cost and budget under quality-feasible choices, not answer-quality improvement; no quantitative gain is generalized.
 - **[2026 · IEEE Transactions on Mobile Computing (Early Access) · Journal] [CoMoE: Efficiency-Aware and Context-Adaptive Mixture-of-Experts Inference on Collaborative Mobile Devices](https://doi.org/10.1109/TMC.2026.3746721)** `Transferable`
   - Selects MoE experts using device capability, changing context and communication topology, while reusing past routing patterns in recurrent contexts. Useful for studying context-dependent compute-provider selection and routing overhead beyond whole-model caching.
   - [DOI](https://doi.org/10.1109/TMC.2026.3746721) · [Publisher abstract and metadata](https://ieeexplore.ieee.org/document/11749796) · Early Access, pp. 1–15

@@ -1,8 +1,8 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "39 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
-  "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year. If no final issue is verified, explicitly label the verified journal Early Access year; distinguish future assigned issue dates from online-publication dates.",
+  "scope_note": "40 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year. If no final issue is verified, explicitly label the verified online-publication year and publisher status (Early Access or Just Accepted); distinguish future assigned issue dates from online-publication dates.",
   "papers": [
     {
       "id": "survey-mao2017",
@@ -1438,7 +1438,46 @@
         "latency SLO"
       ],
       "optional": false
+    },
+    {
+      "id": "inference-budget-routing2026",
+      "title": "Online LLM Inference Routing for Multi-Agent Systems under Long-Term Budget and Layered Privacy Constraints",
+      "authors": [
+        "Shijing Yuan",
+        "Zihang Li",
+        "Yuming Zhang"
+      ],
+      "year": 2026,
+      "early_access_year": 2026,
+      "publication_status": "Just Accepted",
+      "venue": "Tsinghua Science and Technology",
+      "publication_type": "journal",
+      "doi": "10.26599/TST.2026.9010098",
+      "doi_url": "https://doi.org/10.26599/TST.2026.9010098",
+      "category": "resource_scheduling",
+      "relevance_scope": "transferable_mec",
+      "relevance_en": "Routes multi-agent LLM inference across device, edge and cloud under long-term API-token and edge-leasing budgets, using Lyapunov optimization with cooperative and limited-information routing algorithms. Useful for adding budget and information-sharing constraints to Wi-Fi offload-provider selection.",
+      "relevance_ko": "장기 API 토큰·엣지 임대 예산 아래 다중 에이전트 LLM 추론을 단말·엣지·클라우드에 배치하며, Lyapunov 최적화와 협력형·제한정보형 라우팅 알고리즘을 결합한다. Wi-Fi 오프로딩 제공자 선택에 예산과 정보 공유 제약을 반영하는 데 참고할 수 있다.",
+      "metadata_sources": [
+        "https://www.sciopen.com/article/10.26599/TST.2026.9010098",
+        "https://www.sciopen.com/local/article_pdf/10.26599/TST.2026.9010098.pdf"
+      ],
+      "open_access_url": "https://www.sciopen.com/local/article_pdf/10.26599/TST.2026.9010098.pdf",
+      "citation_details": "Just Accepted; published online 23 October 2026",
+      "limitations": "Transferable MEC scheduling with an abstract shared-wireless rate model, not a WLAN MAC or IEEE 802.11bu implementation. Privacy means information-sharing and data-placement restrictions, not cryptographic guarantees. Evaluation addresses routing cost and budget under quality-feasible choices, not answer-quality improvement; no quantitative gain is generalized.",
+      "limitations_ko": "추상화된 공유 무선 전송률 모델을 사용하는 MEC 스케줄링 연구로, WLAN MAC이나 IEEE 802.11bu 구현은 아니다. 프라이버시는 정보 공유·데이터 배치 제한이며 암호학적 보장이 아니다. 평가는 품질 조건을 충족하는 선택지의 라우팅 비용·예산을 다루며 답변 품질 향상을 검증하는 것은 아니다. 정량적 이득을 일반화하지 않는다.",
+      "content_evidence_note": "The publisher HTML metadata and abstract were retrieved directly, and selected sections of the public accepted manuscript (§§3.1–3.2 and 6.1–6.2) were checked for modeling and evaluation scope. This was not an exhaustive methodological review or experimental replication. The PDF uses a placeholder DOI; the DOI is verified from publisher HTML metadata.",
+      "publication_date_note": "Publisher records acceptance on 22 October 2026 and online publication on 23 October 2026, with status Just Accepted. No final volume, issue or pagination is assigned in the inspected metadata. early_access_year records the online-first year, not a claim that the publisher labels this Early Access.",
+      "verified_on": "2026-10-27",
+      "tags": [
+        "LLM inference routing",
+        "long-term budget",
+        "Lyapunov optimization",
+        "limited information sharing",
+        "device-edge-cloud"
+      ],
+      "optional": false
     }
   ],
-  "updated_on": "2026-10-25"
+  "updated_on": "2026-10-27"
 }
