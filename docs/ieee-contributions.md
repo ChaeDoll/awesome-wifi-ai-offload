@@ -2,6 +2,8 @@
 
 [한국어](ieee-contributions.md) | [English](ieee-contributions.en.md)
 
+**11월 agenda r0/r1 원문 및 공식 reflector 확인일: 2026-11-03 (한국시간). 아래 기존 문서 검토 기준일은 유지한다.**
+
 **다른 WG 검토 기록 확인일: 2026-10-27 (한국시간). 아래 기존 문서 검토 기준일은 유지한다.**
 
 **문서 검토 기준일: 2026-10-06 (한국시간); 1944r1 원문·catalog 대조일: 2026-10-10 (한국시간)**
@@ -65,6 +67,20 @@ date는 IEEE Mentor catalog의 업로드일(ET). cover_date는 별도 확인된 
 P802.11bu 관련 제안 의견은 범위·약어의 명확화, AI offload에 특화된 공급업체 지지 근거, 아키텍처 경계 설명, 기술적 실현 가능성을 보여주는 참고 자료를 요청한다. 2026-11-09 방콕 시간 09:00까지 변경 의견을 받으며, IEEE 802.3을 대표한 제출은 예정으로 기술되어 있을 뿐 완료가 확인된 것은 아니다.
 
 [IEEE 802 PAR 검토 목록](https://www.ieee802.org/PARs.shtml)은 P802.11bu를 2026-11-09–13 검토 대상으로 열거한다. 이 기록은 PAR 최종 승인이나 규범적 채택을 입증하지 않는다.
+
+## 2026년 11월 회의 계획 — 회의 결과가 아님
+
+### IEEE 802.11-26/1914r1 — AI Offload Study Group November 2026 Meeting Agenda
+
+- [공식 원문](https://mentor.ieee.org/802.11/dcn/26/11-26-1914-01-0aio-aio-sg-november-2026-meeting-agenda.pptx)
+- 저자: Gaurang Naik | 소속: Qualcomm Technologies, Inc.
+- 업로드일(ET): 2026-11-02 | 표지 날짜: 2026-11-01
+- 주제: agenda, PAR/CSD 검토, 발표 예정 기고문
+- 상태: planned_agenda_not_meeting_outcomes_or_adoption
+
+r0와 비교하면 slides 16 및 19–21에서 11월 세션의 PAR/CSD 검토 의견 처리·해결을 우선하고, 기술 기고문 발표는 시간이 허용할 때 진행하도록 변경했다. [의장의 공식 공지](https://www.ieee802.org/11/email/stds-802-11/msg09707.html)도 다른 WG의 PAR/CSD 검토 의견을 우선한다고 설명한다.
+
+Slide 18은 2057, *Thoughts on Authentication for AI Offload* (Ming Zhou); 2122, *Key Design Issues for AIO Framework* (Chung-Ta Ku); 2130, *Thoughts on AI Offload Service Discovery* (Duncan Ho)를 모두 **Pending**으로 열거한다. 의제에 포함되었다는 사실은 실제 발표, 기술 본문 검토 또는 제안 채택을 입증하지 않는다. 이 의제는 PAR/CSD 최종 승인이나 규범적 채택의 증거가 아니다.
 
 ## 회의록과 상태 보고
 

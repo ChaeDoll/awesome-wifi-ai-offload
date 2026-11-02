@@ -35,6 +35,10 @@ The two entries above are based on publisher abstracts, not full-methodology rev
 
 - **[Budget-aware multi-agent LLM routing (Tsinghua Science and Technology, Just Accepted)](https://doi.org/10.26599/TST.2026.9010098)**: For device-edge-cloud provider selection, add long-term token/leasing budgets and permitted information sharing to the routing objective. Publisher metadata and selected full-text sections (§§3.1–3.2 and 6.1–6.2) were checked, not the entire methodology or an experimental replication. The shared-wireless model is not WLAN-specific; quality-feasible routing cost/budget results do not establish improved answer quality, cryptographic privacy or IEEE 802.11bu adoption. Online 23 October 2026; no final issue verified.
 
+## Current standards-reading caution
+
+The [November 2026 AIO agenda](ieee-contributions.en.md) prioritizes PAR/CSD comment resolution; technical presentations are conditional on time permitting. Read the agenda as a plan, not a record of approval or adoption. The Korean companion provides the [same status distinction](ieee-contributions.md). Agenda entries do not change the peer-reviewed paper count.
+
 ## FLOPS/FLOPs-based discovery designs
 
 The questions should be separated:

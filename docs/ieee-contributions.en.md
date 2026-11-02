@@ -4,6 +4,8 @@
 
 [English home](../README.en.md)
 
+**November agenda r0/r1 text and official reflector checked: 2026-11-03 (KST). Earlier document-review cutoffs below remain unchanged.**
+
 **Cross-WG review records checked: 2026-10-27 (KST). Earlier document-review cutoffs below remain unchanged.**
 
 **Document review cutoff: 2026-10-06 (KST); 1944r1 text/catalog comparison: 2026-10-10 (KST)**
@@ -67,6 +69,20 @@ date is the upload date (ET) in the IEEE Mentor catalog. cover_date is the separ
 The proposed P802.11bu comments request clearer scope/acronyms, evidence of vendor support for AI offload specifically, architectural-boundary clarification, and references demonstrating technical feasibility. The message invites changes until 2026-11-09 at 09:00 Bangkok time; submission on behalf of IEEE 802.3 remains an intention, not a verified completed action.
 
 The [IEEE 802 PAR review list](https://www.ieee802.org/PARs.shtml) lists P802.11bu for 2026-11-09–13 consideration. These records do not establish final PAR approval or normative adoption.
+
+## November 2026 meeting plan — not meeting outcomes
+
+### IEEE 802.11-26/1914r1 — AI Offload Study Group November 2026 Meeting Agenda
+
+- [Official source](https://mentor.ieee.org/802.11/dcn/26/11-26-1914-01-0aio-aio-sg-november-2026-meeting-agenda.pptx)
+- Author: Gaurang Naik | Affiliation: Qualcomm Technologies, Inc.
+- Upload date (ET): 2026-11-02 | Cover date: 2026-11-01
+- Topics: agenda, PAR/CSD review, planned contributions
+- Status: planned_agenda_not_meeting_outcomes_or_adoption
+
+Compared with r0, slides 16 and 19–21 prioritize review and resolution of PAR/CSD comments in the November sessions; technical submissions are now conditional on time permitting. The [chair's official announcement](https://www.ieee802.org/11/email/stds-802-11/msg09707.html) also identifies cross-WG PAR/CSD comments as the priority.
+
+Slide 18 lists 2057, *Thoughts on Authentication for AI Offload* (Ming Zhou); 2122, *Key Design Issues for AIO Framework* (Chung-Ta Ku); and 2130, *Thoughts on AI Offload Service Discovery* (Duncan Ho), all as **Pending**. Agenda placement does not verify that the presentations occurred, their technical contents were reviewed, or their proposals were adopted. The agenda does not establish final PAR/CSD approval or normative adoption.
 
 ## Meeting minutes and status reports
 
