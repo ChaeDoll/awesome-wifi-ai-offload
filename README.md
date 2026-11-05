@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-11-04 · **논문:** 핵심 41편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-11-06 · **논문:** 핵심 42편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -28,10 +28,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Quick index
 
-학술지 38편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 39편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
+| 2026 | [P-EDCA Tail-Latency Control](https://doi.org/10.1016/j.jnca.2026.104568) | JNCA · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [TD3 Energy-Aware Split Inference](https://doi.org/10.1016/j.comnet.2026.112851) | Computer Networks · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Budget-Aware Multi-Agent LLM Routing](https://doi.org/10.26599/TST.2026.9010098) | Tsinghua Science and Technology (Just Accepted) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [CoMoE Collaborative MoE Inference](https://doi.org/10.1109/TMC.2026.3746721) | IEEE TMC (Early Access) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
@@ -237,6 +238,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## WLAN latency reliability and coexistence
 
+- **[2026 · Journal of Network and Computer Applications · Journal] [Unavailability-triggered prioritized EDCA for tail-latency control in Wi-Fi 8 WLANs](https://doi.org/10.1016/j.jnca.2026.104568)** `WLAN`
+  - 긴 채널 사용 불가 구간 뒤의 보호 경쟁 기회를 모델링하고, 경쟁 단말 수의 분포와 큐 선두 패킷의 긴급도에 따라 경쟁 윈도와 트리거 임계값을 조절한다. Wi-Fi 오프로딩 트래픽의 MAC 꼬리 지연과 마감 시간 초과를 연구할 때 참고할 수 있다.
+  - [DOI](https://doi.org/10.1016/j.jnca.2026.104568) · [출판사 초록·본문 발췌](https://www.sciencedirect.com/science/article/pii/S1084804526001438) · [출판사 등록 서지](https://api.crossref.org/works/10.1016/j.jnca.2026.104568) · 255:Article 104568 (2026년 11월)
+  - 근거: 검색에 공개된 출판사 초록·서론·절별 발췌를 검토하고, 출판사가 Crossref에 등록한 정확한 제목·저자 순서·최종 권호를 직접 확인했다. 전문 PDF는 확보하지 못했으며 정확한 최초 온라인 출판일은 확인하지 못했다.
+  - 범위: 802.11bn 관련 제안 메커니즘의 분석 모델과 자체 MAC 이산 사건 시뮬레이션으로, IEEE 802.11bu 채택이나 하드웨어 실증 근거가 아니다. 우선 접근이 허가된 시점 이후부터 모델링하여 DS-CTS 획득 과정을 제외하며, 모든 초안 신호 절차의 타이밍을 준수하는 구현이나 결정론적 지연 보장은 아니다. 정량적 이득을 일반화하지 않는다.
 - **[2026 · IEEE Open Journal of the Communications Society · Journal] [Characterizing Block Acknowledgment Window Reordering in Multi-Link Wi-Fi](https://doi.org/10.1109/OJCOMS.2026.3686295)** `WLAN`
   - Block Ack 수신 재정렬과 윈도 정체가 MLO 응용 계층의 지연 급증을 일으키는 과정을 분석한다. AI 오프로딩 완료 지연 모델에 전송률 외의 MAC 버퍼·재전송 비용을 반영하는 데 유용하다.
   - [DOI](https://doi.org/10.1109/OJCOMS.2026.3686295) · [서지 근거](https://researchportal.ulisboa.pt/en/publications/characterizing-block-acknowledgment-window-reordering-in-multi-li/) · [공개 논문](https://ieeexplore.ieee.org/document/11489261/) · 7:4536–4558

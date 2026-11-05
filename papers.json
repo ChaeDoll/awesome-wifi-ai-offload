@@ -1,7 +1,7 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "41 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "scope_note": "42 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
   "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year. If no final issue is verified, explicitly label the verified online-publication year and publisher status (Early Access or Just Accepted); distinguish future assigned issue dates from online-publication dates.",
   "papers": [
     {
@@ -1519,7 +1519,48 @@
         "intermediate features"
       ],
       "optional": false
+    },
+    {
+      "id": "wifi-unavailability-pedca2026",
+      "title": "Unavailability-triggered prioritized EDCA for tail-latency control in Wi-Fi 8 WLANs",
+      "authors": [
+        "Jen-En Huang",
+        "Hsu-Chun Yen",
+        "Farn Wang",
+        "Hui-Hsin Chin"
+      ],
+      "year": 2026,
+      "early_access_year": null,
+      "venue": "Journal of Network and Computer Applications",
+      "publication_type": "journal",
+      "doi": "10.1016/j.jnca.2026.104568",
+      "doi_url": "https://doi.org/10.1016/j.jnca.2026.104568",
+      "category": "wireless_latency",
+      "relevance_scope": "direct_wlan",
+      "relevance_en": "Models a protected contention opportunity after a long channel-unavailability interval and adapts its window and trigger threshold using contender distributions and head-of-line urgency. Useful for studying MAC tail latency and deadline misses in Wi-Fi offload traffic.",
+      "relevance_ko": "긴 채널 사용 불가 구간 뒤의 보호 경쟁 기회를 모델링하고, 경쟁 단말 수의 분포와 큐 선두 패킷의 긴급도에 따라 경쟁 윈도와 트리거 임계값을 조절한다. Wi-Fi 오프로딩 트래픽의 MAC 꼬리 지연과 마감 시간 초과를 연구할 때 참고할 수 있다.",
+      "metadata_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S1084804526001438",
+        "https://www.sciencedirect.com/science/article/abs/pii/S1084804526001438",
+        "https://api.crossref.org/works/10.1016/j.jnca.2026.104568"
+      ],
+      "open_access_url": null,
+      "citation_details": "255:Article 104568 (November 2026)",
+      "limitations": "Analytical model and custom MAC discrete-event simulation of a proposed 802.11bn-related mechanism, not an IEEE 802.11bu adoption record or hardware validation. Modeling starts after prioritized-access authorization and excludes DS-CTS acquisition; the study is not a timing-conformant implementation of all draft signaling rules and provides no deterministic delay guarantee. No quantitative gain is generalized.",
+      "limitations_ko": "802.11bn 관련 제안 메커니즘의 분석 모델과 자체 MAC 이산 사건 시뮬레이션으로, IEEE 802.11bu 채택이나 하드웨어 실증 근거가 아니다. 우선 접근이 허가된 시점 이후부터 모델링하여 DS-CTS 획득 과정을 제외하며, 모든 초안 신호 절차의 타이밍을 준수하는 구현이나 결정론적 지연 보장은 아니다. 정량적 이득을 일반화하지 않는다.",
+      "content_evidence_note": "Publicly indexed publisher abstract, introduction and section excerpts were reviewed. Exact title, author order and final bibliography were independently verified against the publisher-deposited Crossref record. Direct publisher access was unavailable; no full PDF was obtained.",
+      "publication_date_note": "Publisher-deposited Crossref metadata assigns volume 255, article 104568 to November 2026. No exact online-publication date was verified. The 24 August DOI creation date and 7 September deposit date are not treated as publication dates.",
+      "verified_on": "2026-11-06",
+      "tags": [
+        "P-EDCA",
+        "tail latency",
+        "contention control",
+        "deadline misses",
+        "Wi-Fi 8",
+        "simulation"
+      ],
+      "optional": false
     }
   ],
-  "updated_on": "2026-11-04"
+  "updated_on": "2026-11-06"
 }

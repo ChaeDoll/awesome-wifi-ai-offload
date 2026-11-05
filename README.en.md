@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-11-04 · **Papers:** 41 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-11-06 · **Papers:** 42 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -28,10 +28,11 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 38 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 39 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
+| 2026 | [P-EDCA Tail-Latency Control](https://doi.org/10.1016/j.jnca.2026.104568) | JNCA · Journal | [WLAN latency](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [TD3 Energy-Aware Split Inference](https://doi.org/10.1016/j.comnet.2026.112851) | Computer Networks · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Budget-Aware Multi-Agent LLM Routing](https://doi.org/10.26599/TST.2026.9010098) | Tsinghua Science and Technology (Just Accepted) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [CoMoE Collaborative MoE Inference](https://doi.org/10.1109/TMC.2026.3746721) | IEEE TMC (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
@@ -237,6 +238,11 @@ Ordered as 38 journal articles → 1 magazine article → 3 conference papers, n
 
 ## WLAN latency reliability and coexistence
 
+- **[2026 · Journal of Network and Computer Applications · Journal] [Unavailability-triggered prioritized EDCA for tail-latency control in Wi-Fi 8 WLANs](https://doi.org/10.1016/j.jnca.2026.104568)** `WLAN`
+  - Models a protected contention opportunity after a long channel-unavailability interval and adapts its window and trigger threshold using contender distributions and head-of-line urgency. Useful for studying MAC tail latency and deadline misses in Wi-Fi offload traffic.
+  - [DOI](https://doi.org/10.1016/j.jnca.2026.104568) · [Publisher abstract and excerpts](https://www.sciencedirect.com/science/article/pii/S1084804526001438) · [Publisher-deposited metadata](https://api.crossref.org/works/10.1016/j.jnca.2026.104568) · 255:Article 104568 (November 2026)
+  - Evidence: Publicly indexed publisher abstract, introduction and section excerpts were reviewed; exact title, author order and final bibliography were directly verified against the publisher-deposited Crossref record. The full PDF was not obtained, and the exact first-online date remains unverified.
+  - Scope: Analytical model and custom MAC discrete-event simulation of a proposed 802.11bn-related mechanism, not an IEEE 802.11bu adoption record or hardware validation. Modeling starts after prioritized-access authorization and excludes DS-CTS acquisition; the study is not a timing-conformant implementation of all draft signaling rules and provides no deterministic delay guarantee. No quantitative gain is generalized.
 - **[2026 · IEEE Open Journal of the Communications Society · Journal] [Characterizing Block Acknowledgment Window Reordering in Multi-Link Wi-Fi](https://doi.org/10.1109/OJCOMS.2026.3686295)** `WLAN`
   - Analyzes Block Ack receive-reordering and window stalls that can cause MLO application-delay spikes. Useful for including MAC buffering and retransmission costs, beyond link rate, in AI offload completion-time models.
   - [DOI](https://doi.org/10.1109/OJCOMS.2026.3686295) · [Metadata source](https://researchportal.ulisboa.pt/en/publications/characterizing-block-acknowledgment-window-reordering-in-multi-li/) · [Open-access article](https://ieeexplore.ieee.org/document/11489261/) · 7:4536–4558
