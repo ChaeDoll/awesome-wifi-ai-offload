@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-10-27 · **Papers:** 40 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-11-04 · **Papers:** 41 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -28,10 +28,11 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 37 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 38 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
+| 2026 | [TD3 Energy-Aware Split Inference](https://doi.org/10.1016/j.comnet.2026.112851) | Computer Networks · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Budget-Aware Multi-Agent LLM Routing](https://doi.org/10.26599/TST.2026.9010098) | Tsinghua Science and Technology (Just Accepted) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [CoMoE Collaborative MoE Inference](https://doi.org/10.1109/TMC.2026.3746721) | IEEE TMC (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Uncertainty-Aware Video Offloading](https://doi.org/10.1109/TCC.2026.3745559) | IEEE TCC (Early Access) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
@@ -123,7 +124,7 @@ Ordered as 37 journal articles → 1 magazine article → 3 conference papers, n
   - Combines object-level offloading with deadline-aware batching for video inference; useful for jointly considering Wi-Fi transfer volume and server waiting time.
   - [DOI](https://doi.org/10.1016/j.future.2026.108610) · [Metadata source](https://www.sciencedirect.com/science/article/pii/S0167739X2600244X) · 184:Article 108610 (assigned November 2026 issue)
   - Scope: Application-layer edge inference evaluated over Wi-Fi, not a WLAN MAC mechanism or IEEE 802.11bu adoption record. Full experimental details were not independently reviewed; no quantitative gain is asserted here.
-  - Date/evidence: The publisher abstract and introduction are already accessible; November 2026 is the assigned future issue. Exact online-publication date and open full text are unverified.
+  - Date/evidence: The publisher abstract and introduction are already accessible; November 2026 is the issue month. Exact online-publication date and open full text are unverified.
 - **[2026 · IEEE Transactions on Mobile Computing · Journal] [MobiSplit: Mobility-Aware Inference Partitioning and Offloading for Efficient Edge Intelligence](https://doi.org/10.1109/TMC.2025.3620438)** `Transferable`
   - Adapts inference partitioning and offloading to device mobility, changing network conditions and compute limits. Useful background for incorporating movement and interruption risk into Wi-Fi offload evaluation.
   - [DOI](https://doi.org/10.1109/TMC.2025.3620438) · [Metadata and abstract](https://scholars.cityu.edu.hk/en/publications/mobisplit-mobility-aware-inference-partitioning-and-offloading-fo/) · 25(3):3969–3984
@@ -156,6 +157,11 @@ Ordered as 37 journal articles → 1 magazine article → 3 conference papers, n
 
 ## Resource aware admission placement and scheduling
 
+- **[2026 · Computer Networks · Journal] [TD3-based semantic communication for energy-efficient DNN inference offloading in MEC networks](https://doi.org/10.1016/j.comnet.2026.112851)** `Transferable`
+  - Uses TD3 to jointly choose local-edge computation partitioning and OFDMA bandwidth allocation, accounting for the nonlinear relationship between local processing and intermediate-feature size. Useful for studying compute/communication energy tradeoffs in Wi-Fi offload scheduling.
+  - [DOI](https://doi.org/10.1016/j.comnet.2026.112851) · [Institutional abstract](https://shdl.mmu.edu.my/17029/) · [Publisher-deposited metadata](https://api.crossref.org/works/10.1016/j.comnet.2026.112851) · 290:Article 112851 (November 2026)
+  - Evidence: Institutional abstract and indexed publisher description; open full text was not verified. November is the final issue month, not a verified first-online date.
+  - Scope: Simulated MEC with an OFDMA resource model, not a WLAN MAC implementation or IEEE 802.11bu adoption record. Intermediate features are assumed to arrive reliably; semantic reconstruction, feature quantization and channel-induced feature distortion are not modeled. Full methodology was not independently reviewed; no quantitative gain is asserted.
 - **[2026 · Tsinghua Science and Technology (Just Accepted) · Journal] [Online LLM Inference Routing for Multi-Agent Systems under Long-Term Budget and Layered Privacy Constraints](https://doi.org/10.26599/TST.2026.9010098)** `Transferable`
   - Routes multi-agent LLM inference across device, edge and cloud under long-term API-token and edge-leasing budgets, using Lyapunov optimization with cooperative and limited-information routing algorithms. Useful for adding budget and information-sharing constraints to Wi-Fi offload-provider selection.
   - [DOI](https://doi.org/10.26599/TST.2026.9010098) · [Publisher metadata and abstract](https://www.sciopen.com/article/10.26599/TST.2026.9010098) · [Open full text](https://www.sciopen.com/local/article_pdf/10.26599/TST.2026.9010098.pdf) · Just Accepted
@@ -174,7 +180,7 @@ Ordered as 37 journal articles → 1 magazine article → 3 conference papers, n
 - **[2026 · IEEE Transactions on Parallel and Distributed Systems · Journal] [Collaborative Large Model Caching and Inference Offloading With Parameter Sharing in MEC](https://doi.org/10.1109/TPDS.2026.3728847)** `Transferable`
   - Jointly considers parameter-sharing model caching and inference offloading across MEC providers, balancing accuracy, delay and cost through coalition formation. Useful for studying whether model availability and shared parameter storage should influence offload-provider selection.
   - [DOI](https://doi.org/10.1109/TPDS.2026.3728847) · [Metadata source](https://api.crossref.org/works/10.1109/TPDS.2026.3728847) · [Publisher abstract](https://ieeexplore.ieee.org/abstract/document/11672295/) · 37(11):2476–2493
-  - Date/access scope: Published online on 1 September 2026 and assigned to the November 2026 issue, a future issue month at this review. Annotation uses the publicly indexed publisher abstract; the full methodology and experimental evaluation were not independently reviewed.
+  - Date/access scope: Published online on 1 September 2026; final issue 37(11):2476–2493 is dated November 2026 and is now confirmed on IEEE Xplore and in Crossref. Annotation uses the publicly indexed publisher abstract; the full methodology and experimental evaluation were not independently reviewed.
   - Scope: General MEC optimization and economic cooperation research; no WLAN MAC implementation or IEEE 802.11bu adoption is established. Radio assumptions and experimental deployment details require full-text review.
 - **[2026 · IEEE Transactions on Vehicular Technology · Journal] [Topology-Aware Dynamic Offloading for MEC-Enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework](https://doi.org/10.1109/TVT.2026.3705747)** `WLAN`
   - Jointly optimizes AP selection and compute-load distribution in MAPC Wi-Fi; a reference for latency and load-balancing models with multiple offload destinations.

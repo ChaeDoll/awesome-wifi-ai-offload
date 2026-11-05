@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-10-27 · **논문:** 핵심 40편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-11-04 · **논문:** 핵심 41편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -28,10 +28,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Quick index
 
-학술지 37편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 38편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
+| 2026 | [TD3 Energy-Aware Split Inference](https://doi.org/10.1016/j.comnet.2026.112851) | Computer Networks · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Budget-Aware Multi-Agent LLM Routing](https://doi.org/10.26599/TST.2026.9010098) | Tsinghua Science and Technology (Just Accepted) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [CoMoE Collaborative MoE Inference](https://doi.org/10.1109/TMC.2026.3746721) | IEEE TMC (Early Access) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Uncertainty-Aware Video Offloading](https://doi.org/10.1109/TCC.2026.3745559) | IEEE TCC (Early Access) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
@@ -123,7 +124,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
   - 객체별 오프로딩과 deadline-aware 배치를 결합한 영상 추론 연구다. Wi-Fi 전송량과 서버 대기시간을 함께 줄이는 설계를 참고할 수 있다.
   - [DOI](https://doi.org/10.1016/j.future.2026.108610) · [서지 출처](https://www.sciencedirect.com/science/article/pii/S0167739X2600244X) · 184:Article 108610 (2026년 11월 권호 배정)
   - 한계: Wi-Fi를 전송 경로로 사용한 응용 계층 추론 연구이며 WLAN MAC 절차나 IEEE 802.11bu 채택 근거는 아니다. 전체 실험을 독립 검토하지 않아 정량적 이득은 인용하지 않는다.
-  - 날짜·근거: 출판사 초록과 서론은 이미 공개되어 있으며 2026년 11월은 배정된 미래 권호다. 정확한 온라인 출판일과 공개 전문은 확인하지 못했다.
+  - 날짜·근거: 출판사 초록과 서론은 이미 공개되어 있으며 2026년 11월은 해당 권호의 월이다. 정확한 온라인 출판일과 공개 전문은 확인하지 못했다.
 - **[2026 · IEEE Transactions on Mobile Computing · Journal] [MobiSplit: Mobility-Aware Inference Partitioning and Offloading for Efficient Edge Intelligence](https://doi.org/10.1109/TMC.2025.3620438)** `Transferable`
   - 단말 이동성, 변동하는 네트워크 상태와 계산 자원 제약에 맞춰 추론 분할·오프로딩을 조정한다. Wi-Fi 오프로딩 평가에 이동과 실행 중단 가능성을 반영하는 참고 자료다.
   - [DOI](https://doi.org/10.1109/TMC.2025.3620438) · [서지·초록 근거](https://scholars.cityu.edu.hk/en/publications/mobisplit-mobility-aware-inference-partitioning-and-offloading-fo/) · 25(3):3969–3984
@@ -156,6 +157,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Resource aware admission placement and scheduling
 
+- **[2026 · Computer Networks · Journal] [TD3-based semantic communication for energy-efficient DNN inference offloading in MEC networks](https://doi.org/10.1016/j.comnet.2026.112851)** `Transferable`
+  - 로컬 처리량과 중간 특징 크기의 비선형 관계를 반영하여 TD3로 단말·엣지 연산 분할과 OFDMA 대역폭 할당을 함께 선택한다. Wi-Fi 오프로딩 스케줄링에서 계산·통신 에너지 절충을 연구하는 데 참고할 수 있다.
+  - [DOI](https://doi.org/10.1016/j.comnet.2026.112851) · [기관 공개 초록](https://shdl.mmu.edu.my/17029/) · [출판사 등록 서지](https://api.crossref.org/works/10.1016/j.comnet.2026.112851) · 290:Article 112851 (2026년 11월)
+  - 근거: 기관 초록과 검색에 색인된 출판사 설명을 확인했으며 공개 전문은 확보하지 못했다. 11월은 최종 권호의 월이며 최초 온라인 출판일로 확인된 것은 아니다.
+  - 범위: OFDMA 자원 모델을 이용한 MEC 시뮬레이션으로, WLAN MAC 구현이나 IEEE 802.11bu 채택 근거가 아니다. 중간 특징의 신뢰성 있는 전달을 가정하며 의미 복원·특징 양자화·채널에 의한 특징 왜곡은 모델링하지 않는다. 전체 방법론은 독립 검토하지 않았으며 정량적 이득은 인용하지 않는다.
 - **[2026 · Tsinghua Science and Technology (Just Accepted) · Journal] [Online LLM Inference Routing for Multi-Agent Systems under Long-Term Budget and Layered Privacy Constraints](https://doi.org/10.26599/TST.2026.9010098)** `Transferable`
   - 장기 API 토큰·엣지 임대 예산 아래 다중 에이전트 LLM 추론을 단말·엣지·클라우드에 배치하며, Lyapunov 최적화와 협력형·제한정보형 라우팅 알고리즘을 결합한다. Wi-Fi 오프로딩 제공자 선택에 예산과 정보 공유 제약을 반영하는 데 참고할 수 있다.
   - [DOI](https://doi.org/10.26599/TST.2026.9010098) · [출판사 서지·초록](https://www.sciopen.com/article/10.26599/TST.2026.9010098) · [공개 원문](https://www.sciopen.com/local/article_pdf/10.26599/TST.2026.9010098.pdf) · Just Accepted
@@ -174,7 +180,7 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 - **[2026 · IEEE Transactions on Parallel and Distributed Systems · Journal] [Collaborative Large Model Caching and Inference Offloading With Parameter Sharing in MEC](https://doi.org/10.1109/TPDS.2026.3728847)** `Transferable`
   - 매개변수 공유를 활용한 모델 캐싱과 추론 오프로딩을 함께 다루며, 여러 MEC 제공자의 협력을 통해 정확도·지연·비용을 조정한다. 모델 가용성과 공유 매개변수 저장 비용을 오프로딩 제공자 선택에 반영하는 연구에 유용하다.
   - [DOI](https://doi.org/10.1109/TPDS.2026.3728847) · [서지 근거](https://api.crossref.org/works/10.1109/TPDS.2026.3728847) · [출판사 초록](https://ieeexplore.ieee.org/abstract/document/11672295/) · 37(11):2476–2493
-  - 날짜·접근 범위: 온라인 출판은 2026년 9월 1일이며 2026년 11월호로 배정되었다. 확인일 기준 11월호는 미래 권호다. 설명은 공개 검색으로 확인한 출판사 초록에 근거하며 전체 방법론과 실험 평가는 독립 검토하지 못했다.
+  - 날짜·접근 범위: 온라인 출판은 2026년 9월 1일이며 최종 권호는 37(11):2476–2493 (2026년 11월)로 IEEE Xplore와 Crossref에서 확인했다. 설명은 공개 검색으로 확인한 출판사 초록에 근거하며 전체 방법론과 실험 평가는 독립 검토하지 못했다.
   - 범위: 일반 MEC 최적화·경제적 협력 연구이며 WLAN MAC 구현이나 IEEE 802.11bu 채택의 근거는 아니다. 무선 모델의 가정과 실험 환경은 원문 추가 검토가 필요하다.
 - **[2026 · IEEE Transactions on Vehicular Technology · Journal] [Topology-Aware Dynamic Offloading for MEC-Enabled MAPC Wi-Fi Networks: A Multi-Agent Hierarchical DRL Framework](https://doi.org/10.1109/TVT.2026.3705747)** `WLAN`
   - MAPC Wi-Fi에서 AP 선택과 계산 부하 분배를 함께 최적화한다. 여러 AP를 오프로딩 후보로 삼는 지연·부하 균형 모델의 참고 사례다.
