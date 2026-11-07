@@ -4,6 +4,8 @@
 
 [English home](../README.en.md)
 
+**Presentation requests and WG status checked: 2026-11-07 (KST). Earlier agenda-text and document-review cutoffs below remain unchanged.**
+
 **November agenda r0/r1 text and official reflector checked: 2026-11-03 (KST). Earlier document-review cutoffs below remain unchanged.**
 
 **Cross-WG review records checked: 2026-10-27 (KST). Earlier document-review cutoffs below remain unchanged.**
@@ -83,6 +85,26 @@ The [IEEE 802 PAR review list](https://www.ieee802.org/PARs.shtml) lists P802.11
 Compared with r0, slides 16 and 19–21 prioritize review and resolution of PAR/CSD comments in the November sessions; technical submissions are now conditional on time permitting. The [chair's official announcement](https://www.ieee802.org/11/email/stds-802-11/msg09707.html) also identifies cross-WG PAR/CSD comments as the priority.
 
 Slide 18 lists 2057, *Thoughts on Authentication for AI Offload* (Ming Zhou); 2122, *Key Design Issues for AIO Framework* (Chung-Ta Ku); and 2130, *Thoughts on AI Offload Service Discovery* (Duncan Ho), all as **Pending**. Agenda placement does not verify that the presentations occurred, their technical contents were reviewed, or their proposals were adopted. The agenda does not establish final PAR/CSD approval or normative adoption.
+
+### Additional presentation requests on the official reflector
+
+These are requests to join the presentation queue: five from November 5–6 and two previously omitted requests from November 2. Dates are message dates (UTC), not Mentor upload or cover dates. Named contributors are those identified in the requests, not necessarily complete author lists.
+
+| Request date (UTC) | Document | Title | Contributor | Evidence |
+| --- | --- | --- | --- | --- |
+| 2026-11-02 | 11-26/2037 | AI Out of Control: The Wi-Fi Solution | Tao Chun Lee (MediaTek) | [Official request](https://www.ieee802.org/11/email/stds-802-11/msg09708.html) |
+| 2026-11-02 | 11-26/2185r0 | On Domain-Level AI Offload | Huixuan Zhou (OPPO) | [Official request](https://www.ieee802.org/11/email/stds-802-11/msg09710.html) |
+| 2026-11-05 | 11-26/1990r0 | AI Offload Service Continuity | Fathan Adi Pranaya (WILUS) | [Official request](https://www.ieee802.org/11/email/stds-802-11/msg09722.html) |
+| 2026-11-05 | 11-26/2246r0 | Open Issues for AIO Service Handling | Tongxin Shu (Sanechips) | [Official request](https://www.ieee802.org/11/email/stds-802-11/msg09724.html) |
+| 2026-11-06 | 11-26/2264 | AIO Service Establishment and WLAN Support | Xu Chen (Xiaomi) | [Official request](https://www.ieee802.org/11/email/stds-802-11/msg09725.html) |
+| 2026-11-06 | 11-26/2254 | Security considerations for AI Offload with non-collocated computing service provider | Sam Shi (OPPO) | [Official request](https://grouper.ieee.org/groups/802/11/email/stds-802-11/msg09727.html) |
+| 2026-11-06 | 11-26/2269 | Multi-stage AI computing service discovery | Sam Shi (OPPO) | [Official request](https://grouper.ieee.org/groups/802/11/email/stds-802-11/msg09727.html) |
+
+The requests do not specify revisions for 2037, 2264, 2254 or 2269. Contribution text, upload dates and cover dates were not verified in this check. Requests alone do not establish agenda inclusion, presentation, technical review, agreement or normative adoption.
+
+**2057 attribution:** Agenda slide 18 spells the name Ming Zhou, as preserved above, while the [contributor’s official October 23 request](https://www.ieee802.org/11/email/stds-802-11/msg09676.html) identifies 11-26/2057r0, *Thoughts on Authentication for AI Offload*, as **Ming Zhao (Huawei)**. This records the discrepancy without assuming that the agenda was corrected.
+
+This check covered the official reflector and WG status, not a complete fresh review of the Mentor catalog or contribution texts. It cannot establish that no newer revisions exist.
 
 ## Meeting minutes and status reports
 

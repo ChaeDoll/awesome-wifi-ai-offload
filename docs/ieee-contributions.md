@@ -2,6 +2,8 @@
 
 [한국어](ieee-contributions.md) | [English](ieee-contributions.en.md)
 
+**발표 요청·WG 현황 확인일: 2026-11-07 (한국시간). 아래 agenda 원문 및 기존 문서 검토 기준일은 유지한다.**
+
 **11월 agenda r0/r1 원문 및 공식 reflector 확인일: 2026-11-03 (한국시간). 아래 기존 문서 검토 기준일은 유지한다.**
 
 **다른 WG 검토 기록 확인일: 2026-10-27 (한국시간). 아래 기존 문서 검토 기준일은 유지한다.**
@@ -81,6 +83,26 @@ P802.11bu 관련 제안 의견은 범위·약어의 명확화, AI offload에 특
 r0와 비교하면 slides 16 및 19–21에서 11월 세션의 PAR/CSD 검토 의견 처리·해결을 우선하고, 기술 기고문 발표는 시간이 허용할 때 진행하도록 변경했다. [의장의 공식 공지](https://www.ieee802.org/11/email/stds-802-11/msg09707.html)도 다른 WG의 PAR/CSD 검토 의견을 우선한다고 설명한다.
 
 Slide 18은 2057, *Thoughts on Authentication for AI Offload* (Ming Zhou); 2122, *Key Design Issues for AIO Framework* (Chung-Ta Ku); 2130, *Thoughts on AI Offload Service Discovery* (Duncan Ho)를 모두 **Pending**으로 열거한다. 의제에 포함되었다는 사실은 실제 발표, 기술 본문 검토 또는 제안 채택을 입증하지 않는다. 이 의제는 PAR/CSD 최종 승인이나 규범적 채택의 증거가 아니다.
+
+### 공식 reflector의 추가 발표 요청
+
+다음은 발표 대기열에 추가해 달라는 요청 기록이다. 11월 5–6일 요청 5건과 기존 목록에서 빠진 11월 2일 요청 2건을 정리했다. 날짜는 메시지 날짜(UTC)이며 Mentor 업로드일이나 문서 표지 날짜가 아니다. 이름은 요청에 명시된 기고자이며 전체 저자 목록을 뜻하지 않는다.
+
+| 요청일 (UTC) | 문서 번호 | 제목 | 기고자 | 근거 |
+| --- | --- | --- | --- | --- |
+| 2026-11-02 | 11-26/2037 | AI Out of Control: The Wi-Fi Solution | Tao Chun Lee (MediaTek) | [공식 요청](https://www.ieee802.org/11/email/stds-802-11/msg09708.html) |
+| 2026-11-02 | 11-26/2185r0 | On Domain-Level AI Offload | Huixuan Zhou (OPPO) | [공식 요청](https://www.ieee802.org/11/email/stds-802-11/msg09710.html) |
+| 2026-11-05 | 11-26/1990r0 | AI Offload Service Continuity | Fathan Adi Pranaya (WILUS) | [공식 요청](https://www.ieee802.org/11/email/stds-802-11/msg09722.html) |
+| 2026-11-05 | 11-26/2246r0 | Open Issues for AIO Service Handling | Tongxin Shu (Sanechips) | [공식 요청](https://www.ieee802.org/11/email/stds-802-11/msg09724.html) |
+| 2026-11-06 | 11-26/2264 | AIO Service Establishment and WLAN Support | Xu Chen (Xiaomi) | [공식 요청](https://www.ieee802.org/11/email/stds-802-11/msg09725.html) |
+| 2026-11-06 | 11-26/2254 | Security considerations for AI Offload with non-collocated computing service provider | Sam Shi (OPPO) | [공식 요청](https://grouper.ieee.org/groups/802/11/email/stds-802-11/msg09727.html) |
+| 2026-11-06 | 11-26/2269 | Multi-stage AI computing service discovery | Sam Shi (OPPO) | [공식 요청](https://grouper.ieee.org/groups/802/11/email/stds-802-11/msg09727.html) |
+
+2037, 2264, 2254, 2269의 revision은 해당 요청에 명시되지 않았다. 기고문 원문·업로드일·표지 날짜는 이번에 확인하지 못했다. 이 요청만으로 agenda 반영, 실제 발표, 기술 내용 검토, 합의 또는 규범 채택을 확인할 수 없다.
+
+**2057 기고자 표기:** 위 agenda slide 18의 이름은 Ming Zhou로 표기되어 있으나, [10월 23일 기고자의 공식 요청](https://www.ieee802.org/11/email/stds-802-11/msg09676.html)은 11-26/2057r0, *Thoughts on Authentication for AI Offload*의 기고자를 **Ming Zhao (Huawei)**로 명시한다. 이 차이를 기록하며 agenda가 수정되었다고 가정하지 않는다.
+
+이번에는 공식 reflector와 WG 현황을 확인했다. Mentor catalog와 최신 기고문 원문 전체를 확인한 것은 아니므로 새 revision이 없다고 단정하지 않는다.
 
 ## 회의록과 상태 보고
 
