@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-11-06 · **논문:** 핵심 42편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-11-07 · **논문:** 핵심 43편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -28,10 +28,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Quick index
 
-학술지 39편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 40편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
+| 2026 | [Channel-Adaptive Edge AI](https://doi.org/10.1109/TCOMM.2026.3717007) | IEEE TCOM · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [P-EDCA Tail-Latency Control](https://doi.org/10.1016/j.jnca.2026.104568) | JNCA · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [TD3 Energy-Aware Split Inference](https://doi.org/10.1016/j.comnet.2026.112851) | Computer Networks · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Budget-Aware Multi-Agent LLM Routing](https://doi.org/10.26599/TST.2026.9010098) | Tsinghua Science and Technology (Just Accepted) · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
@@ -117,6 +118,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## DNN inference offloading and partitioning
 
+- **[2026 · IEEE Transactions on Communications · Journal] [Channel-Adaptive Edge AI: Maximizing Inference Throughput by Adapting Computational Complexity to Channel States](https://doi.org/10.1109/TCOMM.2026.3717007)** `Transferable`
+  - 채널 상태에 맞춰 특징 양자화 비트 수와 서버의 early-exit 깊이를 함께 조절한다. FLOPs 기반 계산 시간과 특징 전송 시간, 정확도 사이의 절충을 모델링하는 참고 자료다.
+  - [DOI](https://doi.org/10.1109/TCOMM.2026.3717007) · [기관 서지](https://hub.hku.hk/handle/10722/381141) · [공개 저자 원고(v2)](https://arxiv.org/html/2603.03146v2) · 74:11977–11990
+  - 열람 범위: 저자 원고 v2의 통신 모델·성능 지표·평가 설정(§§II-B, II-C, V-A)을 확인했다. 최종 저널 서지는 기관 기록으로 검증했으며 정확한 온라인 출판일은 확인하지 못했다.
+  - 범위: Shannon 전송률과 가정한 연산 속도를 사용하며 WLAN 경쟁·재전송·대기열이나 하드웨어 지연을 검증한 연구는 아니다. EPR은 특징 bit/s 지표이므로 비트 수가 달라질 때 완료 추론 건수/s로 동일시하지 않는다. IEEE 802.11bu 채택 근거가 아니다.
 - **[2026 · IEEE Transactions on Vehicular Technology · Journal · Early Access] [Latency-Efficient LLM Split Inference With Token Reduction](https://doi.org/10.1109/TVT.2026.3742922)** `Transferable`
   - LLM 분할 계층, 유지할 토큰, 무선·엣지 자원을 함께 선택해 prefill 지연을 줄인다. 중간 데이터 축소가 Wi-Fi 오프로딩의 계산·통신 절충에 미치는 영향을 연구할 때 참고할 수 있다.
   - [DOI](https://doi.org/10.1109/TVT.2026.3742922) · [IEEE publisher abstract](https://ieeexplore.ieee.org/abstract/document/11734004) · [Author bibliography](https://www.scss.tcd.ie/Viet.Pham/publication.html) · Early Access, pp. 1–6 (2026-10-12)

@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-11-06 · **Papers:** 42 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-11-07 · **Papers:** 43 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -28,10 +28,11 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 39 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 40 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
+| 2026 | [Channel-Adaptive Edge AI](https://doi.org/10.1109/TCOMM.2026.3717007) | IEEE TCOM · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [P-EDCA Tail-Latency Control](https://doi.org/10.1016/j.jnca.2026.104568) | JNCA · Journal | [WLAN latency](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [TD3 Energy-Aware Split Inference](https://doi.org/10.1016/j.comnet.2026.112851) | Computer Networks · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Budget-Aware Multi-Agent LLM Routing](https://doi.org/10.26599/TST.2026.9010098) | Tsinghua Science and Technology (Just Accepted) · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
@@ -117,6 +118,11 @@ Ordered as 39 journal articles → 1 magazine article → 3 conference papers, n
 
 ## DNN inference offloading and partitioning
 
+- **[2026 · IEEE Transactions on Communications · Journal] [Channel-Adaptive Edge AI: Maximizing Inference Throughput by Adapting Computational Complexity to Channel States](https://doi.org/10.1109/TCOMM.2026.3717007)** `Transferable`
+  - Jointly adapts feature quantization and server early-exit depth to channel conditions. Useful for modeling the accuracy trade-off between FLOPs-based compute time and feature-transfer time.
+  - [DOI](https://doi.org/10.1109/TCOMM.2026.3717007) · [Institutional bibliography](https://hub.hku.hk/handle/10722/381141) · [Author manuscript (v2)](https://arxiv.org/html/2603.03146v2) · 74:11977–11990
+  - Evidence: Author manuscript v2 communication, metric and evaluation-setting sections (II-B, II-C, V-A) checked. Final journal bibliography verified from the institution; exact online-publication date unverified.
+  - Scope: Uses Shannon rates and assumed compute speeds; no WLAN contention, retransmission, queueing or hardware-latency validation. EPR measures feature bits/s, not completed inferences/s when bit-width varies. No IEEE 802.11bu adoption is established.
 - **[2026 · IEEE Transactions on Vehicular Technology · Journal · Early Access] [Latency-Efficient LLM Split Inference With Token Reduction](https://doi.org/10.1109/TVT.2026.3742922)** `Transferable`
   - Jointly selects the LLM split layer, retained tokens and radio/edge resources to reduce prefill latency. Useful for studying how intermediate-payload reduction changes the computation–communication trade-off in Wi-Fi offloading.
   - [DOI](https://doi.org/10.1109/TVT.2026.3742922) · [IEEE publisher abstract](https://ieeexplore.ieee.org/abstract/document/11734004) · [Author bibliography](https://www.scss.tcd.ie/Viet.Pham/publication.html) · Early Access, pp. 1–6 (2026-10-12)

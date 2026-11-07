@@ -1,7 +1,7 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "42 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "scope_note": "43 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
   "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year. If no final issue is verified, explicitly label the verified online-publication year and publisher status (Early Access or Just Accepted); distinguish future assigned issue dates from online-publication dates.",
   "papers": [
     {
@@ -1560,7 +1560,45 @@
         "simulation"
       ],
       "optional": false
+    },
+    {
+      "id": "inference-channel-adaptive2026",
+      "title": "Channel-Adaptive Edge AI: Maximizing Inference Throughput by Adapting Computational Complexity to Channel States",
+      "authors": [
+        "Jierui Zhang",
+        "Jianhao Huang",
+        "Kaibin Huang"
+      ],
+      "year": 2026,
+      "early_access_year": null,
+      "venue": "IEEE Transactions on Communications",
+      "publication_type": "journal",
+      "doi": "10.1109/TCOMM.2026.3717007",
+      "doi_url": "https://doi.org/10.1109/TCOMM.2026.3717007",
+      "category": "inference_partition",
+      "relevance_scope": "transferable_edge_ai",
+      "relevance_en": "Jointly adapts feature quantization and server early-exit depth to channel conditions. Useful for modeling the accuracy trade-off between FLOPs-based compute time and feature-transfer time.",
+      "relevance_ko": "채널 상태에 맞춰 특징 양자화 비트 수와 서버의 early-exit 깊이를 함께 조절한다. FLOPs 기반 계산 시간과 특징 전송 시간, 정확도 사이의 절충을 모델링하는 참고 자료다.",
+      "metadata_sources": [
+        "https://hub.hku.hk/handle/10722/381141",
+        "https://arxiv.org/abs/2603.03146v2"
+      ],
+      "open_access_url": "https://arxiv.org/html/2603.03146v2",
+      "citation_details": "74:11977–11990",
+      "limitations": "Uses Shannon rates and assumed compute speeds; no WLAN contention, retransmission, queueing or hardware-latency validation. EPR measures feature bits/s, not completed inferences/s when bit-width varies. No IEEE 802.11bu adoption is established.",
+      "limitations_ko": "Shannon 전송률과 가정한 연산 속도를 사용하며 WLAN 경쟁·재전송·대기열이나 하드웨어 지연을 검증한 연구는 아니다. EPR은 특징 bit/s 지표이므로 비트 수가 달라질 때 완료 추론 건수/s로 동일시하지 않는다. IEEE 802.11bu 채택 근거가 아니다.",
+      "content_evidence_note": "Author manuscript v2 sections II-B, II-C and V-A checked. Computation time is derived from FLOPs and configured device/server speeds; result-download and adaptation overhead are omitted. The final publisher text was not independently reviewed.",
+      "publication_date_note": "HKU verifies the 2026 journal volume and pages. Exact online-publication and issue dates were not independently verified; the institutional 1 January date is not treated as a precise publication date.",
+      "verified_on": "2026-11-07",
+      "tags": [
+        "feature quantization",
+        "early exit",
+        "channel adaptation",
+        "FLOPs-based latency",
+        "edge processing rate"
+      ],
+      "optional": false
     }
   ],
-  "updated_on": "2026-11-06"
+  "updated_on": "2026-11-07"
 }
