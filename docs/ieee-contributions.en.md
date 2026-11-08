@@ -4,7 +4,7 @@
 
 [English home](../README.en.md)
 
-**Presentation requests and WG status checked: 2026-11-07 (KST). Earlier agenda-text and document-review cutoffs below remain unchanged.**
+**Presentation requests and WG status checked: 2026-11-09 (KST). Earlier agenda-text and document-review cutoffs below remain unchanged.**
 
 **November agenda r0/r1 text and official reflector checked: 2026-11-03 (KST). Earlier document-review cutoffs below remain unchanged.**
 
@@ -88,7 +88,7 @@ Slide 18 lists 2057, *Thoughts on Authentication for AI Offload* (Ming Zhou); 21
 
 ### Additional presentation requests on the official reflector
 
-These are requests to join the presentation queue: five from November 5–6 and two previously omitted requests from November 2. Dates are message dates (UTC), not Mentor upload or cover dates. Named contributors are those identified in the requests, not necessarily complete author lists.
+These eight contributions were requested for the presentation queue on November 2–7. Dates are message dates (UTC), not Mentor upload or cover dates. Named contributors are those identified in the requests, not necessarily complete author lists.
 
 | Request date (UTC) | Document | Title | Contributor | Evidence |
 | --- | --- | --- | --- | --- |
@@ -99,8 +99,9 @@ These are requests to join the presentation queue: five from November 5–6 and 
 | 2026-11-06 | 11-26/2264 | AIO Service Establishment and WLAN Support | Xu Chen (Xiaomi) | [Official request](https://www.ieee802.org/11/email/stds-802-11/msg09725.html) |
 | 2026-11-06 | 11-26/2254 | Security considerations for AI Offload with non-collocated computing service provider | Sam Shi (OPPO) | [Official request](https://grouper.ieee.org/groups/802/11/email/stds-802-11/msg09727.html) |
 | 2026-11-06 | 11-26/2269 | Multi-stage AI computing service discovery | Sam Shi (OPPO) | [Official request](https://grouper.ieee.org/groups/802/11/email/stds-802-11/msg09727.html) |
+| 2026-11-07 | 11-26/2092r0 | AIO Session Setup for a Service with Multiple AI Models | Asaf Zebulon (WILUS) | [Official request](https://www.ieee802.org/11/email/stds-802-11/msg09731.html) |
 
-The requests do not specify revisions for 2037, 2264, 2254 or 2269. Contribution text, upload dates and cover dates were not verified in this check. Requests alone do not establish agenda inclusion, presentation, technical review, agreement or normative adoption.
+The requests do not specify revisions for 2037, 2264, 2254 or 2269. The 2092r0 request quotes a catalog-style row dated 2026-10-28 ET and marked Pending. This is requester-quoted metadata, not independent verification of the Mentor upload date. Contribution text, upload dates and cover dates were not directly verified in this check. Requests alone do not establish agenda inclusion, presentation, technical review, agreement or normative adoption.
 
 **2057 attribution:** Agenda slide 18 spells the name Ming Zhou, as preserved above, while the [contributor’s official October 23 request](https://www.ieee802.org/11/email/stds-802-11/msg09676.html) identifies 11-26/2057r0, *Thoughts on Authentication for AI Offload*, as **Ming Zhao (Huawei)**. This records the discrepancy without assuming that the agenda was corrected.
 
