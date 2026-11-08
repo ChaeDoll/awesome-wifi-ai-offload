@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-11-07 · **Papers:** 43 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-11-09 · **Papers:** 44 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -28,10 +28,11 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 40 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 41 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
+| 2026 | [Distributional RL Early Exits](https://doi.org/10.1016/j.comnet.2026.112652) | Computer Networks · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Channel-Adaptive Edge AI](https://doi.org/10.1109/TCOMM.2026.3717007) | IEEE TCOM · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [P-EDCA Tail-Latency Control](https://doi.org/10.1016/j.jnca.2026.104568) | JNCA · Journal | [WLAN latency](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [TD3 Energy-Aware Split Inference](https://doi.org/10.1016/j.comnet.2026.112851) | Computer Networks · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
@@ -164,6 +165,11 @@ Ordered as 40 journal articles → 1 magazine article → 3 conference papers, n
 
 ## Resource aware admission placement and scheduling
 
+- **[2026 · Computer Networks · Journal] [Distributional Reinforcement Learning for task offloading, resource allocation and early exit selection at the edge](https://doi.org/10.1016/j.comnet.2026.112652)** `Transferable`
+  - Jointly selects local or edge execution, early exits and radio/compute allocations using distributional reinforcement learning. Useful for studying task completion, queueing and the accuracy–deadline trade-off in Wi-Fi offload scheduling.
+  - [DOI](https://doi.org/10.1016/j.comnet.2026.112652) · [Institutional record](https://iris.polito.it/handle/11583/3013915) · [Open publisher version](https://iris.polito.it/retrieve/e4db2715-1356-46eb-8369-0d1236a47428/1-s2.0-S138912862600664X-main.pdf) · 288:Article 112652 (October 2026 issue)
+  - Evidence: Reviewed the open version of record's system model, constraint handling, evaluation settings and accuracy/risk trade-offs. Published online on 7 August 2026.
+  - Scope: Three-user cellular simulation with 3GPP PRB/MCS/BLER modeling and fixed total radio/compute resources in evaluated runs. Early exits trade accuracy for completion; deadline violations are penalized, not ruled out. No WLAN MAC, hardware validation or IEEE 802.11bu adoption is established; no quantitative gain is generalized.
 - **[2026 · Computer Networks · Journal] [TD3-based semantic communication for energy-efficient DNN inference offloading in MEC networks](https://doi.org/10.1016/j.comnet.2026.112851)** `Transferable`
   - Uses TD3 to jointly choose local-edge computation partitioning and OFDMA bandwidth allocation, accounting for the nonlinear relationship between local processing and intermediate-feature size. Useful for studying compute/communication energy tradeoffs in Wi-Fi offload scheduling.
   - [DOI](https://doi.org/10.1016/j.comnet.2026.112851) · [Institutional abstract](https://shdl.mmu.edu.my/17029/) · [Publisher-deposited metadata](https://api.crossref.org/works/10.1016/j.comnet.2026.112851) · 290:Article 112851 (November 2026)

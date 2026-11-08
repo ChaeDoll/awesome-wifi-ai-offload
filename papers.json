@@ -1,7 +1,7 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "43 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "scope_note": "44 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
   "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year. If no final issue is verified, explicitly label the verified online-publication year and publisher status (Early Access or Just Accepted); distinguish future assigned issue dates from online-publication dates.",
   "papers": [
     {
@@ -1598,7 +1598,49 @@
         "edge processing rate"
       ],
       "optional": false
+    },
+    {
+      "id": "inference-distributional-ee2026",
+      "title": "Distributional Reinforcement Learning for task offloading, resource allocation and early exit selection at the edge",
+      "authors": [
+        "Simone Angelucci",
+        "Roberto Valentini",
+        "Marco Levorato",
+        "Fortunato Santucci",
+        "Carla Fabiana Chiasserini"
+      ],
+      "year": 2026,
+      "early_access_year": null,
+      "venue": "Computer Networks",
+      "publication_type": "journal",
+      "doi": "10.1016/j.comnet.2026.112652",
+      "doi_url": "https://doi.org/10.1016/j.comnet.2026.112652",
+      "category": "resource_scheduling",
+      "relevance_scope": "transferable_mec",
+      "relevance_en": "Jointly selects local or edge execution, early exits and radio/compute allocations using distributional reinforcement learning. Useful for studying task completion, queueing and the accuracy–deadline trade-off in Wi-Fi offload scheduling.",
+      "relevance_ko": "분포형 강화학습으로 로컬·엣지 실행 위치, 조기 종료 지점과 무선·연산 자원 배분을 함께 선택한다. Wi-Fi 오프로딩 스케줄링의 작업 완료율·대기열과 정확도·마감 시간 절충을 연구하는 참고 자료다.",
+      "metadata_sources": [
+        "https://www.sciencedirect.com/science/article/pii/S138912862600664X",
+        "https://iris.polito.it/handle/11583/3013915",
+        "https://iris.polito.it/retrieve/e4db2715-1356-46eb-8369-0d1236a47428/1-s2.0-S138912862600664X-main.pdf"
+      ],
+      "open_access_url": "https://iris.polito.it/retrieve/e4db2715-1356-46eb-8369-0d1236a47428/1-s2.0-S138912862600664X-main.pdf",
+      "citation_details": "288:Article 112652 (October 2026)",
+      "limitations": "Three-user cellular simulation with 3GPP PRB/MCS/BLER modeling and fixed total radio/compute resources in evaluated runs. Early exits trade accuracy for completion; deadline violations are penalized, not ruled out. No WLAN MAC, hardware validation or IEEE 802.11bu adoption is established; no quantitative gain is generalized.",
+      "limitations_ko": "3GPP PRB·MCS·BLER 모델을 사용하는 3사용자 셀룰러 시뮬레이션이며, 평가 시 총 무선·연산 자원은 시간에 따라 고정된다. 조기 종료는 정확도와 완료율을 절충하고 마감 시간 위반에는 페널티를 부여하므로 위반 방지를 보장하지 않는다. WLAN MAC·하드웨어 실증이나 IEEE 802.11bu 채택 근거가 아니며 정량적 이득을 일반화하지 않는다.",
+      "content_evidence_note": "The institutional open version of record was inspected, including its title page, system model (§3), constraint handling (§4), evaluation settings and accuracy/risk trade-offs (§5), and conclusion. This was source-text review, not experimental replication.",
+      "publication_date_note": "The publisher PDF records acceptance on 3 August 2026 and online availability on 7 August 2026. The publisher article page assigns volume 288, article 112652 to October 2026. The institutional repository cover timestamp is not the publication date.",
+      "verified_on": "2026-11-09",
+      "tags": [
+        "early exit",
+        "distributional reinforcement learning",
+        "task queues",
+        "deadline violations",
+        "accuracy trade-off",
+        "cellular simulation"
+      ],
+      "optional": false
     }
   ],
-  "updated_on": "2026-11-07"
+  "updated_on": "2026-11-09"
 }

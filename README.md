@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-11-07 · **논문:** 핵심 43편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-11-09 · **논문:** 핵심 44편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -28,10 +28,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Quick index
 
-학술지 40편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 41편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
+| 2026 | [Distributional RL Early Exits](https://doi.org/10.1016/j.comnet.2026.112652) | Computer Networks · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Channel-Adaptive Edge AI](https://doi.org/10.1109/TCOMM.2026.3717007) | IEEE TCOM · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [P-EDCA Tail-Latency Control](https://doi.org/10.1016/j.jnca.2026.104568) | JNCA · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [TD3 Energy-Aware Split Inference](https://doi.org/10.1016/j.comnet.2026.112851) | Computer Networks · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
@@ -164,6 +165,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Resource aware admission placement and scheduling
 
+- **[2026 · Computer Networks · Journal] [Distributional Reinforcement Learning for task offloading, resource allocation and early exit selection at the edge](https://doi.org/10.1016/j.comnet.2026.112652)** `Transferable`
+  - 분포형 강화학습으로 로컬·엣지 실행 위치, 조기 종료 지점과 무선·연산 자원 배분을 함께 선택한다. Wi-Fi 오프로딩 스케줄링의 작업 완료율·대기열과 정확도·마감 시간 절충을 연구하는 참고 자료다.
+  - [DOI](https://doi.org/10.1016/j.comnet.2026.112652) · [기관 서지](https://iris.polito.it/handle/11583/3013915) · [공개 출판사 판본](https://iris.polito.it/retrieve/e4db2715-1356-46eb-8369-0d1236a47428/1-s2.0-S138912862600664X-main.pdf) · 288:Article 112652 (2026년 10월호)
+  - 열람 범위: 공개된 출판사 판본의 시스템 모델·제약 처리·평가 설정과 정확도·위험 절충을 확인했다. 온라인 출판일은 2026년 8월 7일이다.
+  - 범위: 3GPP PRB·MCS·BLER 모델을 사용하는 3사용자 셀룰러 시뮬레이션이며, 평가 시 총 무선·연산 자원은 시간에 따라 고정된다. 조기 종료는 정확도와 완료율을 절충하고 마감 시간 위반에는 페널티를 부여하므로 위반 방지를 보장하지 않는다. WLAN MAC·하드웨어 실증이나 IEEE 802.11bu 채택 근거가 아니며 정량적 이득을 일반화하지 않는다.
 - **[2026 · Computer Networks · Journal] [TD3-based semantic communication for energy-efficient DNN inference offloading in MEC networks](https://doi.org/10.1016/j.comnet.2026.112851)** `Transferable`
   - 로컬 처리량과 중간 특징 크기의 비선형 관계를 반영하여 TD3로 단말·엣지 연산 분할과 OFDMA 대역폭 할당을 함께 선택한다. Wi-Fi 오프로딩 스케줄링에서 계산·통신 에너지 절충을 연구하는 데 참고할 수 있다.
   - [DOI](https://doi.org/10.1016/j.comnet.2026.112851) · [기관 공개 초록](https://shdl.mmu.edu.my/17029/) · [출판사 등록 서지](https://api.crossref.org/works/10.1016/j.comnet.2026.112851) · 290:Article 112851 (2026년 11월)
