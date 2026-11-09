@@ -4,11 +4,7 @@
 
 [English home](../README.en.md)
 
-**Presentation requests and WG status checked: 2026-11-09 (KST). Earlier agenda-text and document-review cutoffs below remain unchanged.**
-
-**November agenda r0/r1 text and official reflector checked: 2026-11-03 (KST). Earlier document-review cutoffs below remain unchanged.**
-
-**Cross-WG review records checked: 2026-10-27 (KST). Earlier document-review cutoffs below remain unchanged.**
+**November agenda r2 text, selected Mentor upload metadata, cross-WG comments, reflector and WG status checked: 2026-11-10 (KST). Earlier technical-document review cutoffs below remain unchanged.**
 
 **Document review cutoff: 2026-10-06 (KST); 1944r1 text/catalog comparison: 2026-10-10 (KST)**
 
@@ -60,7 +56,7 @@ date is the upload date (ET) in the IEEE Mentor catalog. cover_date is the separ
 
  Describes the direction for discovery, session setup/authorization, information exchange, and teardown. It aims for independence from the PHY/lower MAC and software upgrades for existing devices, and gives advertising model availability/characteristics as an example.
 
-## Cross-WG review — proposed feedback
+## Cross-WG review — proposed and submitted comments
 
 ### 2026-10-26 IEEE 802.3 PAR review ad hoc
 
@@ -68,23 +64,34 @@ date is the upload date (ET) in the IEEE Mentor catalog. cover_date is the separ
 - Author: Kent Lusted, IEEE 802.3 PAR review ad hoc chair
 - Status: proposed_feedback_not_final_WG_comments_or_AIO_adoption
 
-The proposed P802.11bu comments request clearer scope/acronyms, evidence of vendor support for AI offload specifically, architectural-boundary clarification, and references demonstrating technical feasibility. The message invites changes until 2026-11-09 at 09:00 Bangkok time; submission on behalf of IEEE 802.3 remains an intention, not a verified completed action.
+The proposed P802.11bu comments request clearer scope/acronyms, evidence of vendor support for AI offload specifically, architectural-boundary clarification, and references demonstrating technical feasibility. The message invited changes until 2026-11-09 at 09:00 Bangkok time. At that stage, submission on behalf of IEEE 802.3 was still an intention. The later WG submission is recorded below.
+
+### 2026-11-09 IEEE 802.3 WG comments submitted to LMSC
+
+- [Official LMSC reflector record](https://www.ieee802.org/email/stds-802-lmsc/msg01348.html)
+- Author: Kent Lusted, IEEE 802.3 PAR review ad hoc chair
+- Message date (UTC): 2026-11-09 04:00:33
+- Status: WG_comments_submitted_not_AIO_resolution_or_adoption
+
+The post explicitly provides IEEE 802.3 WG comments. For P802.11bu, it requests clearer acronyms and scope wording, vendor-support evidence specific to AI offload, clarification of the 802.11 architectural boundary, and references demonstrating technical feasibility. This verifies submission of WG comments, not their acceptance or resolution by 802.11, final PAR approval, or normative adoption.
 
 The [IEEE 802 PAR review list](https://www.ieee802.org/PARs.shtml) lists P802.11bu for 2026-11-09–13 consideration. These records do not establish final PAR approval or normative adoption.
 
 ## November 2026 meeting plan — not meeting outcomes
 
-### IEEE 802.11-26/1914r1 — AI Offload Study Group November 2026 Meeting Agenda
+### IEEE 802.11-26/1914r2 — AI Offload Study Group November 2026 Meeting Agenda
 
-- [Official source](https://mentor.ieee.org/802.11/dcn/26/11-26-1914-01-0aio-aio-sg-november-2026-meeting-agenda.pptx)
+- [Official source](https://mentor.ieee.org/802.11/dcn/26/11-26-1914-02-0aio-aio-sg-november-2026-meeting-agenda.pptx)
 - Author: Gaurang Naik | Affiliation: Qualcomm Technologies, Inc.
-- Upload date (ET): 2026-11-02 | Cover date: 2026-11-01
+- Upload date (ET): 2026-11-07 02:09:29 | Cover date: 2026-11-01
 - Topics: agenda, PAR/CSD review, planned contributions
 - Status: planned_agenda_not_meeting_outcomes_or_adoption
 
-Compared with r0, slides 16 and 19–21 prioritize review and resolution of PAR/CSD comments in the November sessions; technical submissions are now conditional on time permitting. The [chair's official announcement](https://www.ieee802.org/11/email/stds-802-11/msg09707.html) also identifies cross-WG PAR/CSD comments as the priority.
+Revision r2 retains the priority of PAR/CSD comment review and resolution; technical submissions remain conditional on time permitting. The [chair's official announcement](https://www.ieee802.org/11/email/stds-802-11/msg09707.html) describes the same priority.
 
-Slide 18 lists 2057, *Thoughts on Authentication for AI Offload* (Ming Zhou); 2122, *Key Design Issues for AIO Framework* (Chung-Ta Ku); and 2130, *Thoughts on AI Offload Service Discovery* (Duncan Ho), all as **Pending**. Agenda placement does not verify that the presentations occurred, their technical contents were reviewed, or their proposals were adopted. The agenda does not establish final PAR/CSD approval or normative adoption.
+Slide 18 expands the r1 queue from three submissions to twelve, all **Pending**: 2057, 2122, 2130, 2037, 2185, 2242, 1990, 2246, 2264, 2254, 2269 and 2092. This includes all eight reflector requests below, plus 2242, *Agent as a Service in WLAN* (Ziyang Guo). The original three are 2057, *Thoughts on Authentication for AI Offload* (agenda spelling: Ming Zhou); 2122, *Key Design Issues for AIO Framework* (Chung-Ta Ku); and 2130, *Thoughts on AI Offload Service Discovery* (Duncan Ho).
+
+Slides 19, 21 and 22 add 2266, *AIO PAR and CSD comments* (Gaurang Naik), to comment-review plans and assign conditional technical slots across Tuesday evening, Wednesday AM1 and Thursday PM2. Slide 20 contains a motion template for approving 1944r1 September minutes, but its mover, second and result are blank. Neither the planned slots nor the blank motion establish presentation, minutes approval, agreement or normative adoption.
 
 ### Additional presentation requests on the official reflector
 
@@ -101,11 +108,25 @@ These eight contributions were requested for the presentation queue on November 
 | 2026-11-06 | 11-26/2269 | Multi-stage AI computing service discovery | Sam Shi (OPPO) | [Official request](https://grouper.ieee.org/groups/802/11/email/stds-802-11/msg09727.html) |
 | 2026-11-07 | 11-26/2092r0 | AIO Session Setup for a Service with Multiple AI Models | Asaf Zebulon (WILUS) | [Official request](https://www.ieee802.org/11/email/stds-802-11/msg09731.html) |
 
-The requests do not specify revisions for 2037, 2264, 2254 or 2269. The 2092r0 request quotes a catalog-style row dated 2026-10-28 ET and marked Pending. This is requester-quoted metadata, not independent verification of the Mentor upload date. Contribution text, upload dates and cover dates were not directly verified in this check. Requests alone do not establish agenda inclusion, presentation, technical review, agreement or normative adoption.
+The requests do not specify revisions for 2037, 2264, 2254 or 2269. The 2092r0 request quotes a catalog-style row dated 2026-10-28 ET and marked Pending. This is requester-quoted metadata, not independent verification of the Mentor upload date. Selected upload metadata was independently verified as listed below; contribution text and cover dates were not reviewed for these technical submissions. Requests alone do not establish agenda inclusion, presentation, technical review, agreement or normative adoption.
 
 **2057 attribution:** Agenda slide 18 spells the name Ming Zhou, as preserved above, while the [contributor’s official October 23 request](https://www.ieee802.org/11/email/stds-802-11/msg09676.html) identifies 11-26/2057r0, *Thoughts on Authentication for AI Offload*, as **Ming Zhao (Huawei)**. This records the discrepancy without assuming that the agenda was corrected.
 
-This check covered the official reflector and WG status, not a complete fresh review of the Mentor catalog or contribution texts. It cannot establish that no newer revisions exist.
+### Independently verified Mentor uploads
+
+The [official AIO catalog](https://mentor.ieee.org/802.11/documents?is_group=0aio) verified the following revisions and upload timestamps. These are separate from request dates and agenda status. Contributor names are catalog entries, not independently checked full author lists.
+
+| Document | Catalog contributor | Uploaded (ET) |
+| --- | --- | --- |
+| 2057r0 | Ming Zhao (Huawei) | 2026-11-08 02:33:30 |
+| 2037r0 | Tao Chun Lee (MediaTek) | 2026-11-08 23:57:24 |
+| 2185r0 | Huixuan Zhou (OPPO) | 2026-11-09 05:02:35 |
+| 2242r0 | Ziyang Guo (Huawei) | 2026-11-08 23:11:28 |
+| 2254r0 | Sam Shi (OPPO) | 2026-11-08 10:40:25 |
+| 2269r0 | Sam Shi (OPPO) | 2026-11-09 12:32:31 |
+| 2122r0 | Chung-Ta Ku (MediaTek) | 2026-11-09 17:50:33 |
+
+The catalog also identifies 2057r0's contributor as Ming Zhao (Huawei); r2 still spells the name Ming Zhou. Upload verification does not establish presentation, technical review or adoption. This check reviewed the r2 agenda text, the listed catalog metadata, official cross-WG comments, reflector and WG status. It did not review all new contribution texts or verify that no newer revisions exist. Earlier technical-document review cutoffs remain unchanged.
 
 ## Meeting minutes and status reports
 

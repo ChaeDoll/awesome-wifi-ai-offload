@@ -2,11 +2,7 @@
 
 [한국어](ieee-contributions.md) | [English](ieee-contributions.en.md)
 
-**발표 요청·WG 현황 확인일: 2026-11-09 (한국시간). 아래 agenda 원문 및 기존 문서 검토 기준일은 유지한다.**
-
-**11월 agenda r0/r1 원문 및 공식 reflector 확인일: 2026-11-03 (한국시간). 아래 기존 문서 검토 기준일은 유지한다.**
-
-**다른 WG 검토 기록 확인일: 2026-10-27 (한국시간). 아래 기존 문서 검토 기준일은 유지한다.**
+**11월 agenda r2 원문·일부 Mentor 업로드 정보·다른 WG 의견·reflector·WG 현황 확인일: 2026-11-10 (한국시간). 아래 기존 기술 문서 검토 기준일은 유지한다.**
 
 **문서 검토 기준일: 2026-10-06 (한국시간); 1944r1 원문·catalog 대조일: 2026-10-10 (한국시간)**
 
@@ -58,7 +54,7 @@ date는 IEEE Mentor catalog의 업로드일(ET). cover_date는 별도 확인된 
 
  Discovery, session setup/authorization, 정보 교환과 teardown의 방향을 설명한다. PHY/lower-MAC 독립과 기존 장치의 software upgrade를 지향하며 모델 availability/characteristics 광고를 예시로 든다.
 
-## 다른 WG의 검토 — 제안된 의견
+## 다른 WG의 검토 — 제안 의견과 제출된 의견
 
 ### 2026-10-26 IEEE 802.3 PAR review ad hoc
 
@@ -66,23 +62,34 @@ date는 IEEE Mentor catalog의 업로드일(ET). cover_date는 별도 확인된 
 - 작성자: Kent Lusted, IEEE 802.3 PAR review ad hoc 의장
 - 상태: proposed_feedback_not_final_WG_comments_or_AIO_adoption
 
-P802.11bu 관련 제안 의견은 범위·약어의 명확화, AI offload에 특화된 공급업체 지지 근거, 아키텍처 경계 설명, 기술적 실현 가능성을 보여주는 참고 자료를 요청한다. 2026-11-09 방콕 시간 09:00까지 변경 의견을 받으며, IEEE 802.3을 대표한 제출은 예정으로 기술되어 있을 뿐 완료가 확인된 것은 아니다.
+P802.11bu 관련 제안 의견은 범위·약어의 명확화, AI offload에 특화된 공급업체 지지 근거, 아키텍처 경계 설명, 기술적 실현 가능성을 보여주는 참고 자료를 요청한다. 이 메시지는 2026-11-09 방콕 시간 09:00까지 변경 의견을 요청했으며, 당시 IEEE 802.3을 대표한 제출은 예정 단계였다. 이후 WG 의견 제출 기록은 아래와 같다.
+
+### 2026-11-09 IEEE 802.3 WG 의견의 LMSC 제출
+
+- [공식 LMSC reflector 기록](https://www.ieee802.org/email/stds-802-lmsc/msg01348.html)
+- 작성자: Kent Lusted, IEEE 802.3 PAR review ad hoc 의장
+- 메시지 날짜(UTC): 2026-11-09 04:00:33
+- 상태: WG_comments_submitted_not_AIO_resolution_or_adoption
+
+이 게시물은 IEEE 802.3 WG의 의견임을 명시한다. P802.11bu에 대해 약어·범위 표현 명확화, AI offload에 특화된 공급업체 지지 근거, 802.11 아키텍처 경계 설명, 기술적 실현 가능성을 보여주는 참고 자료를 요청한다. 이는 WG 의견의 제출을 확인한 것이며, 802.11의 의견 수용·해결, PAR 최종 승인 또는 규범적 채택을 뜻하지 않는다.
 
 [IEEE 802 PAR 검토 목록](https://www.ieee802.org/PARs.shtml)은 P802.11bu를 2026-11-09–13 검토 대상으로 열거한다. 이 기록은 PAR 최종 승인이나 규범적 채택을 입증하지 않는다.
 
 ## 2026년 11월 회의 계획 — 회의 결과가 아님
 
-### IEEE 802.11-26/1914r1 — AI Offload Study Group November 2026 Meeting Agenda
+### IEEE 802.11-26/1914r2 — AI Offload Study Group November 2026 Meeting Agenda
 
-- [공식 원문](https://mentor.ieee.org/802.11/dcn/26/11-26-1914-01-0aio-aio-sg-november-2026-meeting-agenda.pptx)
+- [공식 원문](https://mentor.ieee.org/802.11/dcn/26/11-26-1914-02-0aio-aio-sg-november-2026-meeting-agenda.pptx)
 - 저자: Gaurang Naik | 소속: Qualcomm Technologies, Inc.
-- 업로드일(ET): 2026-11-02 | 표지 날짜: 2026-11-01
+- 업로드일(ET): 2026-11-07 02:09:29 | 표지 날짜: 2026-11-01
 - 주제: agenda, PAR/CSD 검토, 발표 예정 기고문
 - 상태: planned_agenda_not_meeting_outcomes_or_adoption
 
-r0와 비교하면 slides 16 및 19–21에서 11월 세션의 PAR/CSD 검토 의견 처리·해결을 우선하고, 기술 기고문 발표는 시간이 허용할 때 진행하도록 변경했다. [의장의 공식 공지](https://www.ieee802.org/11/email/stds-802-11/msg09707.html)도 다른 WG의 PAR/CSD 검토 의견을 우선한다고 설명한다.
+r2는 PAR/CSD 검토 의견 처리·해결의 우선순위를 유지하며, 기술 기고문 발표는 시간이 허용할 때 진행하도록 한다. [의장의 공식 공지](https://www.ieee802.org/11/email/stds-802-11/msg09707.html)도 같은 우선순위를 설명한다.
 
-Slide 18은 2057, *Thoughts on Authentication for AI Offload* (Ming Zhou); 2122, *Key Design Issues for AIO Framework* (Chung-Ta Ku); 2130, *Thoughts on AI Offload Service Discovery* (Duncan Ho)를 모두 **Pending**으로 열거한다. 의제에 포함되었다는 사실은 실제 발표, 기술 본문 검토 또는 제안 채택을 입증하지 않는다. 이 의제는 PAR/CSD 최종 승인이나 규범적 채택의 증거가 아니다.
+Slide 18은 r1의 3건에서 12건으로 대기열을 확대하며 모두 **Pending**으로 표시한다: 2057, 2122, 2130, 2037, 2185, 2242, 1990, 2246, 2264, 2254, 2269, 2092. 아래 reflector 요청 8건 전부와 2242, *Agent as a Service in WLAN* (Ziyang Guo)이 포함된다. 기존 3건은 2057, *Thoughts on Authentication for AI Offload* (agenda 표기: Ming Zhou); 2122, *Key Design Issues for AIO Framework* (Chung-Ta Ku); 2130, *Thoughts on AI Offload Service Discovery* (Duncan Ho)이다.
+
+Slides 19, 21, 22는 의견 검토 계획에 2266, *AIO PAR and CSD comments* (Gaurang Naik)를 추가하고 화요일 저녁·수요일 AM1·목요일 PM2에 조건부 기술 발표 순서를 배정한다. Slide 20에는 1944r1 9월 회의록 승인 motion 양식이 있지만 발의자·재청자·결과는 비어 있다. 예정된 발표 순서나 빈 motion은 실제 발표, 회의록 승인, 합의 또는 규범적 채택을 입증하지 않는다.
 
 ### 공식 reflector의 추가 발표 요청
 
@@ -99,11 +106,25 @@ Slide 18은 2057, *Thoughts on Authentication for AI Offload* (Ming Zhou); 2122,
 | 2026-11-06 | 11-26/2269 | Multi-stage AI computing service discovery | Sam Shi (OPPO) | [공식 요청](https://grouper.ieee.org/groups/802/11/email/stds-802-11/msg09727.html) |
 | 2026-11-07 | 11-26/2092r0 | AIO Session Setup for a Service with Multiple AI Models | Asaf Zebulon (WILUS) | [공식 요청](https://www.ieee802.org/11/email/stds-802-11/msg09731.html) |
 
-2037, 2264, 2254, 2269의 revision은 해당 요청에 명시되지 않았다. 2092r0 요청은 2026-10-28 ET와 Pending을 표시한 목록 행을 인용한다. 이는 요청자가 인용한 정보이며 Mentor 업로드일을 별도로 검증한 것은 아니다. 기고문 원문·업로드일·표지 날짜는 이번에 직접 확인하지 못했다. 이 요청만으로 agenda 반영, 실제 발표, 기술 내용 검토, 합의 또는 규범 채택을 확인할 수 없다.
+2037, 2264, 2254, 2269의 revision은 해당 요청에 명시되지 않았다. 2092r0 요청은 2026-10-28 ET와 Pending을 표시한 목록 행을 인용한다. 이는 요청자가 인용한 정보이며 Mentor 업로드일을 별도로 검증한 것은 아니다. 일부 업로드 정보는 아래와 같이 독립적으로 확인했지만, 해당 기술 기고문의 원문과 표지 날짜는 검토하지 않았다. 이 요청만으로 agenda 반영, 실제 발표, 기술 내용 검토, 합의 또는 규범 채택을 확인할 수 없다.
 
 **2057 기고자 표기:** 위 agenda slide 18의 이름은 Ming Zhou로 표기되어 있으나, [10월 23일 기고자의 공식 요청](https://www.ieee802.org/11/email/stds-802-11/msg09676.html)은 11-26/2057r0, *Thoughts on Authentication for AI Offload*의 기고자를 **Ming Zhao (Huawei)**로 명시한다. 이 차이를 기록하며 agenda가 수정되었다고 가정하지 않는다.
 
-이번에는 공식 reflector와 WG 현황을 확인했다. Mentor catalog와 최신 기고문 원문 전체를 확인한 것은 아니므로 새 revision이 없다고 단정하지 않는다.
+### Mentor에서 독립적으로 확인한 업로드
+
+[공식 AIO catalog](https://mentor.ieee.org/802.11/documents?is_group=0aio)에서 다음 revision과 업로드 시각을 확인했다. 이는 발표 요청 날짜 및 agenda 상태와 별개이다. 기고자 이름은 catalog 항목이며 전체 저자 목록을 독립적으로 확인한 것은 아니다.
+
+| 문서 | Catalog 기고자 | 업로드 시각(ET) |
+| --- | --- | --- |
+| 2057r0 | Ming Zhao (Huawei) | 2026-11-08 02:33:30 |
+| 2037r0 | Tao Chun Lee (MediaTek) | 2026-11-08 23:57:24 |
+| 2185r0 | Huixuan Zhou (OPPO) | 2026-11-09 05:02:35 |
+| 2242r0 | Ziyang Guo (Huawei) | 2026-11-08 23:11:28 |
+| 2254r0 | Sam Shi (OPPO) | 2026-11-08 10:40:25 |
+| 2269r0 | Sam Shi (OPPO) | 2026-11-09 12:32:31 |
+| 2122r0 | Chung-Ta Ku (MediaTek) | 2026-11-09 17:50:33 |
+
+Catalog도 2057r0의 기고자를 Ming Zhao (Huawei)로 명시하지만 r2는 여전히 Ming Zhou로 표기한다. 업로드 확인은 실제 발표, 기술 검토 또는 채택을 입증하지 않는다. 이번 확인 범위는 r2 agenda 원문, 위 catalog 정보, 다른 WG의 공식 의견, reflector 및 WG 현황이다. 새로운 기고문 원문 전체를 검토하거나 더 최신 revision이 없음을 확인한 것은 아니다. 기존 기술 문서 검토 기준일은 유지한다.
 
 ## 회의록과 상태 보고
 
