@@ -1,7 +1,7 @@
 {
   "title": "Awesome Wi-Fi AI Offload",
   "verified_on": "2026-09-30",
-  "scope_note": "44 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
+  "scope_note": "45 core papers and one explicitly adjacent communication paper. Journal-first; no formal venue ranking. Direct-WLAN and transferable-MEC/edge-AI relevance are separate. None of these papers alone establishes 802.11bu adoption.",
   "year_policy": "Use verified final issue year. Null early_access_year means not independently verified or not applicable; never infer it from a DOI year. If no final issue is verified, explicitly label the verified online-publication year and publisher status (Early Access or Just Accepted); distinguish future assigned issue dates from online-publication dates.",
   "papers": [
     {
@@ -1640,7 +1640,46 @@
         "cellular simulation"
       ],
       "optional": false
+    },
+    {
+      "id": "wifi-blaa2026",
+      "title": "Joint Backoff Count and Link Occupancy-Aware Packet-to-Link Allocation for WLAN Latency Optimisation Under Multi-Link Operation",
+      "authors": [
+        "Yunxin Lv",
+        "Jiabin Li",
+        "Shuna Yang"
+      ],
+      "year": 2026,
+      "early_access_year": null,
+      "venue": "IET Communications",
+      "publication_type": "journal",
+      "doi": "10.1049/cmu2.70211",
+      "doi_url": "https://doi.org/10.1049/cmu2.70211",
+      "category": "wireless_latency",
+      "relevance_scope": "direct_wlan",
+      "relevance_en": "Combines remaining backoff counts and observed link occupancy when allocating uplink packets across STR links. Useful for studying contention-aware transmission delay in Wi-Fi offload traffic.",
+      "relevance_ko": "STR 링크에 상향 패킷을 배분할 때 남은 백오프 횟수와 관측한 링크 점유 상태를 함께 고려한다. Wi-Fi 오프로딩 트래픽의 경쟁 기반 전송 지연을 연구하는 참고 자료다.",
+      "metadata_sources": [
+        "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cmu2.70211",
+        "https://api.crossref.org/works/10.1049/cmu2.70211"
+      ],
+      "open_access_url": "https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cmu2.70211",
+      "citation_details": "20(1):e70211",
+      "limitations": "MATLAB single-AP STR-uplink simulations with 4-link and 2-link stations; default infinite buffers, fixed packet size and equal link rates. Five-second runs are averaged over three repetitions. Not an AI-inference scheduler, hardware validation or IEEE 802.11bu adoption record; no quantitative gain is generalized.",
+      "limitations_ko": "4링크·2링크 단말이 공존하는 단일 AP의 STR 상향 전송 MATLAB 시뮬레이션이다. 기본 설정은 무한 버퍼·고정 패킷 크기·동일 링크 전송률이며, 5초 실행을 세 번 반복해 평균을 구한다. AI 추론 스케줄러·하드웨어 실증이나 IEEE 802.11bu 채택 근거는 아니며 정량적 이득을 일반화하지 않는다.",
+      "content_evidence_note": "Publisher full-text HTML sections 3–4, Algorithm 1, Table 2 and conclusion inspected; bibliography cross-checked against publisher-deposited Crossref. No experimental replication.",
+      "publication_date_note": "Publisher and Crossref verify first online publication on 23 August 2026. Crossref also records January 2026 for the issue; this is not treated as the online-publication date.",
+      "verified_on": "2026-11-10",
+      "tags": [
+        "STR MLO",
+        "packet-to-link allocation",
+        "backoff count",
+        "link occupancy",
+        "uplink latency",
+        "MATLAB simulation"
+      ],
+      "optional": false
     }
   ],
-  "updated_on": "2026-11-09"
+  "updated_on": "2026-11-10"
 }

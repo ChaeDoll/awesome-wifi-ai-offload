@@ -4,7 +4,7 @@
 
 A collection of papers and standardization resources for AI inference offloading over Wi-Fi. Journal articles come first; magazine articles, conference papers and IEEE contributions are identified separately.
 
-**Updated:** 2026-11-09 · **Papers:** 44 core + 1 adjacent topic · **Standards documents:** listed separately
+**Updated:** 2026-11-10 · **Papers:** 45 core + 1 adjacent topic · **Standards documents:** listed separately
 
 This collection makes no claim to a formal venue ranking or an exhaustive literature review. Direct WLAN papers study 802.11 itself; Transferable papers offer MEC/edge-AI concepts or models that may inform Wi-Fi research. Neither label implies adoption by IEEE 802.11bu.
 
@@ -28,10 +28,11 @@ Each paper’s metadata-check date is recorded as `verified_on` in [papers.json]
 
 ## Quick index
 
-Ordered as 41 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
+Ordered as 42 journal articles → 1 magazine article → 3 conference papers, newest first within each group. Short titles support navigation; exact titles appear in the detailed entries below.
 
 | Year | Paper (short title) | Venue · type | Topic |
 | --- | --- | --- | --- |
+| 2026 | [BLAA MLO Packet Allocation](https://doi.org/10.1049/cmu2.70211) | IET Communications · Journal | [WLAN latency](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [Distributional RL Early Exits](https://doi.org/10.1016/j.comnet.2026.112652) | Computer Networks · Journal | [Resources and scheduling](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Channel-Adaptive Edge AI](https://doi.org/10.1109/TCOMM.2026.3717007) | IEEE TCOM · Journal | [Inference partitioning](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [P-EDCA Tail-Latency Control](https://doi.org/10.1016/j.jnca.2026.104568) | JNCA · Journal | [WLAN latency](#wlan-latency-reliability-and-coexistence) |
@@ -250,6 +251,11 @@ Ordered as 41 journal articles → 1 magazine article → 3 conference papers, n
 
 ## WLAN latency reliability and coexistence
 
+- **[2026 · IET Communications · Journal] [Joint Backoff Count and Link Occupancy-Aware Packet-to-Link Allocation for WLAN Latency Optimisation Under Multi-Link Operation](https://doi.org/10.1049/cmu2.70211)** `WLAN`
+  - Combines remaining backoff counts and observed link occupancy when allocating uplink packets across STR links. Useful for studying contention-aware transmission delay in Wi-Fi offload traffic.
+  - [DOI](https://doi.org/10.1049/cmu2.70211) · [Open publisher full text](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cmu2.70211) · [Publisher-deposited metadata](https://api.crossref.org/works/10.1049/cmu2.70211) · 20(1):e70211; first online 23 August 2026
+  - Evidence: Publisher HTML §§3–4, Algorithm 1, Table 2 and conclusion checked; bibliography cross-checked with Crossref. No experimental replication.
+  - Scope: MATLAB single-AP STR-uplink simulations with 4-link and 2-link stations; default infinite buffers, fixed packet size and equal link rates. Five-second runs are averaged over three repetitions. Not an AI-inference scheduler, hardware validation or IEEE 802.11bu adoption record; no quantitative gain is generalized.
 - **[2026 · Journal of Network and Computer Applications · Journal] [Unavailability-triggered prioritized EDCA for tail-latency control in Wi-Fi 8 WLANs](https://doi.org/10.1016/j.jnca.2026.104568)** `WLAN`
   - Models a protected contention opportunity after a long channel-unavailability interval and adapts its window and trigger threshold using contender distributions and head-of-line urgency. Useful for studying MAC tail latency and deadline misses in Wi-Fi offload traffic.
   - [DOI](https://doi.org/10.1016/j.jnca.2026.104568) · [Publisher abstract and excerpts](https://www.sciencedirect.com/science/article/pii/S1084804526001438) · [Publisher-deposited metadata](https://api.crossref.org/works/10.1016/j.jnca.2026.104568) · 255:Article 104568 (November 2026)

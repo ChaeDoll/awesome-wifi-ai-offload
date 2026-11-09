@@ -4,7 +4,7 @@
 
 Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음. 학술지 논문을 먼저 정리하고, magazine 및 conference 논문과 IEEE 기고문은 구분한다.
 
-**갱신일:** 2026-11-09 · **논문:** 핵심 44편 + 인접 주제 1편 · **표준 문서:** 별도 목록
+**갱신일:** 2026-11-10 · **논문:** 핵심 45편 + 인접 주제 1편 · **표준 문서:** 별도 목록
 
 이 목록은 공식 venue 순위나 완전한 문헌조사를 주장하지 않는다. Direct WLAN은 802.11 자체를 연구한 논문, Transferable은 MEC/edge AI에서 Wi-Fi 연구로 옮겨 쓸 수 있는 개념·모델이다. 어느 쪽도 곧바로 IEEE 802.11bu 채택 기술을 의미하지 않는다.
 
@@ -28,10 +28,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## Quick index
 
-학술지 41편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
+학술지 42편 → magazine 1편 → 학회 3편 순서이며 각 묶음은 최신 연도부터 정렬한다. 제목은 탐색용 축약명이며 정확한 제목은 아래 상세 목록에 있다.
 
 | 연도 | 논문 (축약명) | Venue · 유형 | 주제 |
 | --- | --- | --- | --- |
+| 2026 | [BLAA MLO Packet Allocation](https://doi.org/10.1049/cmu2.70211) | IET Communications · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
 | 2026 | [Distributional RL Early Exits](https://doi.org/10.1016/j.comnet.2026.112652) | Computer Networks · Journal | [자원·스케줄링](#resource-aware-admission-placement-and-scheduling) |
 | 2026 | [Channel-Adaptive Edge AI](https://doi.org/10.1109/TCOMM.2026.3717007) | IEEE TCOM · Journal | [추론 분할](#dnn-inference-offloading-and-partitioning) |
 | 2026 | [P-EDCA Tail-Latency Control](https://doi.org/10.1016/j.jnca.2026.104568) | JNCA · Journal | [WLAN 지연·공존](#wlan-latency-reliability-and-coexistence) |
@@ -250,6 +251,11 @@ Wi-Fi 기반 AI 추론 오프로딩을 위한 논문과 표준화 자료 모음.
 
 ## WLAN latency reliability and coexistence
 
+- **[2026 · IET Communications · Journal] [Joint Backoff Count and Link Occupancy-Aware Packet-to-Link Allocation for WLAN Latency Optimisation Under Multi-Link Operation](https://doi.org/10.1049/cmu2.70211)** `WLAN`
+  - STR 링크에 상향 패킷을 배분할 때 남은 백오프 횟수와 관측한 링크 점유 상태를 함께 고려한다. Wi-Fi 오프로딩 트래픽의 경쟁 기반 전송 지연을 연구하는 참고 자료다.
+  - [DOI](https://doi.org/10.1049/cmu2.70211) · [출판사 공개 원문](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cmu2.70211) · [출판사 등록 서지](https://api.crossref.org/works/10.1049/cmu2.70211) · 20(1):e70211; 온라인 출판 2026-08-23
+  - 열람 범위: 출판사 HTML의 §§3–4, 알고리즘 1, 표 2와 결론을 확인하고 Crossref로 서지를 교차 검증했다. 실험을 재현한 것은 아니다.
+  - 범위: 4링크·2링크 단말이 공존하는 단일 AP의 STR 상향 전송 MATLAB 시뮬레이션이다. 기본 설정은 무한 버퍼·고정 패킷 크기·동일 링크 전송률이며, 5초 실행을 세 번 반복해 평균을 구한다. AI 추론 스케줄러·하드웨어 실증이나 IEEE 802.11bu 채택 근거는 아니며 정량적 이득을 일반화하지 않는다.
 - **[2026 · Journal of Network and Computer Applications · Journal] [Unavailability-triggered prioritized EDCA for tail-latency control in Wi-Fi 8 WLANs](https://doi.org/10.1016/j.jnca.2026.104568)** `WLAN`
   - 긴 채널 사용 불가 구간 뒤의 보호 경쟁 기회를 모델링하고, 경쟁 단말 수의 분포와 큐 선두 패킷의 긴급도에 따라 경쟁 윈도와 트리거 임계값을 조절한다. Wi-Fi 오프로딩 트래픽의 MAC 꼬리 지연과 마감 시간 초과를 연구할 때 참고할 수 있다.
   - [DOI](https://doi.org/10.1016/j.jnca.2026.104568) · [출판사 초록·본문 발췌](https://www.sciencedirect.com/science/article/pii/S1084804526001438) · [출판사 등록 서지](https://api.crossref.org/works/10.1016/j.jnca.2026.104568) · 255:Article 104568 (2026년 11월)
